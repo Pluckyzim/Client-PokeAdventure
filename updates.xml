@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updates>
+    <version>1.0.1</version>
+    <files>
+        <file name="modules/bank/bank.lua" hash="a1b2c3d4e5" size="1024" />
+        <file name="modules/bank/bank.otui" hash="f6g7h8i9j0" size="512" />
+        
+        <file name="data/things/1098/Tibia.spr" hash="z9y8x7w6v5" size="115000000" />
+        
+        <file name="otclient.exe" hash="m1n2o3p4q5" size="5242880" />
+    </files>
+</updates>
