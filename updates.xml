@@ -1001,13 +1001,13 @@
       <file name="data/images/ui/pokedex/pokeball.png" hash="3ddca0da28dca9a2fed8cdffbafff8bda35f9b3b5d958712ef5d182a2152592b"/>
       <file name="data/images/ui/pokedex/progressbar.png" hash="bec24b483dd82a60a2e83d8150dab3d83f46508ed8d1759b51440fd3b45a86dc"/>
       <file name="data/images/ui/pokedex/progressbarfill.png" hash="27245b863f076c3f88a3742d97dc249cd4d2ba6cd88ba6f66e4a05f018f84e8b"/>
+      <file name="data/images/ui/pokedex/Retangulo 5.png" hash="b014f62ea34fe49a5a009c94df0ea475a27a0ba75e6c166b7cf9bb12feccd9f5"/>
       <file name="data/images/ui/pokedex/Retangulo 6 copiar 2.png" hash="0560708f355def0be8b8ada7c4b8a9588f3ebe1601d3d8abdc607738b2adf3d4"/>
       <file name="data/images/ui/pokedex/Retangulo 6 copiar.png" hash="31f82b9418b7f88704e27b92d6a212081060cbcbb4693fad261a847efa0b5a46"/>
       <file name="data/images/ui/pokedex/Retangulo 6.png" hash="1b7e4443d12bf4db9904e719f217584f9b11d93bc9e44d5da2849d66b01178e2"/>
       <file name="data/images/ui/pokedex/Retangulo 7.png" hash="0e945b6afa0a3bc8eb2d6f8763992189e1f15d677243bddb6b8e676109a89277"/>
       <file name="data/images/ui/pokedex/Retangulo Arredondado 1 copiar 2.png" hash="88bf034a769a16dfb61f4542e5d777aeccae5b039cb61fcc9a0d3c443cf955f9"/>
       <file name="data/images/ui/pokedex/Retangulo Arredondado 2.png" hash="b014f62ea34fe49a5a009c94df0ea475a27a0ba75e6c166b7cf9bb12feccd9f5"/>
-      <file name="data/images/ui/pokedex/Retangulo_5.png" hash="b014f62ea34fe49a5a009c94df0ea475a27a0ba75e6c166b7cf9bb12feccd9f5"/>
       <file name="data/images/ui/pokedex/swords (1).png" hash="2f87cd366be241b0f754eeec08985c19d01e9e36c265a379956a4a93699dc7eb"/>
       <file name="data/images/ui/pokedex/Water.png" hash="afc102e9a8e9fe23b496d57c6d812068f7ee681727e7ce249364d9449f26f741"/>
       <file name="data/images/ui/socialicons/discord.png" hash="0735cdae256df014760655857bd3e3608140e1b40e28c46973881ae7f46ddbf5"/>
@@ -1076,7 +1076,7 @@
       <file name="data/images/ui/Whiss/icon.png" hash="1e2074de4b8303574cd5e33111ebddea6b500315986858b293597a03ea18e61e"/>
       <file name="data/images/ui/Whiss/icon2.png" hash="99725a045f2d43c2a5358a0535a88ba6923997a1447201909137eb8eb6e57bda"/>
       <file name="data/images/ui/Whiss/icon2s.png" hash="4c4a7c52564cc7898045d854ec407f70f59ba13136d4f9bd47ff25e166870fe8"/>
-      <file name="data/images/ui/Whiss/icons8-baú-do-tesouro-48.png" hash="2e35cceb7228aaef0beda7c4d7815c24faaec5a4fbbc79989126f4a3590727a3"/>
+      <file name="data/images/ui/Whiss/icons8-bau-do-tesouro-48.png" hash="2e35cceb7228aaef0beda7c4d7815c24faaec5a4fbbc79989126f4a3590727a3"/>
       <file name="data/images/ui/Whiss/icons8-config-50.png" hash="02d616744d0abbfe2c9680a806017183a78238a1f8d8a0930d1d48e1da3bfb32"/>
       <file name="data/images/ui/Whiss/icons8-eye-48.png" hash="a1e76c7c92ec0fe36bd6329806bd133dfe13c79a1551a2c46658c3219f8bfc9b"/>
       <file name="data/images/ui/Whiss/icons8-google-tradutor-50.png" hash="ad95a38bd3e3a148ca66b942982c0fb496eea3ee2b02fdf775895dc0471a4d9d"/>
