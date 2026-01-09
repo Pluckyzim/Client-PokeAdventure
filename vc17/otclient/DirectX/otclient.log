@@ -1,0 +1,151 @@
+﻿  Installing vcpkg dependencies to C:\Users\jaosb\Desktop\server2\PokeAdventure2\cliente\vcpkg_installed\x86-windows-static\
+  "C:\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x86-windows-static" --vcpkg-root "C:\vcpkg\\" "--x-manifest-root=C:\Users\jaosb\Desktop\server2\PokeAdventure2\cliente\\" "--x-install-root=C:\Users\jaosb\Desktop\server2\PokeAdventure2\cliente\vcpkg_installed\x86-windows-static\\" 
+  Detecting compiler hash for triplet x64-windows...
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x64/cl.exe
+  Detecting compiler hash for triplet x86-windows-static...
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.42.34433/bin/Hostx64/x86/cl.exe
+  The following packages will be built and installed:
+      angle:x86-windows-static@chromium_5414#7 -- C:\vcpkg\buildtrees\versioning_\versions\angle\b5502570ef18abdcf0535470f3ea6589db70607b
+    * boost-algorithm:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-algorithm\1649f898d6dd9c8904fab6a7c1194a5c30bdb274
+    * boost-align:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-align\676ef901af2b5986c71fb85788ba0a08979bad8e
+    * boost-any:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-any\2f43ed76aaa6cda19c30e95260ad50cb779cf98c
+    * boost-array:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-array\7feefc063119142cc2eaedfc11255fdfdaa2025a
+      boost-asio:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-asio\7a9e250345837a2083dea856b1f4c74c4d664226
+    * boost-assert:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-assert\fe832ada2e45a096248738b11897f54498df72e2
+    * boost-atomic:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-atomic\d599f640fca933cace45c60f6b5967f4230c4f84
+      boost-beast:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-beast\4081838367ea27df0e58bb626e84c6637a5e0e97
+    * boost-bind:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-bind\5c28cd6fd3a92cac6eda977ec133bf611665c7c4
+    * boost-build:x64-windows@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-build\b23026b68d2bb711b73afd419b917a67f98677ad
+    * boost-concept-check:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-concept-check\f1658ec6a2ab024a4d4c741ee471c0db4344238b
+    * boost-config:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-config\30ccc94aba0f43bf905a641c39e3cb991e882d30
+    * boost-container:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-container\ee15da00e28be69db05ea8b29e19b6a6fc6ca132
+    * boost-container-hash:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-container-hash\72beb1a98959147c41efd1661e10c37827313511
+    * boost-context:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-context\2c3c5db88cb7118fcde973914702e885cf53005d
+    * boost-conversion:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-conversion\e3b83a29a2979a917316fece1572314a0e7b2c81
+    * boost-core:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-core\9092a51e0f86979692442d98202d839240721e6d
+    * boost-coroutine:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-coroutine\b6c89a5afa462111f3180af3c843fbc11ed3fd63
+    * boost-date-time:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-date-time\7946ff22e340ee7a7933de620506a49f0c02e14d
+    * boost-describe:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-describe\c6782cbba94dda30916f801d4b68160f7b6063fe
+    * boost-detail:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-detail\cd5519c5cf4815126782e82cafcce472281ced51
+    * boost-dynamic-bitset:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-dynamic-bitset\9b8fa2fe1a46c7f77f890f83eb124e2f62d21594
+    * boost-endian:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-endian\169cba73d600248a5fea41b768f150a0ab23a1c6
+    * boost-exception:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-exception\97298e7547c5c7b015c8a55f46428f50fb53753f
+      boost-filesystem:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-filesystem\a85785c880dc278413f4c9c30a64f21ca848335e
+    * boost-function:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-function\8c317e18c45ba2eac464e2f8e1e179356183c063
+    * boost-function-types:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-function-types\ae386f84f582456bae7c4f304930bad8cb3c3a43
+    * boost-functional:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-functional\76acd323a71cab65354fd244a1b6cd5d38950b8c
+    * boost-fusion:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-fusion\108d3dffaa34eb6e0102031318f6f81dd4e6af18
+    * boost-integer:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-integer\ebfef65ee52f5566976920e3cac7f451f66c7ced
+    * boost-intrusive:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-intrusive\b5f197c773d23bb868ae6ccce4c28dc0b97997ac
+    * boost-io:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-io\dca15cab49b7b33ab58762315d107336d28b404e
+      boost-iostreams[bzip2,core,lzma,zlib,zstd]:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-iostreams\01c0a85616fd0d4f8529c0ffa48bd358833d9ea4
+    * boost-iterator:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-iterator\0d18698f7abe635814d1a4887b5b94157c5fe2b0
+    * boost-lexical-cast:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-lexical-cast\270740ecb9a0bf6d8536fa654ef862fdfd706ad5
+      boost-lockfree:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-lockfree\0d45e99b757eda86d272cc1142e9cc348296bd2e
+    * boost-logic:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-logic\17ac346b6e90c114fca29894244340845440e183
+    * boost-modular-build-helper:x64-windows@1.84.0#2 -- C:\vcpkg\buildtrees\versioning_\versions\boost-modular-build-helper\b3eb3e3fdc08ffe6e8f9e19e761e583790aaf308
+    * boost-move:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-move\1159c6a1d6b15517994acbd64c0407ce57161723
+    * boost-mp11:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-mp11\a26261cdb9cc5232b748066ee61799564c3d3be2
+    * boost-mpl:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-mpl\48ec467749d6a874076f755bf8d5a131381b5c82
+    * boost-numeric-conversion:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-numeric-conversion\2c04732bf0a8b5a4025226e584091e3998e1b224
+    * boost-optional:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-optional\48bb7c9174d9321f4b41f787edc318581972437c
+    * boost-parameter:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-parameter\675460856203c4e36b59035ce05148bf5d6c4103
+    * boost-pool:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-pool\359af8d863109dc52bf2a7f7de75bfc5cc912b6b
+    * boost-predef:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-predef\087c63189a60b36df9891096809a9cd3393c914f
+    * boost-preprocessor:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-preprocessor\87a9dcc2d893cb4b0463fc054b761dd2fb446df4
+      boost-process:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-process\b6a63d216875e9454cbfe56402b554ce08df2ddb
+      boost-program-options:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-program-options\775755221b75c1b8c48727ef5894fbd29db4478f
+    * boost-random:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-random\7e18eb4875eee251ddbac6ead758d4e20e1b1f71
+    * boost-range:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-range\2c03982fc0e52976188f003f72055cac0e3b0295
+    * boost-regex:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-regex\79565c2c7713679611f25b158373a1063de42fb3
+    * boost-smart-ptr:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-smart-ptr\4d235b9c9f410296263cf6d1cbf598befae87dc0
+    * boost-static-assert:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-static-assert\c79455c647747893ea950dedb858fad16d0819c3
+    * boost-static-string:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-static-string\d4713f1a2398b6e21a7d5906456621f5eb46156c
+      boost-system:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-system\c87d6964da1b27c95fc19c5ddd44c2f20ba4524a
+    * boost-throw-exception:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-throw-exception\f3c85344985a864fb5d2245f788197ad3c727ff4
+    * boost-tokenizer:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-tokenizer\f813c482e33e213480b75d69780c4d795769e581
+    * boost-tti:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-tti\2a8f4cecd47d8c713d8efd3cebc2567f16ba2050
+    * boost-tuple:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-tuple\226ff3eec30fe4b68902e7bb3f36db6dc580faf6
+    * boost-type-index:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-type-index\2b9d415a252b453a95dac06c8f5d658e3f529bf2
+    * boost-type-traits:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-type-traits\a4ddf58a08ee20266007e39a261fc556b5b6e0ce
+    * boost-typeof:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-typeof\f5a00c4b05c0b35835446dd44ff7777fae86fe52
+    * boost-uninstall:x64-windows@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-uninstall\6ed88ee3e093c9419fb4fcbdc17904d15d377129
+    * boost-uninstall:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-uninstall\6ed88ee3e093c9419fb4fcbdc17904d15d377129
+    * boost-unordered:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-unordered\77a20edb9c6e3efec862eb37310f410a95544a30
+    * boost-utility:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-utility\0ea45d787be2fc247a434638a832b85acd3c5e3b
+      boost-uuid:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-uuid\1dd155b365ce1df4bb524d11672c4ad2b3b2b43c
+      boost-variant:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-variant\0fae6f2ad84c37a644b0f2902f653e16b26e65f6
+    * boost-variant2:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-variant2\90849fda39c8a2201b80eac6b04dc32ab6ae2c73
+    * boost-vcpkg-helpers:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-vcpkg-helpers\5ec9b3e713c09e2827e07c9784676bad6cc9cc08
+    * boost-winapi:x86-windows-static@1.84.0 -- C:\vcpkg\buildtrees\versioning_\versions\boost-winapi\32f9d89e087c4a777e62688c75a643608e3f9f6e
+    * bzip2[core,tool]:x86-windows-static@1.0.8#5 -- C:\vcpkg\buildtrees\versioning_\versions\bzip2\92e9a8bbf1abbd89872b48ad82fcf75852de1006
+    * egl-registry:x86-windows-static@2024-01-25 -- C:\vcpkg\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a
+      glew:x86-windows-static@2.2.0#3 -- C:\vcpkg\buildtrees\versioning_\versions\glew\cfd894e57985fdb9c772bbf28a4aa261759bb6ac
+    * liblzma:x86-windows-static@5.4.4 -- C:\vcpkg\buildtrees\versioning_\versions\liblzma\f285b7c4ffa2cc065c7c6fec4b61006f7fa2714e
+      libogg:x86-windows-static@1.3.5#1 -- C:\vcpkg\buildtrees\versioning_\versions\libogg\98e27727c32704393494d32615c25b7b16eb3067
+      libvorbis:x86-windows-static@1.3.7#2 -- C:\vcpkg\buildtrees\versioning_\versions\libvorbis\c4c646a26ce3e6ad63992d3e4a55cb185159b23c
+      libzip[bzip2,core,default-aes,wincrypto]:x86-windows-static@1.10.1 -- C:\vcpkg\buildtrees\versioning_\versions\libzip\7f4b7231355f6774a5b6915dace3826173b76cee
+      luajit:x86-windows-static@2023-01-04#5 -- C:\vcpkg\buildtrees\versioning_\versions\luajit\ca00ef84f25e0b841d36d6aa5403c525ea476b9c
+      openal-soft:x86-windows-static@1.23.1 -- C:\vcpkg\buildtrees\versioning_\versions\openal-soft\d23d6573247830bd439e418fe0e31321de778d85
+    * opengl:x86-windows-static@2022-12-04#3 -- C:\vcpkg\buildtrees\versioning_\versions\opengl\c3ae71738f88449ebcd781cef60d9a253fa091d4
+    * opengl-registry:x86-windows-static@2024-02-10#1 -- C:\vcpkg\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d
+      openssl:x86-windows-static@3.2.1 -- C:\vcpkg\buildtrees\versioning_\versions\openssl\53fb72a19981a3439cd569f58b722ca6cd26e23d
+      physfs:x86-windows-static@3.2.0#1 -- C:\vcpkg\buildtrees\versioning_\versions\physfs\09bfe04124fab72544d0a7c27efcccb4005dc784
+    * vcpkg-cmake:x64-windows@2023-05-04 -- C:\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake\88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a
+    * vcpkg-cmake-config:x64-windows@2022-02-06#1 -- C:\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-config\8d54cc4f487d51b655abec5f9c9c3f86ca83311f
+    * vcpkg-cmake-get-vars:x64-windows@2023-12-31 -- C:\vcpkg\buildtrees\versioning_\versions\vcpkg-cmake-get-vars\725c841810ceb8de33da68ea879eb8f0b4d6c94c
+      zlib:x86-windows-static@1.3.1 -- C:\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9
+    * zstd:x86-windows-static@1.5.5#2 -- C:\vcpkg\buildtrees\versioning_\versions\zstd\259dc461801ecb946995e13fd3d94b1381d02441
+  Additional packages (*) will be modified to complete this operation.
+  Restored 6 package(s) from C:\Users\jaosb\AppData\Local\vcpkg\archives in 1.4 s. Use --debug to see more details.
+  Installing 1/91 vcpkg-cmake:x64-windows@2023-05-04...
+  Elapsed time to handle vcpkg-cmake:x64-windows: 6.25 ms
+  vcpkg-cmake:x64-windows package ABI: f061d32393ea2a7480cf14d5da656869b58d4ba50ad5dc97e50f90eca96fdcde
+  Installing 2/91 zlib:x86-windows-static@1.3.1...
+  Building zlib:x86-windows-static@1.3.1...
+  C:\vcpkg\triplets\community\x86-windows-static.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+  C:\vcpkg\buildtrees\versioning_\versions\zlib\3f05e04b9aededb96786a911a16193cdb711f0c9: info: installing overlay port from here
+  -- Using cached madler-zlib-v1.3.1.tar.gz.
+  -- Cleaning sources at C:/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean. Use --editable to skip cleaning for the packages you specify.
+  -- Extracting source C:/vcpkg/downloads/madler-zlib-v1.3.1.tar.gz
+  -- Applying patch 0001-Prevent-invalid-inclusions-when-HAVE_-is-set-to-0.patch
+  -- Applying patch 0002-build-static-or-shared-not-both.patch
+  -- Applying patch 0003-android-and-mingw-fixes.patch
+  -- Using source at C:/vcpkg/buildtrees/zlib/src/v1.3.1-2e5db616bf.clean
+  -- Found external ninja('1.12.1').
+  -- Configuring x86-windows-static
+  -- Building x86-windows-static-dbg
+  -- Building x86-windows-static-rel
+  -- Installing: C:/vcpkg/packages/zlib_x86-windows-static/share/zlib/vcpkg-cmake-wrapper.cmake
+  -- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x86-windows-static/lib/pkgconfig/zlib.pc
+  -- Using cached msys2-mingw-w64-x86_64-pkgconf-1~2.3.0-1-any.pkg.tar.zst.
+  -- Using cached msys2-msys2-runtime-3.5.4-2-x86_64.pkg.tar.zst.
+  -- Using msys root at C:/vcpkg/downloads/tools/msys2/21caed2f81ec917b
+  -- Fixing pkgconfig file: C:/vcpkg/packages/zlib_x86-windows-static/debug/lib/pkgconfig/zlib.pc
+  -- Installing: C:/vcpkg/packages/zlib_x86-windows-static/share/zlib/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 73.9 ms.
+  Elapsed time to handle zlib:x86-windows-static: 5.7 s
+  zlib:x86-windows-static package ABI: b9a7a3340832a8ec25597a62c92f425f60959e69b8128b16c3314fec36e3a1a9
+  Installing 3/91 vcpkg-cmake-config:x64-windows@2022-02-06#1...
+  Elapsed time to handle vcpkg-cmake-config:x64-windows: 5.17 ms
+  vcpkg-cmake-config:x64-windows package ABI: f136e876f1f033c94fc8d8522b8da24fd277478c9b7f2fc6caf9da560e5ee18c
+  Installing 4/91 egl-registry:x86-windows-static@2024-01-25...
+  Building egl-registry:x86-windows-static@2024-01-25...
+  C:\vcpkg\triplets\community\x86-windows-static.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+  C:\vcpkg\buildtrees\versioning_\versions\egl-registry\d883db43133dd223c4ffdbef4193943f6784d43a: info: installing overlay port from here
+  Downloading KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz
+  Successfully downloaded KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz.
+  -- Extracting source C:/vcpkg/downloads/KhronosGroup-EGL-Registry-7db3005d4c2cb439f129a0adc931f3274f9019e6.tar.gz
+  -- Using source at C:/vcpkg/buildtrees/egl-registry/src/274f9019e6-49d6bdb34a.clean
+  -- Installing: C:/vcpkg/packages/egl-registry_x86-windows-static/share/egl-registry/copyright
+  -- Performing post-build validation
+  Stored binaries in 1 destinations in 53.7 ms.
+  Elapsed time to handle egl-registry:x86-windows-static: 1.4 s
+  egl-registry:x86-windows-static package ABI: 3d10b787d7a59d5a33c4571667166ed0ad3113214aed7c1b872029d0ff386c7d
+  Installing 5/91 opengl-registry:x86-windows-static@2024-02-10#1...
+  Building opengl-registry:x86-windows-static@2024-02-10#1...
+  C:\vcpkg\triplets\community\x86-windows-static.cmake: info: loaded community triplet from here. Community triplets are not built in the curated registry and are thus less likely to succeed.
+  C:\vcpkg\buildtrees\versioning_\versions\opengl-registry\22f7aa58ee78c9f0db904b6251e9265f2be26f9d: info: installing overlay port from here
+  Downloading KhronosGroup-OpenGL-Registry-3530768138c5ba3dfbb2c43c830493f632f7ea33.tar.gz
+C:\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning MSB5021: Terminating the task executable "cmd" and its child processes because the build was canceled.

@@ -1,0 +1,15 @@
+x86-windows-static/
+x86-windows-static/include/
+x86-windows-static/include/EGL/
+x86-windows-static/include/EGL/egl.h
+x86-windows-static/include/EGL/eglext.h
+x86-windows-static/include/EGL/eglplatform.h
+x86-windows-static/include/KHR/
+x86-windows-static/include/KHR/khrplatform.h
+x86-windows-static/share/
+x86-windows-static/share/egl-registry/
+x86-windows-static/share/egl-registry/copyright
+x86-windows-static/share/egl-registry/vcpkg.spdx.json
+x86-windows-static/share/egl-registry/vcpkg_abi_info.txt
+x86-windows-static/share/opengl/
+x86-windows-static/share/opengl/egl.xml
