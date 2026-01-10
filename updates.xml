@@ -3,6 +3,10 @@
    <version>1.0.0</version>
    <launcher_version>1.0</launcher_version>
    <files>
+      <file name="otclient_dx.exe" hash="61245DDE04982DBC6D11061CBA2047974C9DCE8708EA6D056296E86E331E20D8"/>
+      <file name="otclient_gl.exe" hash="0C3EB397453C018FA16482861D07656679E4C07DBA9E2B7771A20FECBBF0414D"/>
+      <file name="data/things/1098/Tibia.dat" hash="5C32CE9C54A169A19C9192F1F804AE326D5E5663A76B3522D6B0ECFC43B3D26C"/>
+      <file name="data/things/1098/Tibia.spr" hash="DED7F9C7BF220AF7DD372487D66F509CDB03685478CDE03F16015277D5930CE0"/>
       <file name="d3dcompiler_47.dll" hash="7d0d1290382ea0e44a3178446a0c202696237e27dbb5f8f0827691092b8f2228"/>
       <file name="data/map_desert.frag" hash="013b02ed9663bcee8916a3b42af0b6e5f75257c35b4f6477fff6b92508fc58ed"/>
       <file name="data/map_night.frag" hash="67f32b02b50102de5866b605fa8d9098b6faa7865fc61c6b2ea0d051c04897b6"/>
