@@ -12,33 +12,37 @@ def calculate_hash(filepath):
 
 def generate_xml():
     root = ET.Element("updates")
+    # Adicionando as tags que seu Launcher C# espera encontrar
     ET.SubElement(root, "version").text = "1.0.0"
     ET.SubElement(root, "launcher_version").text = "1.0"
     files_node = ET.SubElement(root, "files")
 
-    # Pastas que você quer que o Launcher verifique
-    dirs_to_scan = ['data', 'modules', 'init.lua'] 
+    # '.' indica que o script vai ler tudo na pasta atual
+    base_path = '.' 
     
-    for item in os.listdir('.'):
-        if item in dirs_to_scan or item.endswith('.exe') or item.endswith('.dll'):
-            if os.path.isfile(item):
-                f_node = ET.SubElement(files_node, "file")
-                f_node.set("name", item)
-                f_node.set("hash", calculate_hash(item))
-            else:
-                for root_dir, _, files in os.walk(item):
-                    for file in files:
-                        filepath = os.path.join(root_dir, file)
-                        relative_path = filepath.replace("\\", "/")
-                        f_node = ET.SubElement(files_node, "file")
-                        f_node.set("name", relative_path)
-                        f_node.set("hash", calculate_hash(filepath))
+    print(f"Lendo arquivos em: {os.path.abspath(base_path)}...")
 
-    # Formatar o XML para ficar bonito
+    for root_dir, _, files in os.walk(base_path):
+        for file in files:
+            filepath = os.path.join(root_dir, file)
+            
+            # Pega o caminho relativo para o XML ficar limpo
+            relative_path = os.path.relpath(filepath, base_path).replace("\\", "/")
+            
+            # Pula arquivos que não devem ir para os jogadores
+            if '.git' in filepath or file == 'gerar_xml.py' or file == 'updates.xml' or file.endswith('.pdb'):
+                continue
+                
+            print(f"Processando: {relative_path}")
+            f_node = ET.SubElement(files_node, "file")
+            f_node.set("name", relative_path)
+            f_node.set("hash", calculate_hash(filepath))
+
+    # Salva o XML formatado
     xml_str = minidom.parseString(ET.tostring(root)).toprettyxml(indent="   ")
     with open("updates.xml", "w", encoding="utf-8") as f:
         f.write(xml_str)
-    print("Sucesso! updates.xml gerado.")
+    print("\nSUCESSO! O arquivo 'updates.xml' foi gerado corretamente.")
 
 if __name__ == "__main__":
     generate_xml()

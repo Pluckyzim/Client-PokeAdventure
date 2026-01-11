@@ -3,11 +3,20 @@
    <version>1.0.0</version>
    <launcher_version>1.0</launcher_version>
    <files>
-      <file name="otclient_dx.exe" hash="61245DDE04982DBC6D11061CBA2047974C9DCE8708EA6D056296E86E331E20D8"/>
-      <file name="otclient_gl.exe" hash="0C3EB397453C018FA16482861D07656679E4C07DBA9E2B7771A20FECBBF0414D"/>
-      <file name="data/things/1098/Tibia.dat" hash="5C32CE9C54A169A19C9192F1F804AE326D5E5663A76B3522D6B0ECFC43B3D26C"/>
-      <file name="data/things/1098/Tibia.spr" hash="DED7F9C7BF220AF7DD372487D66F509CDB03685478CDE03F16015277D5930CE0"/>
       <file name="d3dcompiler_47.dll" hash="7d0d1290382ea0e44a3178446a0c202696237e27dbb5f8f0827691092b8f2228"/>
+      <file name="init.lua" hash="b6510f1448716c93ccde4f45af1b91ab3fadde826fa8cfa0927651d18bbe032e"/>
+      <file name="libEGL.dll" hash="c5a1a7b95b94eab58340a131e47f0f05f820761d02da63e31b73f76fc696588f"/>
+      <file name="libGLESv2.dll" hash="7a75735bbcb6df9ee2ab17a79e125bee28939e76eb1d3f7586201b63a90d1c86"/>
+      <file name="otclient.vcxproj" hash="a429de7e34471c0cf0441fd3d3357d7a700ad520f834551741a3d81cfd7467f5"/>
+      <file name="otclient_dx.exe" hash="61245dde04982dbc6d11061cba2047974c9dce8708ea6d056296e86e331e20d8"/>
+      <file name="otclient_dx.exp" hash="51808557a4582f6e7d76d86c47efd1d8c73e668af77bce0d6197a528a81dce83"/>
+      <file name="otclient_dx.lib" hash="7f224e8cecc8a34474319d8755127078f87da8404333d0aefed017fee4db5a48"/>
+      <file name="otclient_gl.exe" hash="0c3eb397453c018fa16482861d07656679e4c07dba9e2b7771a20fecbbf0414d"/>
+      <file name="otclient_gl.exp" hash="60895cebd0d3d206c2c09b47a6d239922e855bb0148d34bd60a6c77c9aa6fa9a"/>
+      <file name="otclient_gl.lib" hash="ef721b501b022758496808d2024975eb00d46e95db271de3cc1ab53b65341771"/>
+      <file name="packet.log" hash="987ccc447001c719d79431276790fbeba80b6952b42cba3bee8422e771bb3a8f"/>
+      <file name="PKM.log" hash="2ec0ee283677ae11b8e4ba55eb02b7037e2462c3fd515e82c7c89509ba607b34"/>
+      <file name="vcpkg.json" hash="2e564d982535bb1121b089fda7e1b419210c99c5c38e2e0dfde831cccc91084d"/>
       <file name="data/map_desert.frag" hash="013b02ed9663bcee8916a3b42af0b6e5f75257c35b4f6477fff6b92508fc58ed"/>
       <file name="data/map_night.frag" hash="67f32b02b50102de5866b605fa8d9098b6faa7865fc61c6b2ea0d051c04897b6"/>
       <file name="data/map_rainn.frag" hash="c91287a8ac68258ab2051ccd58a876fab29f36ec92589eec531a91833226879d"/>
@@ -6425,9 +6434,800 @@
       <file name="data/things/1098/Tibia.otml" hash="5acf5dc0cd17e335313008aaa0a64cf6ded2764cc3601a3dd3fdf4eb9d6365f4"/>
       <file name="data/things/1098/Tibia.spr" hash="ded7f9c7bf220af7dd372487d66f509cdb03685478cde03f16015277d5930ce0"/>
       <file name="data/things/1098/Tibia_backup.otml" hash="07eb815a217dfebd28cde9acb8b5d0928ddf2d5b5c5531df98dc1c534454c965"/>
-      <file name="init.lua" hash="b6510f1448716c93ccde4f45af1b91ab3fadde826fa8cfa0927651d18bbe032e"/>
-      <file name="libEGL.dll" hash="c5a1a7b95b94eab58340a131e47f0f05f820761d02da63e31b73f76fc696588f"/>
-      <file name="libGLESv2.dll" hash="7a75735bbcb6df9ee2ab17a79e125bee28939e76eb1d3f7586201b63a90d1c86"/>
+      <file name="mods/game_guildmanagement/buffs.otui" hash="5a824858d5c47d15ebc5728fb3b849efb6c08ceb7b200a84282af9db13d90642"/>
+      <file name="mods/game_guildmanagement/general.otui" hash="6a9cc2fd5c1f2cd21b5fdc9ee7854569619760b793b9dc3bcea18c8af43f44c6"/>
+      <file name="mods/game_guildmanagement/guild_management.lua" hash="9e0a64020cecf1892606af299b277b908d6dab8c72fe3aa52fdba1cb63eff926"/>
+      <file name="mods/game_guildmanagement/guild_management.otmod" hash="ac77bce4fcb1ba67042a62f15c414d08b8a0408402fc24911d4485ebc1ee8aef"/>
+      <file name="mods/game_guildmanagement/guild_management.otui" hash="fadeaebc151f334b9967150c919fb28f354f932d89f3529989346eddc41b56e6"/>
+      <file name="mods/game_guildmanagement/inbox.otui" hash="c26c9f7e5a5b3b7ee90aef57cc532be6df4a30a997a7d0918d8fcb93c46e1d21"/>
+      <file name="mods/game_guildmanagement/members.otui" hash="d2d86a2973c249626b878e36210879df097a623d38249c21abf4d512532b9caa"/>
+      <file name="mods/game_guildmanagement/ranks.otui" hash="4e7bfa6bee95d0547d73717c9509f3d4ddef202ed3c41f96201777abc2c105da"/>
+      <file name="mods/game_guildmanagement/settings.otui" hash="72787d64a38ceaec22c1330fb2aadd807fc5bb88512ba3ecbda156ed9b2da730"/>
+      <file name="mods/game_guildmanagement/topguilds.otui" hash="c5cba5e7b6d5710f4546f2ba924bc7465f4a711744ec56704092642b51f717d5"/>
+      <file name="mods/game_guildmanagement/wars.otui" hash="487dc068cf113d125f551bc608792b6628bd8dc13b3fddba5a81baabe499c6e9"/>
+      <file name="mods/game_guildmanagement/images/bars/health1.png" hash="28dafcc879bde023f24f50b414f71cd1037b864fa4358175c989b4ed41c8e9ed"/>
+      <file name="mods/game_guildmanagement/images/bars/mana1.png" hash="f14a14a9d86cf70149d549dd401215e459e31a373b0c1fddf7e863f32802a58b"/>
+      <file name="mods/game_guildmanagement/images/crosshair/default.png" hash="beebfd566a0118b1e17861e3061ff9b6fdd20672694d79861220af075ad03947"/>
+      <file name="mods/game_guildmanagement/images/crosshair/full.png" hash="49c79e17743fd3c626a287194daeea2331cd3465176bd8cb0eeccf7c45b47c70"/>
+      <file name="mods/game_guildmanagement/images/flags/de.png" hash="e4c3d655c70c0b5c289fa4f09dafa6e6c426da6df64187a46285a770dadda703"/>
+      <file name="mods/game_guildmanagement/images/flags/en.png" hash="97a089dce8587de76e5f196d294e08a7799bec5a319ca20fb9c0729355e38845"/>
+      <file name="mods/game_guildmanagement/images/flags/es.png" hash="c976ea410626bba2e40eb5d64ad915c9d29532db0c5966d7bdce4984a8c48a41"/>
+      <file name="mods/game_guildmanagement/images/flags/pl.png" hash="c220be8e6d7c9dce6283a27a32e6ea9caa4eb37128ceeb4c7eeabd1a89a95568"/>
+      <file name="mods/game_guildmanagement/images/flags/pt.png" hash="d6f3418e76b4ecaf601da8ff2eba8c4d32a86a3427679890b3faf8cf278d0be3"/>
+      <file name="mods/game_guildmanagement/images/flags/sv.png" hash="ebb9f4d264e04d900621801711fb0be9eaa49a0d456035c671eeca3d5e852849"/>
+      <file name="mods/game_guildmanagement/images/game/actionbarslot.png" hash="ce3ee3a5f684f8e0d09cf24461aea33d77e3b0f726a2a6d066a62fd37fb0dcbf"/>
+      <file name="mods/game_guildmanagement/images/game/dangerous.png" hash="4dea7e323cd49515f077926c687a520125d2ec3b44195cffa82d1e723c471178"/>
+      <file name="mods/game_guildmanagement/images/game/floor.png" hash="bf044d8cb571850970d57fec8776d0d1b5d192ad19374a7f14f3b97813030603"/>
+      <file name="mods/game_guildmanagement/images/game/skull_socket.png" hash="dfcf8bf82a586dfd3404ceb1b411498297fa41dcb96275b4e620aeeb0702416a"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/actionbarslot.png" hash="ce3ee3a5f684f8e0d09cf24461aea33d77e3b0f726a2a6d066a62fd37fb0dcbf"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/arrow-disabled.png" hash="d8ae26a0575940fba64846b02212369ddc3d190e9bb7c25655b72ce0e9956204"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/arrow-skip-disabled.png" hash="5f79ab870fe8f922be9751d4b337bc221acef2e104b311e4750c540bb808a1aa"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/arrow-skip.png" hash="f2efe7b50b32718fbf07bb7b926f048f7f51f5bab571cdfdffd6e6f0f82f21bb"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/arrow.png" hash="df73d0e7ea64eba5b8893213bab168ee3a4d36ebd4cf4d2adeea0553a4667b48"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/locked.png" hash="6a248d9bbc016d0a8d5b19152ba758bb43b4d8757341670fee53f9fbfd3c5d03"/>
+      <file name="mods/game_guildmanagement/images/game/actionbar/unlocked.png" hash="5109516851f3ecd60f6102ae719002301071b111521d72c324918336e218327c"/>
+      <file name="mods/game_guildmanagement/images/game/battle/battle_monsters.png" hash="1f15b64f26b2d36bdee983f23b97fc866131c9b4b2cf7fd8f9bd18652984fb22"/>
+      <file name="mods/game_guildmanagement/images/game/battle/battle_npcs.png" hash="fae2445aa037b3fa33914c1f2afcdc56e7209d063279344cb99209c5f16ea020"/>
+      <file name="mods/game_guildmanagement/images/game/battle/battle_party.png" hash="7be81103fcadcdecc31edd24b50b3a7d49b9b17449a38ca0fe088a2fb83b465f"/>
+      <file name="mods/game_guildmanagement/images/game/battle/battle_players.png" hash="5eb0db54e3518c7a0bdbf725df3e45327d63ec3d3fff9e3ff46e718757f3f5ff"/>
+      <file name="mods/game_guildmanagement/images/game/battle/battle_skulls.png" hash="90be3b16eddc551431e29a18ff3101483db71c8f5f8a3d7ea63b1da85b1e68f6"/>
+      <file name="mods/game_guildmanagement/images/game/circle/left_empty.png" hash="a5ccd2409b8735ad6f845532990a15ad8c524d8e940730384e3ea5c853f664ed"/>
+      <file name="mods/game_guildmanagement/images/game/circle/left_full.png" hash="c9499cb7f3bbf048e3885fa25a1f234d1b99344bec33365ebf0b62187a78ed40"/>
+      <file name="mods/game_guildmanagement/images/game/circle/right_empty.png" hash="168733e5b7abb1ce17da985f231bb971877fe8536b99cc088ff1ab7c69388f98"/>
+      <file name="mods/game_guildmanagement/images/game/circle/right_full.png" hash="b025e9744e0d7e1313dbe5b48d2d2965a8d75352ac3e083ed8468bd886ceee18"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/chasemode.png" hash="f21c70a394471fe0b6847edfd37961ed95c68bc70a96f0f1923f67d6599a9495"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/fightbalanced.png" hash="4b1c63bc1b590da285460700abbaaadc96d7c1f24425530caee500e29aeb2b81"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/fightdefensive.png" hash="d003dc95f8771b6f63816bd31cc00575a3a56a8fbced4d7d1da85c956dc59a57"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/fightoffensive.png" hash="ff27817ed020f7ce2bac3bbef3619477af5472673f10c4f1b4f60eb189228d02"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/mount.png" hash="0bf0acb3c8399b20461b786a333ec28a97ecd83bb785234c374ae0a5956e87b9"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/pvp.png" hash="268bdf19919e5f1f8b61a2dacb9e4056681a07accfc55bce5bb6b5b59a914934"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/redfistmode.png" hash="28b772de43d05e7d6f516890e027bcb849bd92f8a445c9caa7d9946dc8a8d483"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/safefight.png" hash="1113a630ab82814cddd91b09178063e3ea7c049254d7f38090574b653ecc43f0"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/whitedovemode.png" hash="23dade1b0150255273b8aa1fa87fde6fe9f3fc9672d23b0d63ff3a589d4ae9dc"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/whitehandmode.png" hash="70719921094294fdf703928dc6971003cdfbaf86b418e633576383d509aab0a3"/>
+      <file name="mods/game_guildmanagement/images/game/combatmodes/yellowhandmode.png" hash="08212e05ed2375e2be85b9d6871dd3286590be2a149af345cd0a95dd3c183572"/>
+      <file name="mods/game_guildmanagement/images/game/console/channels.png" hash="3b40206af5ff68c31675d4c042a03d234b89bf2f20e148450629b46d1ac174b3"/>
+      <file name="mods/game_guildmanagement/images/game/console/clearchannel.png" hash="d39b24ec2c3b1e46bc09fc6f9a53cb268087d6bbff5a5bd47d9a28037e2e18e8"/>
+      <file name="mods/game_guildmanagement/images/game/console/closechannel.png" hash="ba694f8329bb41542e67956b567898cde88b08a3b744f993f2d2b1a20158bca2"/>
+      <file name="mods/game_guildmanagement/images/game/console/downarrow.png" hash="959f6f672b8179bb404a3cbf6ecfb9f7e158535c97c6625a9f7bed9dd06bf94e"/>
+      <file name="mods/game_guildmanagement/images/game/console/ignore.png" hash="93cac09c7e54ee5fc9864f6261ebfeeddc65d3cf1a3ee4a1e522a5ff79b9781a"/>
+      <file name="mods/game_guildmanagement/images/game/console/leftarrow.png" hash="ef0b265f0b51a8d4656682088d2bc6f1844c63cf595647020d8f71e273b9bbb7"/>
+      <file name="mods/game_guildmanagement/images/game/console/rightarrow.png" hash="f2d4cae427286342d75b1eda1a312913fd35f40f812eebd624f458dfa89a1640"/>
+      <file name="mods/game_guildmanagement/images/game/console/say.png" hash="5f0eea9c5704414be7c97df2effd1eef14483111ff4712e3b0ec8aabda89cec6"/>
+      <file name="mods/game_guildmanagement/images/game/console/uparrow.png" hash="aedb9f06f279af0b763dfbad5b285184d985de9560e64686e59f3f73d33367f8"/>
+      <file name="mods/game_guildmanagement/images/game/console/whisper.png" hash="75c376d5096fade8ad8e0b1a701471e27a029964df6b1c6c001e92f6cff6b33a"/>
+      <file name="mods/game_guildmanagement/images/game/console/yell.png" hash="0a1f405e816773c4b07bf3ba5638d6796c49054d1378efadedde51975ca16094"/>
+      <file name="mods/game_guildmanagement/images/game/creaturetype/summon_other.png" hash="402b2c6d4829c2e12883c72933d4ab11b23da0aee85e93b4d9f8135b0337ea85"/>
+      <file name="mods/game_guildmanagement/images/game/creaturetype/summon_own.png" hash="9c638e9ebfe244ba84fd57a7abf386a4688052f8a8f06d47c141cd26230aed1e"/>
+      <file name="mods/game_guildmanagement/images/game/emblems/emblem_blue.png" hash="8df1deb5cb691f576d98781e151c17c752c7f912e1e7f00d141b33d9721b20ed"/>
+      <file name="mods/game_guildmanagement/images/game/emblems/emblem_green.png" hash="376091bcacd55a4d89982668ec126792f4c0a2fb93c0b3cb9d85e7a75896ca32"/>
+      <file name="mods/game_guildmanagement/images/game/emblems/emblem_member.png" hash="2217b6d0aa7a58bcdc389853743cf4b1cf61c32141d024ae8884892c7229496c"/>
+      <file name="mods/game_guildmanagement/images/game/emblems/emblem_other.png" hash="c71b86c406cd61a32476ef88ba0ffb818525d249b735e03531d4534ecbb5c840"/>
+      <file name="mods/game_guildmanagement/images/game/emblems/emblem_red.png" hash="7b1843d3d34c71c0fd5f8c2d490f7f7da6b2a651e7b6b913f135efcf79b36326"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/100percent.png" hash="5dc91dd85642da07ff3cc6691868eacde27b3845108789e138503106b622f0e9"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/clear.png" hash="9791ea0f6ac01ad42bed2cbca9e84ea1508437276035fb2f7948ee464e57bda1"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/imbue_empty.png" hash="e488bf8f1a559b1b109f208644815a3a9147767593da679992779f04693705c4"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/imbue_green.png" hash="51945021f370eade61786084f6dd8c4c8c982448c17f9b8347e61b459e79b82c"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/slot.png" hash="b07afe94076bb63c79c4305842d5fe9391d4688672f5679b5e485a65a19525c3"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/slot_disabled.png" hash="649ee0d10f8f32f8fd5e441bc3a527a354182200a44f20fa5aa2bab18a0b192a"/>
+      <file name="mods/game_guildmanagement/images/game/imbuing/slot_inactive.png" hash="db3c612e333f6141bbee9c7ce79a88edb03da761a7ac7ac782bc825c7549fb89"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/cross.png" hash="409a22051bfd63d8f0ea4e930fbc0353a716792272106b745572b08b1b5617db"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag0.png" hash="b7b813dde7bba8c95a270a9fadd7237cb3a72edc7f7967bae1f92109b14ef53f"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag1.png" hash="a7ae57b02883cbb65a2c248eac92bdcd0f1d660ca233f849c8d73669b67e0834"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag10.png" hash="d1dad031f6caceab1d44528195378ef73dc0b6248c01705f59f14d1cb655ec33"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag11.png" hash="33932f952b611ae3c178e5144b120f02bfbe1e770f33c271faf9f1903b9bbe0f"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag12.png" hash="e3c95c416d4f4bfabc7f6a8b566ff6f1eb54f9c8932a2ca2970c558e23fe4eda"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag13.png" hash="8c75408e7606a33d6de720a3f38477c499809e9becf7b091ad61469824da0e21"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag14.png" hash="5c8f6b8989ca2ec18f622483835c0a6c71bd04ac9cab9548351d3939b7ebfb8d"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag15.png" hash="2173cc2ac655127f1776637206451db316bbcfa38c414d9e343d5322da390e98"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag16.png" hash="ff0965299b4c82c04cf5c900e056ce167f5c259a64065847f456bce665f67dc2"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag17.png" hash="5ea91505551debb525a759ce1202bdb4d1203346e735cb5ddc19d42709bc83ff"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag18.png" hash="5eca1b366b742256ba0ee7271b105baadfa827e17515d9229826c224a9ed25a9"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag19.png" hash="dff081853b46618b92eb9e8cb3d1466954e21ecf4290a7dacb3f8955c8574574"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag2.png" hash="6713898ddaf1a3cdf3fcb1f295d05ee7b3f84470f0bad7365879e6db22cd8f36"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag3.png" hash="a28b4ce2e54eb105bbf0b5277b71945b8822f5bb0dc44b6338b30105a2889ffc"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag4.png" hash="9fdad0c92b50e41c921e6d58f430c3a6cb0abcfb49101b160af2f8849e02aaa8"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag5.png" hash="920b824ce19e918b1b9288f0116d54eb2a19073136a3a9499829f7b6eb8ff8d3"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag6.png" hash="bba19abc1ccb41f915a5fb75a376a59f87b5d58bb685f64f98814a852aae2534"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag7.png" hash="8c5f2a0ad483f4cb209258e17b6847f567984c1b30c2276b0e7165cfbc78ebbf"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag8.png" hash="024c5e5835385afb4a3590dc2ff87a1e7a0f7779352d0a204c736e6265176da8"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flag9.png" hash="5eca1b366b742256ba0ee7271b105baadfa827e17515d9229826c224a9ed25a9"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/flagcheckbox.png" hash="f9094efa00e3355132aca9c7c44c02ab0ef8b76a6a24974d160283ba9b429775"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/floor_down.png" hash="7c24279031bc7846337615b371aad2499d28ed9bd09b9c122120945f5de453ef"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/floor_up.png" hash="0c8e9e0ee4707acbd294dbd58f6689a9facec816a6ec1ebeb27fb03088e4b57a"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/zoom_in.png" hash="5320d2a712f2fc86ae7470802d4b519108ba7112298dcac35e843cd6f152f447"/>
+      <file name="mods/game_guildmanagement/images/game/minimap/zoom_out.png" hash="a1efe9b7af75411ee5cee9a9601d43e55b496e738ab2b0f31f3a5b8f70854975"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/attack.png" hash="9c018ad14ffc08bd41080d3c763d3aee68b38f244ef6fc8d8ceaecf6df013aaf"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/chat.png" hash="6ba98be9c3ba13f25318da81cadde108f5e42a609759c18c4c9280594cdbc1b2"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/follow.png" hash="8fcace4f1e188192b38f2740e237a17a8c23f2bb160ea6c1b0b7e1b02d990203"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/keypad.png" hash="9a77a30a8e1f12ae6f660d3b47c0852c93fbe6b648bcff2c1fc54cbae128475f"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/keypad_pointer.png" hash="bcf670dbd0b89f41e839a4c510fe57555b29d41f150636df3154e4e5e87f3f85"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/look.png" hash="a2a5411989bff589124aca748208925692fcd2530a4b8cf36e9b855688e00140"/>
+      <file name="mods/game_guildmanagement/images/game/mobile/use.png" hash="49e2497fb6a6a48205fc211d825a07fd8f0d906afcc63744606e22c964e070b8"/>
+      <file name="mods/game_guildmanagement/images/game/npcicons/icon_chat.png" hash="2fbb957a7bc259ae2a87a3fe4222390169593f68dc2e652be8b3704de0e415e6"/>
+      <file name="mods/game_guildmanagement/images/game/npcicons/icon_quest.png" hash="c5d3d20b0ef358fa066c53fb9affdd40a1672c0a20b5e96308f53303f91916ea"/>
+      <file name="mods/game_guildmanagement/images/game/npcicons/icon_trade.png" hash="b5f6093f41fecfa51a4eca1cf1205baca67747b57ba24bf9167276cff56eff0b"/>
+      <file name="mods/game_guildmanagement/images/game/npcicons/icon_tradequest.png" hash="c1ea1b65d421387c977621395907e04cbb89026eed2f09c20d57df764d8f6f2f"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bigdamage.png" hash="4a9af80eb77aea195488b41709840512ac543012fd866846de73e610b7366768"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bigdefense.png" hash="563a47bb4059f852318e553fce4824344a3a1f13370079894df03dfcf06b05fc"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_biginactive.png" hash="7908759853de59616e8fa93ab74cf100d68ac25768ff44a4a50e7045dee8ab3e"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bigloot.png" hash="1e5c74c7aebfdf527def04bc95d10883f94bc6dae654546f4b8d669a240c4798"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bignobonus.png" hash="46e5e878940046074641302932737e39a5ae5eaa9d6da81fdab74c65a49b647a"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bigxp.png" hash="cb2c27c4265cabb37e9a6d83e97ed8709399b1245cccade35fac751d508052cf"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_bonus_reroll.png" hash="1345e5c88c478f8a8e030b8dc941826730bf213d25ac563842b1fd56f94ad769"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_choose.png" hash="982fe8f373ba524e17c2a7b28085c0040805bfc670ea95e6c1179053aefed5cb"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_damage.png" hash="972a09e7aef733ed3abfabc3548f643e073ae1b025db81158b79174147a2cc3d"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_defense.png" hash="2a2f4f7d357061e0f534b18f1dad85b7683de42a269e783227b1524e4f3b2ce0"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_gold.png" hash="d4cfcda54c775b9bb1ab3638ac91b0feb583d1863aa414e62bbe4254716118cc"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_inactive.png" hash="003847c3c79285415d75bf29cec153b288372bddd579381a92e93f39ac803a3d"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_loot.png" hash="9bc79e96778ebfc75986a88ea86f568f71ecf23e181dbdeef8777763a991751f"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_nostar - Copia.png" hash="1f3285d597a7e7f015741542fce59e094de41a80494390d4a3c864771495568c"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_nostar.png" hash="1f3285d597a7e7f015741542fce59e094de41a80494390d4a3c864771495568c"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_no_bonus.png" hash="2a103fc75942719fcc43740812b472fb692c8e7f8dcdf11d789e3e238bb2f340"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_perm.png" hash="49e37a65e425bbede33d9961479290691ccd89ae52cfd8d599cdeeb47a4bb4fb"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_perm_test.png" hash="94038716c925de26fa2013929801c161befd0c94ef9a1904f4a0f6e569cb4ca7"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_reroll.png" hash="e61eeb82e2bbbd6599970e06d08a9bcea7316225321281f84f21f492667ebdf1"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_reroll_blocked.png" hash="6d1b43b220ef7448100180386831ab967ede20f91d7f16c2c615889fa1930432"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_select.png" hash="14c299f15aa4d326d124b8c11d47f03b4a148c7f65cbc3aa12788a29d9fc6fae"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_select_blocked.png" hash="24f2c479d0cd87f5914bc86d1ff08ac87d7c13a4b743c57104ec9c34fa9598c2"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_smallstore.png" hash="ef55bff95a565663dd98e0f8cf20259fdee37ecd560048701dd4cf5b3f8e2b3d"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_star.png" hash="7243fb96915e2634d994a303a7aa206b2607e75e8519df45d206f47443a590fe"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_temp.png" hash="cfafb0e06671ccca6584f9b16474a77dfffaed658226ec051f04bb66313278e3"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_temp_test.png" hash="5f94b43a37b0509ad3d1cfedf49c311bc691dfccf50dfdac82b8ee3a0b59baed"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_wildcard.png" hash="7fd2712ca7b8d08021748c1e832fb9bc217259c5f4ff2fca468824b7194c6634"/>
+      <file name="mods/game_guildmanagement/images/game/prey/prey_xp.png" hash="486b8f4cd41bef7e0f422674af1445692d94ffdb6e50512eaec0388eeb5dcc2e"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_blue.png" hash="1d7533f16d7d4916e95ff8f2b91c74f9c25da561e8e646bc1e345380ddfdacf2"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_blue_not_shared.png" hash="d51c5b626c532e4b7269f6f3a1df80cade93eb8f966f0d14a4fe74d5059b4aee"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_blue_shared.png" hash="a0116d9722e49164d91a762b35e77bc6a5f209d1a309942c8cf285278c8e0378"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_blue_white.png" hash="31e254b7ef82fdd8ca6dc55f5de6f40f1044e62ffb83fcd15c16a61aa40bf25e"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_gray.png" hash="2a3c79c3a493ec2abbbd1e0cce1d98381ade6e8518c34f6709ba388c00424be6"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_yellow.png" hash="3ac73df1f4871cdf3fb33b7524d37d9f9d147f68c2ac125689d32302005cdb5c"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_yellow_not_shared.png" hash="a5aa44dea8cacd57e54ad094348c9881ebccfe7cdbec3f8b176cb4113a4224a7"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_yellow_shared.png" hash="47296097f59b4d55941673d11c6f1b2d957322f6df7c008f7801d7f2fd3948a1"/>
+      <file name="mods/game_guildmanagement/images/game/shields/shield_yellow_white.png" hash="0e331e987dbb075be1879628e510397026ca269117d54f2606880593e463223e"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_black.png" hash="1410745aff20a96f3887e46de2e08abb5f8bad3e52f74b67d5520ccc4c388452"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_green.png" hash="443b44b3271a49f006bb11c291f0af847e3ff77f9d1111fc6b4556d240629064"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_orange.png" hash="b4e086b5d7ab6241efd4b0c15b944a6aed987b8fa476edff4262e5eb98b839c6"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_red.png" hash="00e3c9a7b05bf79ef5d0f22da9373b28222832b6561a9b57fb45690bf09c7974"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_white.png" hash="1131527f6d6ee2040696bfec9631ddc153f7ad84ca054a8f032cfb7f8cfe4949"/>
+      <file name="mods/game_guildmanagement/images/game/skulls/skull_yellow.png" hash="ec13aae649b7a312671d088fce1a6712464b05fc764e251086145170ea22bfa6"/>
+      <file name="mods/game_guildmanagement/images/game/slots/ammo-blessed.png" hash="8c28f9bf4f2815e974ed4c4fec776e91294fba48597309922268cbd36e83562c"/>
+      <file name="mods/game_guildmanagement/images/game/slots/ammo.png" hash="d730fb2cd33be91092406e2d2291bd3ac27da19b50fcdf90b65a00cac99ef5fd"/>
+      <file name="mods/game_guildmanagement/images/game/slots/back-blessed.png" hash="11153852dd9c955fccaf68cd52737734c74e692f2db0987c95b8c23ef057622c"/>
+      <file name="mods/game_guildmanagement/images/game/slots/back.png" hash="68e37c5ecebeee70c7459ca0dce033a66106b1778ff7ce62aab252d53f7f3488"/>
+      <file name="mods/game_guildmanagement/images/game/slots/body-blessed.png" hash="1441c5e8d5dce4d91e574e3d7dcac6c408e644db3c0f654fa8db06c5da2b3d3a"/>
+      <file name="mods/game_guildmanagement/images/game/slots/body.png" hash="c51cc9d3e332d9300b706ff1c7bfcd7c87f1c380ef956534a76f9ee1378355e0"/>
+      <file name="mods/game_guildmanagement/images/game/slots/coins.png" hash="a0494e824593ebfab7214a70320abc347b98b7b9969680c29b7cc6fd6c230a39"/>
+      <file name="mods/game_guildmanagement/images/game/slots/feet-blessed.png" hash="8eda2787c565876c098075caf722b939dcf43efd4ebe8e81af675aece4a38f8a"/>
+      <file name="mods/game_guildmanagement/images/game/slots/feet.png" hash="8ff524d812a61b52564361806741009974201b03282ac22a8818146dc603ec87"/>
+      <file name="mods/game_guildmanagement/images/game/slots/finger-blessed.png" hash="530320724d7e0f5dbd7f04e67b1b4a65cc4579395c10538bb0eabf66a474beec"/>
+      <file name="mods/game_guildmanagement/images/game/slots/finger.png" hash="f688dd179765ba45e51ceef2110cf1a5635694612b1b5a92729697f77bfc0655"/>
+      <file name="mods/game_guildmanagement/images/game/slots/head-blessed.png" hash="1bcfac3dfbe1660e11c0c1f5037b090fc905d09012f563ecb17ebc2df291aac2"/>
+      <file name="mods/game_guildmanagement/images/game/slots/head.png" hash="aaeb784fba9096e65ac5cd07151eeb56705071975dffb42af6d2baca3c668d16"/>
+      <file name="mods/game_guildmanagement/images/game/slots/left-hand-blessed.png" hash="b7b27783f01560e017da07b884f4cddbb243710d60bd893324d2928b7ec28413"/>
+      <file name="mods/game_guildmanagement/images/game/slots/left-hand.png" hash="0a8a1ae1b8961430ea882087d4237cdafb5b846cbc41c2ae81e48995a05cabd1"/>
+      <file name="mods/game_guildmanagement/images/game/slots/legs-blessed.png" hash="332a2718c57a257b8081ec42af707eb7eda2eec7bed51e21c7b4cec98b18748b"/>
+      <file name="mods/game_guildmanagement/images/game/slots/legs.png" hash="53431cb03062b1bd94c72833bf0615dbd79bc2f8f0422e40f5348f57e91267fe"/>
+      <file name="mods/game_guildmanagement/images/game/slots/neck-blessed.png" hash="3ffb08add2e64a3976a774eca45f228b344088a2aa3e6f6034ca477906348246"/>
+      <file name="mods/game_guildmanagement/images/game/slots/neck.png" hash="bc85ffcb3e3cc1d1db68e7f17e3046c6b185ab95a7ac85f2285786072e28c0ea"/>
+      <file name="mods/game_guildmanagement/images/game/slots/purse.png" hash="88e39d1b193d64fd056ac9a7e5dd579b308bd9be5909dea62c623300d1f4fe9a"/>
+      <file name="mods/game_guildmanagement/images/game/slots/right-hand-blessed.png" hash="48fc93d116cb03a7d4a172caf8ac6bc2c967fe741457103d19107fdffad8c8f6"/>
+      <file name="mods/game_guildmanagement/images/game/slots/right-hand.png" hash="12b54a0995d169c68a0ab3cf20e93eddeea46c25dc28a6a10fef1802e11972cc"/>
+      <file name="mods/game_guildmanagement/images/game/slots/soulcap.png" hash="88788207f43b9e956a3766d647ab0757b9af342ee671ae6533e398153e44bb33"/>
+      <file name="mods/game_guildmanagement/images/game/spells/cooldowns.png" hash="73ad5f8799a991ddd8cb9f7e9fde27d87af25044f1f2eef784361de803cef7a6"/>
+      <file name="mods/game_guildmanagement/images/game/spells/defaultspells.png" hash="0c7e02ed96dbb8de1e935717b41c97598c5799f06d8e6a785096bd13367ce22b"/>
+      <file name="mods/game_guildmanagement/images/game/states/bleeding.png" hash="6d940341ad0e42ed6dd7e9a3aca963ddf2d4f4b13f49d144bb1f9ce33ac7beb6"/>
+      <file name="mods/game_guildmanagement/images/game/states/burning.png" hash="4f7c92ccde1d6b8626a132e57691eb7284108cafe50b2fe7592b8def2aece610"/>
+      <file name="mods/game_guildmanagement/images/game/states/cursed.png" hash="50f2f4fc8c31b13b8f748fb6f1382d13f259ac730aadb387bfaacd81ad6d0911"/>
+      <file name="mods/game_guildmanagement/images/game/states/dazzled.png" hash="3d0e84831497350aaad7f76abd440ef0b29606cd317e1f12c5d68984898eafb8"/>
+      <file name="mods/game_guildmanagement/images/game/states/drowning.png" hash="0e88985b100c1bf267270b6d0ce204918f8cf6203d74a94547f57f54205a462a"/>
+      <file name="mods/game_guildmanagement/images/game/states/drunk.png" hash="f69dd946551bb377f321f81238a098548da0a6ced8bcdacf614241dc4705ba53"/>
+      <file name="mods/game_guildmanagement/images/game/states/electrified.png" hash="927c530ba033ca06c86f67f8ac6baa0f1cf35d0639b0ed90f7436aaa16475c67"/>
+      <file name="mods/game_guildmanagement/images/game/states/freezing.png" hash="e9ea215263b96c79df1792a3905d9b645145a80db417d3727cdbfbc75b55ed6d"/>
+      <file name="mods/game_guildmanagement/images/game/states/haste.png" hash="cf0f42b036c40e6df4a36ce49a399d8ca9e1f9183fd2eba5efb44c6a36154f40"/>
+      <file name="mods/game_guildmanagement/images/game/states/hungry.png" hash="bc84499a862127abffdf250f47eeb9b1f1be667fbd97a131d1fe3a2579496d32"/>
+      <file name="mods/game_guildmanagement/images/game/states/logout_block.png" hash="b74538309c04558abef31b0eff6d06ec8ec3237b4483ed082ed8c287b9de47ff"/>
+      <file name="mods/game_guildmanagement/images/game/states/magic_shield.png" hash="c5de64a200776f35bde4e0efb7bc4c554a48889d2bf231641711fcaabff86f90"/>
+      <file name="mods/game_guildmanagement/images/game/states/poisoned.png" hash="07f5c0ad4e8573c893d12595286d875dc4ea5b55b68f1329ca37724029748d5e"/>
+      <file name="mods/game_guildmanagement/images/game/states/protection_zone.png" hash="ebf35261a698e31cef0eee343fcdd8717cc71779dff38d1393f24e7aa497aa15"/>
+      <file name="mods/game_guildmanagement/images/game/states/protection_zone_block.png" hash="6dba9b54728501407e6779214267f4ca05951fbe3d8eda2b4350e99ee437ea03"/>
+      <file name="mods/game_guildmanagement/images/game/states/slowed.png" hash="f4a33d458cea4992e44bd2b09a223810fd221f49808a7322a6886fd38866e8fd"/>
+      <file name="mods/game_guildmanagement/images/game/states/strengthened.png" hash="915f8d6dd7c0e2c1043fce268ee33831776abcfb602070ef6523d192d3f00481"/>
+      <file name="mods/game_guildmanagement/images/game/topbar/boost.png" hash="9c4187ffca5c77acdbed7ccf274f17d0c79c13db5b844b0cc9adec04ea70a6ff"/>
+      <file name="mods/game_guildmanagement/images/game/topbar/icons.png" hash="8d0cf20ba5372ab29057dc53f931aa2ef4da53f7b04a6fdc9954a6ab650ad539"/>
+      <file name="mods/game_guildmanagement/images/game/viplist/icons.png" hash="48e95320daf1895fe1e2300d5cb58b725b030612553853f62e51407e30b2ea64"/>
+      <file name="mods/game_guildmanagement/images/game/viplist/vipcheckbox.png" hash="f9094efa00e3355132aca9c7c44c02ab0ef8b76a6a24974d160283ba9b429775"/>
+      <file name="mods/game_guildmanagement/images/guild_management/all_skills.png" hash="a382a90e189544f5640e3d8ec6cde616fd6cc57768a931db1547baea55064d3d"/>
+      <file name="mods/game_guildmanagement/images/guild_management/atk_speed.png" hash="b1a0b7a023b90efc71847fdf4457b4b1b267aa2ff8034a697a6183fe15ffd2c6"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs_bg.png" hash="1d249c0d1edefd4297119af9ba6061f2f42ebcc976cecbc5474456a3d632d399"/>
+      <file name="mods/game_guildmanagement/images/guild_management/cd_reduction.png" hash="2c651e5afbe2dd34ef23827682a0b2776ee6e659a0d5aeef7c93b29c6633f5bd"/>
+      <file name="mods/game_guildmanagement/images/guild_management/crit_chance.png" hash="42b6087a3f9161fa98f4ce77eadbf033a22d530274ab12759f65da163c9df603"/>
+      <file name="mods/game_guildmanagement/images/guild_management/crit_damage.png" hash="b182f7175dc9bb53d50535502d2d0eb446d1948fee5ab812c8bbc029f114a4c7"/>
+      <file name="mods/game_guildmanagement/images/guild_management/deposit.png" hash="71363f23ffc51d087fcc24803133df55a585279cd4a22ea2cb0bd61a9f88f8ce"/>
+      <file name="mods/game_guildmanagement/images/guild_management/dmg_monster.png" hash="be5a154072d47d0f952a55c6ea7541e2efda889356b96e2abc909a51d080ea83"/>
+      <file name="mods/game_guildmanagement/images/guild_management/dmg_player.png" hash="056d2926900ff358cab20c55f846c37fa33565fa1c19608e69187ba0cf5396e4"/>
+      <file name="mods/game_guildmanagement/images/guild_management/druid.png" hash="45ef13d18569d489b48de529132b6603022098f66d628527322b4b33c64457f7"/>
+      <file name="mods/game_guildmanagement/images/guild_management/emblems.png" hash="eff4ec32f7fc59ac2d64b25edae5ebb28cd5f77337064a7ad53215462e143204"/>
+      <file name="mods/game_guildmanagement/images/guild_management/frame-2-magenta.png" hash="961baf57da395defb40cbb8fd7d24fcdc334fd8acab379260f380329192d8057"/>
+      <file name="mods/game_guildmanagement/images/guild_management/frame-3-red.png" hash="497ac8f4c576ba9e13697f320835fe7e0f458cd75e440321511c8fc113de47b1"/>
+      <file name="mods/game_guildmanagement/images/guild_management/frame-8-acid.png" hash="2d5c76d485c61a5f39406661b24476a130ead63daddb0ddb1156a955e03089be"/>
+      <file name="mods/game_guildmanagement/images/guild_management/hp_regen.png" hash="cdc06f363e27c0ba4c804c27e1e767a78be99a8cb233aa46ff0e31445b974f21"/>
+      <file name="mods/game_guildmanagement/images/guild_management/invite.png" hash="bbc1654b485abf30ec1167d4db21c5f1cd1fc6885caaada75d195621b5dbb4bd"/>
+      <file name="mods/game_guildmanagement/images/guild_management/joined.png" hash="4f4574887618217949f2d55e2b516ad57d25cb44427263536c9b4346efc7343b"/>
+      <file name="mods/game_guildmanagement/images/guild_management/kicked.png" hash="bb3d2cc52fd29754c098cb87ba1c995ab62660b9c317cd0d6b4f6e811197ec5c"/>
+      <file name="mods/game_guildmanagement/images/guild_management/knight.png" hash="b5c3a7045facdb7aacfa6112b5eae0a33c456bd9b821adbcb336ee8b475ad70b"/>
+      <file name="mods/game_guildmanagement/images/guild_management/left.png" hash="79084aa51fa28474a242e864cf5ec71829476d571c04b6e43306cf44b8dccdbc"/>
+      <file name="mods/game_guildmanagement/images/guild_management/life_steal.png" hash="5ab45ba4bfd3735353a4b47a90b9a383f2f4ac5c91aff08f2f500479c5422218"/>
+      <file name="mods/game_guildmanagement/images/guild_management/magic_lvl.png" hash="50082958e9512fc323fa5f389c7a341d94283f2fc0f93d995731c407151061f7"/>
+      <file name="mods/game_guildmanagement/images/guild_management/mana_reduction.png" hash="bbc8eb93a3c890168b12082a34ed26043a205d57028f890aeeb103cbca55d840"/>
+      <file name="mods/game_guildmanagement/images/guild_management/mana_steal.png" hash="47401130caaef0a896a7199cb2882484b6935e27ad7d566ab0e3ebb3c8db248a"/>
+      <file name="mods/game_guildmanagement/images/guild_management/mov_speed.png" hash="f154c6b840015ee775641c3be86f9332a401e42502e5575c667910727c4cc8a2"/>
+      <file name="mods/game_guildmanagement/images/guild_management/mp_regen.png" hash="70dc75f100b94f5fc8d7f8ee1241258324ae21cb97f58eadac387ddf94221506"/>
+      <file name="mods/game_guildmanagement/images/guild_management/paladin.png" hash="9086d2a6faeccc7f9bf3b1b8cc15d711952f67bab120ab7e1e31daa98d76cc72"/>
+      <file name="mods/game_guildmanagement/images/guild_management/panel_small_dark.png" hash="7c663ecc60701cfcbb6e21b335968eda3a438cad1c26374dd9b7b1710cbeaae6"/>
+      <file name="mods/game_guildmanagement/images/guild_management/peace.png" hash="cf5b7a761dca0bd10d31b86eb3fd783139f70001091652331b32ce87d09ebbcf"/>
+      <file name="mods/game_guildmanagement/images/guild_management/prot_ele.png" hash="9a98e1d70793cf50729244e4af16395f80b69805bdea137b4c9d851c3663d424"/>
+      <file name="mods/game_guildmanagement/images/guild_management/prot_monster.png" hash="ba9adda39df0062e98ccbbeaeeb76c4a97dfe89f98d1789eac6775952c43bc3f"/>
+      <file name="mods/game_guildmanagement/images/guild_management/prot_phys.png" hash="1cb47ebd11e7832d2369fc2d01b91d7b93cdac496c182c821aa159d954af95d4"/>
+      <file name="mods/game_guildmanagement/images/guild_management/prot_player.png" hash="d444376ca7faff918b40476f90b09411105dbee15d324be28c38f08d4bec3932"/>
+      <file name="mods/game_guildmanagement/images/guild_management/sorc.png" hash="3fc788fdb5fcaa17d0e53c6bfc2ac24487a6cc277b930bd69941528e1aded7ef"/>
+      <file name="mods/game_guildmanagement/images/guild_management/unknown.png" hash="8df67a2e37e0d695b9d979de0dc1a733a02e40a909c2cee53c608beff5276552"/>
+      <file name="mods/game_guildmanagement/images/guild_management/vs.png" hash="9dfbc270a754f5be04a734bdc2b9cbd72040ea6d324ea7950338db9612d28f17"/>
+      <file name="mods/game_guildmanagement/images/guild_management/war.png" hash="b4b0b09d33ec69807c75c8cd8ac444977f3764af94419364901028762708bc56"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/defensive/block.png" hash="9e7526373433c80ed108468dcb37c00797a016cf0307c9fdd158780269e77a19"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/defensive/cure.png" hash="f4f891a4684c3e2e8881fae61b883d5c5734936f1f43b1ed9f8490605485099a"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/defensive/defense.png" hash="b48700df9073985c53ff2ae53a62f6070270eea3e7647e554a81e1210a2899e3"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/defensive/health.png" hash="be296d82ce6e4871a0c305dddc96ef8b04a2e9f00ef19d772d655cc618c54b6a"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/atk.png" hash="da3dd122e940653094d33d30d8c7fc806f16b638a57a11abe67fb89817283dcd"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/block.png" hash="021b901847f86c60eba4a4ccd35e3124f6a003afbfc234f4efa884c5ccec8afb"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/crit dmg.png" hash="887205f97207196b3a0a875d7b024e1305b1dd5416e10b5c0fc7bdcfbe105b93"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/critical catch.png" hash="05149e410cc5e9645894587a6811c48cb9f4b332f21b7c812317e380f633921b"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/critical.png" hash="d5bbfc0de92902d907ff9d77340b64f3eb7e429a4169103dac3680335b81185f"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/def.png" hash="97d737980ed7542cdb870158b6771632629308ce4d59d5faec77ddbbd4cc203e"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/dungeon exp.png" hash="e33f32b4be0196f5922da2258153ef666f9537ad6921652f063c6e523f1b95be"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/dungeon reward.png" hash="75e6022ab3663b1eca9ae08d942957c5eddfcfda7e8a1d41f07708f83d15f31e"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/health.png" hash="d5123de18d8aecd96da6e4408bde5392b0a5641f0b6dcba0adfd116322bf1c0b"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/lucky.png" hash="628b1f69fff4d832786efbd7a4e4efbc64e426e89d6efa97838d5e16562fed6b"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/mega charm.png" hash="caa00927c8ec2fcef10c759e5e3fe00f764894c2599a6d3b55894a1db9a41213"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/none.png" hash="de7f7e57f78e5c057915262925e4d149d427caf0c7987acefb5982148a6176b8"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/player speed.png" hash="466c803edf0ed0edd68947fd37648fcb78c432644289ccc95a0bcbb70293ea81"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/pokespeed.png" hash="8c00b70cd019942d08b9ae5eb325792a408ac6da09ffe89e828ab6108c4b3531"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/iconguild/shiny charm.png" hash="9170fcb0c1f9f81527263998a41617263cba1cbd88349adce68e5ef31a62a627"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/offensive/attack.png" hash="57a106a7c394830459a9fd4f18828ae1afa3d9cf3b2bfb6080b510dd045c49a3"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/offensive/critical.png" hash="00547312412647c545169ba1c5ab4f12db1dac883a0684ae3ba06d623183dc72"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/cooldown.png" hash="24958c1801450abe4892338c4437df22dfb75ff0fd7da92093ab633c4a50a3e2"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/lucky.png" hash="d7df7ac1680266f322d5c41316d74191e04b8c306d930a498f5a8ebdb20451ea"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/potion.png" hash="65ef57eaa2523ac4cd4e6f3695cc8899da7c51065cb70827bda9461651f5c5cd"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/regen.png" hash="6d4c2ff77b0f5e05480b23d927d059b54cc56b341a7788f33d9cfdd53d5362fa"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/speed.png" hash="1f8e3fb9409480e642de8325be32299e68839547787820ebf52748422883fc3d"/>
+      <file name="mods/game_guildmanagement/images/guild_management/buffs/support/stun.png" hash="43195205ae3107efd392c56b4d3a40646ff934e5be8e7e5cf0b2f43c76b1f14a"/>
+      <file name="mods/game_guildmanagement/images/optionstab/audio.png" hash="9973118cf7a331fac3c1c6a9764d6c54e2469aad7fe2580d27583654dc703779"/>
+      <file name="mods/game_guildmanagement/images/optionstab/console.png" hash="fb7859081a2446fcd1c05e7f3db2aae491e37e91f02c982d5769abf5a2757df9"/>
+      <file name="mods/game_guildmanagement/images/optionstab/extras.png" hash="afa2516a4bec08f55a1b537f57ad0381d3ac5cafe70cde272a77c5bd20a49110"/>
+      <file name="mods/game_guildmanagement/images/optionstab/features.png" hash="1d41ab35272179d136a6b10e62a20556047378f017162540711572396ce416af"/>
+      <file name="mods/game_guildmanagement/images/optionstab/game.png" hash="b6f8b04699cc2ba783e369eafc51dae619adc96a3b3848e0196a5580964fa419"/>
+      <file name="mods/game_guildmanagement/images/optionstab/graphics.png" hash="afa2516a4bec08f55a1b537f57ad0381d3ac5cafe70cde272a77c5bd20a49110"/>
+      <file name="mods/game_guildmanagement/images/shaders/brazil.png" hash="fbdc85e4ab292e0fd00151bf3ab6c78692ea7b4c921d2ba3abd9e1d27c3a8fe0"/>
+      <file name="mods/game_guildmanagement/images/shaders/gold.png" hash="705947b62a3ea80f1813e7438b7e328f2352376fd53c7fe981fecbd7d7055d12"/>
+      <file name="mods/game_guildmanagement/images/shaders/rainbow.png" hash="d2d60df57fc9286f2d7b0cd6e3f5293be763bd2dbaaa940bfdde4a47a1258430"/>
+      <file name="mods/game_guildmanagement/images/shaders/stars.png" hash="604c507d30f1f7863d2be7dbd7d9a5a79a442a504c435603d2f7f1063530588b"/>
+      <file name="mods/game_guildmanagement/images/shaders/sweden.png" hash="d45cd61ad055f6a6a7fc5a422694e30c24da34e42676e550faf8c67e17ab61f3"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/analyzers.png" hash="77bca85503dd186d2bd6c884692883c82d6277a1c9f53d7ff72b1295266f2771"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/audio.png" hash="ed6e047174d5d65781ecdb3b7d7c28175597b20eb8ff1271c9b639c284614539"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/audio_mute.png" hash="d1947be0aab843420933d10fd953398eb7c8761f73b9bf4b226c60e4137304f7"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/battle.png" hash="c58e1c20170f55cbdc884377c5af3f791f34d7fd0b3b77de36e7b9aa3470be0e"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/battle2.png" hash="755e668d179cff3876042bff2db2c38510cdaf25cab9aaa23950fe0e1cb00f26"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/bot.png" hash="1dfcd81a4ce8b859a0881cca57c718db75077baa57916d58652adf73ff2921ad"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/buttons.png" hash="395d5c7938699da2870beb913e83112c1f92d6cc5b47d5c753a993feb26185df"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/combatcontrols.png" hash="ce5769e53cde29b91a3b4844a60a8f3cc3e5f5d22f83c85b8c068c39a33a3d6b"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/cooldowns.png" hash="1d65c4bad28c0117a9ab66e35933c57c886a50ae652b966d245f75b08e97cfe3"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/debug.png" hash="948be14579b7324b6b8ea773ca74190a1957c2b470b83e925ab57568fac4bc5c"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/diamond.png" hash="edcdeb49f6fbd34cfd2d80c629b17c268cfe28ecc30de46edc49b0ed72981934"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/donation.png" hash="0d0502e13a05202749f4f1a04b73eccb1bd54c7e2997206e1544658ac761ec58"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/guild.png" hash="671e44c8304d4b8011604d3597ffbef8ad8287a5479d2615399e02bdcf992e57"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/healthinfo.png" hash="2e6734595606745a4ed5df0594877691820e96112fba5bfdb57f20a9e07c4b70"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/hide.png" hash="4a0d55a3e87e885cfbec0138979d2c857c5891387acb2f18e7c3377f169740d4"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/hotkeys.png" hash="a3bcfa123bde1c88a5ec087740e07f0fa56e65f67ff9998bc8b361b884ae797c"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/inventory.png" hash="c0f78c2061cad3a3dcfb4138fb7f4936eb1488fee0cf52590000403b96fbeaff"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/keypad.png" hash="7cf0b2e3d8a3dc98a8a8b0319e252eb325f26b33b96010a63595c0b175dd2ce0"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/login.png" hash="19363b1d0b10b9f3937bae4f30c3594a720c870c9ac88e8216422427edcb088d"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/logout.png" hash="9937a46cb68d18d039cb538cd56b018623d8dda69ad55cf094c60fd74fb86185"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/minimap.png" hash="9ba0f3194ece59bcadf75789f785db020ba4977f9a622b8770286b2a929e993f"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/modulemanager.png" hash="d03595e1affda1ce6e59acb511c08d9d300666dda22b52933122198a08a6eb56"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/motd.png" hash="395d5c7938699da2870beb913e83112c1f92d6cc5b47d5c753a993feb26185df"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/options.png" hash="c8b9aa5a74ec8338f069abd6b57144dcfe9b722353cc54f56a321951790fed81"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/particles.png" hash="8339f5aba0f3793a611562a0c94057c2bfdf8c6d8810c8c947b766ec820b7622"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/pass.png" hash="d95dcf54048288ee872c2939da82ebe9b609c760119a7e5743d2694de7d7a92c"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/pass3.png" hash="a638e729ae3195fcfe014b5eb76beb6c7cf60eb4e6e385d6948f69344e74508f"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/prey.png" hash="c310774645aec92ec704ebee367033401670d8a93fd5b1120095d1fccd4676a4"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/prey_window.png" hash="07b8219765b2c78f89df6219f69cb921b42e5d113b63204c7034c3883cb0e0dc"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/questlog.png" hash="759ea67dee1b39ab97bb151485f2cdfeaa60d6767c51b17a9597e4204cf31de6"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/quest_tracker.png" hash="4e4a3730f403f16dd8d3ba19802ce7b93b47fad1ce7a1288ab7857fe8f8b81f4"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/shop.png" hash="0d0502e13a05202749f4f1a04b73eccb1bd54c7e2997206e1544658ac761ec58"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/show.png" hash="a5cb3bc1125c5bd27e51e16ee9b3af94808fbca02926681815b671e8d4bb6751"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/skills.png" hash="c3213ad535a76dbe389c54b58edf2ac69bd7e9e3add0306bf62380756797487a"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/spelllist.png" hash="bb75dd98f037178b023213371324677f89be175f7a38c326ba9edcd079a89ff4"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/terminal.png" hash="7149e5de5e87d94aa2ab3b0aa42170239f98fd0ec3c61053412ea5d5752efa53"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/unjustifiedpoints.png" hash="7c25d15772b4c32c00fe3a750952852fe54c3d8c4eb1865be8c7fca5fb5d22e4"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/viplist.png" hash="2c5118ab6504dadd7265fa369c127ef1c45a10da2529cc34ed3e54fa8f6a03a0"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/zoomin.png" hash="9239cd2adac0dab1a67e32851ee4f4f3a4063f80d9ba47a1475b0b00a3ab97f0"/>
+      <file name="mods/game_guildmanagement/images/topbuttons/zoomout.png" hash="e1158cedddac07fe6e686e128663d0ca918a8e1caa7b3fc95b124b698335d41a"/>
+      <file name="mods/game_guildmanagement/images/ui/345345.png" hash="6c63e5c0618b56ba7e7ed7d382bc57f49a2f381d524080c1fdcdd2f10a11938e"/>
+      <file name="mods/game_guildmanagement/images/ui/actionbar_background.png" hash="8feb58b2b905cfea75f6dc410de1e2f8bffbddc9a4f45399e19a29ede0eab9ed"/>
+      <file name="mods/game_guildmanagement/images/ui/advancedTooltip.png" hash="8b4333c3a17bae6c779931bd0cc0e232fcc9ae1ec1e5476166d9e12d9496c33e"/>
+      <file name="mods/game_guildmanagement/images/ui/advancedTooltipBot.png" hash="46d6bfc6809c305bcb84ce5d9e7b5191ca02c8cf812ec9720ed67fb90c9d8de8"/>
+      <file name="mods/game_guildmanagement/images/ui/advancedTooltipHead2.png" hash="6a5c9fb565e909f3f36258094f3ad3945be798698764d00896ba3b3bdf789242"/>
+      <file name="mods/game_guildmanagement/images/ui/advancedTooltipTop.png" hash="d9971a932ee4d8bf23490af54bcc4e63f7c0f72dc384ba8eb6fb27fd627f3704"/>
+      <file name="mods/game_guildmanagement/images/ui/android.png" hash="a2db35e847c2752c02a114b92dc2511166980e74d214f6eec36af9f5a1a480be"/>
+      <file name="mods/game_guildmanagement/images/ui/arrow_horizontal.png" hash="859d109937b050341c0072145335c28e4f4f7503bc333ff3aef579c321c13da2"/>
+      <file name="mods/game_guildmanagement/images/ui/arrow_vertical.png" hash="c5d205d9f4d521ff602d23e61d25080dbebdf28dfeb638ba0f08999b25c510e4"/>
+      <file name="mods/game_guildmanagement/images/ui/backgroundLogin.png" hash="75628b61b0e7ebf96a74960e98b235445c18353a37e26c6e14cebba74f7cdc81"/>
+      <file name="mods/game_guildmanagement/images/ui/background_tooltipPoints.png" hash="9fbfbf5a9822d7dbd3c9c29b4c8c7b3e2b929bfa167a9beb803408689ce42df6"/>
+      <file name="mods/game_guildmanagement/images/ui/basicTextEdit.png" hash="a04e5fa77974a64adeb6f486e98afd3983e70cd91cc4a0648019fa1727935ed7"/>
+      <file name="mods/game_guildmanagement/images/ui/blueButton.png" hash="bdeefae6380de800036e98357259a2efdd3331339c82160b25118bba2aea301a"/>
+      <file name="mods/game_guildmanagement/images/ui/button.png" hash="962cf6d67e0d280c7a2d772e9e7ad7645d28b80c17a21386e32d3072d9a2b372"/>
+      <file name="mods/game_guildmanagement/images/ui/button2.png" hash="412f509f00807490170572834ed69a58e800fa85b13967170ca9e3295f17c36f"/>
+      <file name="mods/game_guildmanagement/images/ui/buttonCreateAccount.png" hash="24d9c602461c2d257542fb3fa35bfb718201294299f8a17935f46d2c88bdfa35"/>
+      <file name="mods/game_guildmanagement/images/ui/button_popupmenu.png" hash="3e8cd9e20c677a51d21a2fc92581d7456a11ad2d471954225d6ba0430d00c115"/>
+      <file name="mods/game_guildmanagement/images/ui/button_rounded.png" hash="74e0143a21bc287bf78ace7f7683ac8817b1444f151b1719ed380d005538e3b5"/>
+      <file name="mods/game_guildmanagement/images/ui/button_square.png" hash="2111a0033bce4ee7a598a023400c82c1c04a8339db7da6054a4f2b1fddb4dab5"/>
+      <file name="mods/game_guildmanagement/images/ui/button_top.png" hash="24eb9045416478d6f0cf37e83164a74a170e8d054f3276455270b43bdfedef3a"/>
+      <file name="mods/game_guildmanagement/images/ui/button_topgame.png" hash="7fc9c3f875c6249a4fa4fb1143199143b1d3ab9646f5abdf63bb8fb8c37916f6"/>
+      <file name="mods/game_guildmanagement/images/ui/button_top_blink.png" hash="de67343c3a48ea21daad724cbeb6c7f71d55c696319168d3e6003f51b8cc9f0b"/>
+      <file name="mods/game_guildmanagement/images/ui/carregando.png" hash="b67b4bccf3a5a201856c0dd9f812c707bc79c016434b3d52be8b6b123da5cfd2"/>
+      <file name="mods/game_guildmanagement/images/ui/Chat_Background.png" hash="6bbfe5b0a1db59f628172c267a0d724b3316243d2cf74ce6cd960d9c2daa47e8"/>
+      <file name="mods/game_guildmanagement/images/ui/Chat_Input_Background.png" hash="6a5f1cc405472c953bba7560a1fd67984dcc464a9ad1d24f99caf31a8ca21044"/>
+      <file name="mods/game_guildmanagement/images/ui/checkbox.png" hash="4cf8dcb2c24e59a7e34cadbff0098a57a17d0769ec30e73b3d7af629b543705a"/>
+      <file name="mods/game_guildmanagement/images/ui/checkboxNew.png" hash="fba23a60eecf78f97bc35c1ac634ccc0f8d1e52b2077836b4777ce55e8e7a0bb"/>
+      <file name="mods/game_guildmanagement/images/ui/checkbox_round.png" hash="e1326564050ec2c89fca72ca9e1e13b148e1133a244cbb82545e4611af6600e1"/>
+      <file name="mods/game_guildmanagement/images/ui/clear.png" hash="33b7fb97c37644e8e96dff85bacde6524c369164f6d0ecda49f0733f630102b4"/>
+      <file name="mods/game_guildmanagement/images/ui/closeButton.png" hash="bbd0f95e47f9a28a886af9ba483bcd7338d9dea582eb850c76ed9d0e3deb4035"/>
+      <file name="mods/game_guildmanagement/images/ui/colorbox.png" hash="4d83ea59ab5f4e9e5abc91103c3af5f8a4abe87c0382b70c5f0889574e4c9ef2"/>
+      <file name="mods/game_guildmanagement/images/ui/combobox.png" hash="c1aefc99053f595ac238639fe7f04803a398e00c64d388cfc0a8fda221c9164b"/>
+      <file name="mods/game_guildmanagement/images/ui/comboboxguild.png" hash="6edba26b292ba3dc362abac9dd3e8d0acd6cdeb0f400262a00d4db8265d4386b"/>
+      <file name="mods/game_guildmanagement/images/ui/combobox_rounded.png" hash="fcdfc62b6aa7cc2bf96c1ee4bc69617bb43a70164bb3599903b24707b4443013"/>
+      <file name="mods/game_guildmanagement/images/ui/combobox_square.png" hash="8431624a58e80c8268319082ec83f0dfafeff115ded94703e0473987c4861f60"/>
+      <file name="mods/game_guildmanagement/images/ui/combobox_square_guild.png" hash="6edba26b292ba3dc362abac9dd3e8d0acd6cdeb0f400262a00d4db8265d4386b"/>
+      <file name="mods/game_guildmanagement/images/ui/configuracaoWindow.png" hash="a4c066aebfdef9e3504262db0764acdb2995fcece771f690b4a9b601f036e0e3"/>
+      <file name="mods/game_guildmanagement/images/ui/ConfirmPasswordIcon.png" hash="6df0451afd16af219c6274b88ab7fa2001e53ba6083e7826f4befc0d8e4bccc2"/>
+      <file name="mods/game_guildmanagement/images/ui/continue_with_logpass.png" hash="f42454007c9013570c396d7699205da41b8467f05ba097ae9c18b55f0752ed0b"/>
+      <file name="mods/game_guildmanagement/images/ui/dark_background.png" hash="3bb74b7a92374305bb04085ea6b2e1bb954d8b1230a375f16c37671faac8ff42"/>
+      <file name="mods/game_guildmanagement/images/ui/Dialog_Rewards_Shadow.png" hash="5be698365eb5b8312f73d41b354b45ca1c7b4957a8cc64ff6907e298fd6abe7f"/>
+      <file name="mods/game_guildmanagement/images/ui/discord.png" hash="b8bb7026cb4d1db0701b8d5bf2ea8ddd25ab2fd657547730a3054d115bb50820"/>
+      <file name="mods/game_guildmanagement/images/ui/downScrollBarButton.png" hash="ab10ae770862e49914a1c7ef503e74a43b5f920d705941604e2de1e6fc283b5e"/>
+      <file name="mods/game_guildmanagement/images/ui/escolherRoupaWindow.png" hash="bf29659ca2c4f84af72a0e5844fe4d6279375cde6adbe2a4a28c889020cf53a9"/>
+      <file name="mods/game_guildmanagement/images/ui/evoMapBorder.png" hash="2c7a703f347a5ded723cb54dfbca2dd8803547b6eb7fa91847a076d19c6b74c7"/>
+      <file name="mods/game_guildmanagement/images/ui/graph_background.png" hash="c67392445a1076a5ce12ef496536fc99daa74ee16148fc9efbcc17096f6554d9"/>
+      <file name="mods/game_guildmanagement/images/ui/greenButton.png" hash="fa26d79d9131b52037c09531875a74c0bd2f04c24d1f7ac33ee3e7f4fdc00a51"/>
+      <file name="mods/game_guildmanagement/images/ui/hotkeysWindow.png" hash="fd0afdcadd4e74c7c529e4fbcf516f9ee92dcd08d6fd4b97f5543526b1de7c64"/>
+      <file name="mods/game_guildmanagement/images/ui/icons.png" hash="c65b997ae39128182141ddb3d5147973a40ee82c951cce3a75e1f6f6e38921e8"/>
+      <file name="mods/game_guildmanagement/images/ui/icon_add.png" hash="70d25b41730a71bef58dcf9b9643836ce67c49e82491ec9d2bae477168df7062"/>
+      <file name="mods/game_guildmanagement/images/ui/Inventory_Slot_Background.png" hash="8ecceeb8467ad402a01353159f1627af9e709d1209d92f31c7a3c47ed4f371af"/>
+      <file name="mods/game_guildmanagement/images/ui/Inventory_Slot_Glow.png" hash="113e61541cf844a35f42d2364edaac46b438365c1f96de7a4e9ef56c37375119"/>
+      <file name="mods/game_guildmanagement/images/ui/Inventory_Slot_Overlay.png" hash="6a99b52ea1b6bd6f90a91dab71ab92d1184e1370181cd4a422a8cc21121f5281"/>
+      <file name="mods/game_guildmanagement/images/ui/Inventory_Slot_Overlay1.png" hash="80ca49b13135048417bcca7c7687817320c77962b41d690d518f7e240721d917"/>
+      <file name="mods/game_guildmanagement/images/ui/Inventory_Slot_QualityBorder1.png" hash="183a4a34e54e3ef815779450b37caa322f7a0f803dede672add4ec83b2d522a8"/>
+      <file name="mods/game_guildmanagement/images/ui/ios.png" hash="aa0d2ba78a51b66ab33d30bb67193e9590c6346d41be36967eff0670b1a4dfba"/>
+      <file name="mods/game_guildmanagement/images/ui/item-blessed.png" hash="704f0bb219532148d99cdc64ee83ecc9943af4f87227607cb8e99a48a10782fe"/>
+      <file name="mods/game_guildmanagement/images/ui/item.png" hash="717467fbea5e76cc7a4b046df8085e218d156af810e968546f69e94ab88c4559"/>
+      <file name="mods/game_guildmanagement/images/ui/leftScrollBarButton.png" hash="ffae71cb434842002ebef0481caef8f8a691cbeb8646c7bcbad116f84fcde29d"/>
+      <file name="mods/game_guildmanagement/images/ui/logo.png" hash="607808ec4aea90fb696eeccdd4bb9eba317cc9005bd0d26049f485b59e42165a"/>
+      <file name="mods/game_guildmanagement/images/ui/menubox.png" hash="589a85f60758397f51477b803d5bd895ea6ffd9aaea384cc466f9696f3c621a1"/>
+      <file name="mods/game_guildmanagement/images/ui/miniMapWindow.png" hash="944371bebb3da80ec27e9a1adca8c94647c638a58fbeab55fdfc10b55f874dc0"/>
+      <file name="mods/game_guildmanagement/images/ui/Minimap_Zoom_Minus.png" hash="96dd31a9f897938da7340f76d5328c110bbfeef24e98681ed51e32247a84c426"/>
+      <file name="mods/game_guildmanagement/images/ui/Minimap_Zoom_Plus.png" hash="cf7e88ae831026279c1d54e981b2c5f2aaa6af38a3763257051e180a61a35bc1"/>
+      <file name="mods/game_guildmanagement/images/ui/minipanel.png" hash="83536d3458a7f97d3c0af8f7c9e38bbba70d7be5215ce91bf1b9b9c5a9206248"/>
+      <file name="mods/game_guildmanagement/images/ui/miniwindow.png" hash="b539a71a9a6c254727f59c7fc57e6c394ca368ea7462513fc9dd72e9115aa678"/>
+      <file name="mods/game_guildmanagement/images/ui/miniwindow.psd" hash="1aa7b122a25bb373c55f48e628cfd73c8e7ce732bdec6198b7bd79c818d17c2d"/>
+      <file name="mods/game_guildmanagement/images/ui/miniwindow_buttons.png" hash="20ee26f94c1fdca97d22794909d5f6d815f1b78602212faa54853611d32f128b"/>
+      <file name="mods/game_guildmanagement/images/ui/ModalBox_Background.png" hash="5b7f73d499cf9cfd2f9c07840f539b8533ec6cdf69894d3547133ad254290288"/>
+      <file name="mods/game_guildmanagement/images/ui/NewScrollBar.png" hash="65758e873075dc1aff4d60b3ecde30931fcdc5d5f4711678cef3cc42c01ae522"/>
+      <file name="mods/game_guildmanagement/images/ui/NicePng_pokeball-png_158271.png" hash="f1e4a10fd4ee4a8217f6f52b56450bef7196d5d9c9e30248869b4a3dafc0fdf4"/>
+      <file name="mods/game_guildmanagement/images/ui/otcicon.rc" hash="fec7a6b6a2803d097c0d90848b447b3f6feb68bbdd9b8a6b820d7722c6e4feef"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_bottom.png" hash="3f1545cf6e06001f943fbf7b9c161caa3dde24e06a0235213b2d3e7cef203b1c"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_bottom2.png" hash="c91e21fff5de73d080453d15a8d755c90524a86735a045ebb38c6621aa978f99"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_container.png" hash="be9426d61e401a09933c48fbea8bf6970764fc740f46102fdab93b198e234afa"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_content.png" hash="fe95204826c776d422d1768f19e05dadd7848c80a1b04936af9e0c79d5eb12fe"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_flat.png" hash="7c663ecc60701cfcbb6e21b335968eda3a438cad1c26374dd9b7b1710cbeaae6"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_lightflat.png" hash="6a4645aab72f4f554ef23d936fd121c3179ae52498b5ff369fe91e0524238759"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_map.png" hash="42559b50399cfac4febedc5fc34f53be1823aa6d39e631a566a5d22e3a2ee32b"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_side.png" hash="f2351b366e58b0980a5ec6763e6118402a8e827946a908dc35c1b1f2ffd6464d"/>
+      <file name="mods/game_guildmanagement/images/ui/panel_top.png" hash="45fd22974c83bba848b7dd9c4553459463198ad6ee09a266cc3b48fe04fb5d76"/>
+      <file name="mods/game_guildmanagement/images/ui/progressbar.png" hash="a85722bc51e6eefbd8d19dece618e163bfc96c20e5ce5803d5e2ec0f0fd02dd4"/>
+      <file name="mods/game_guildmanagement/images/ui/qauth.png" hash="b2a509b8ff776217ed5f05701801b99efa1fd0a7619c4f7cc2c34fbaa385d3a7"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_blue.png" hash="ccc230babb3e2a20f17831f047a7b1e5d867f1de1aa7ff0af8da7bdf6c9e6cd1"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_frames.png" hash="6e71bfc1bc9fa1f111334f498e901895822df076c05cc663ca570a6c3cb25903"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_gold.png" hash="ff90cffe108acfeb7e87ab422ab4f9b8f80ff506af295ebb55791af56c1a79df"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_green.png" hash="07cb4ba24c7ccae9ef99e5344bdf41802aa5da8cd1acd564f966a05ae35ba1d4"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_purple.png" hash="2444d7ca1e58c9fa401d3850f42d705dfd152896e0f17ccc515728a51e05d811"/>
+      <file name="mods/game_guildmanagement/images/ui/rarity_white.png" hash="d9a5660507640d1324993223fa445580ff8aaf0ef99a37528295a6987c6c9c0f"/>
+      <file name="mods/game_guildmanagement/images/ui/returnButton.png" hash="45fe9f08164be31628163c2a41df2ea8d137b186ac2f366ad905076b5ec0d91e"/>
+      <file name="mods/game_guildmanagement/images/ui/Retângulo 2.png" hash="e6537319fd16d2b77dc9f5530d8377d9621d73b8cc8a61791563f9bf2e2b32ad"/>
+      <file name="mods/game_guildmanagement/images/ui/rightScrollBarButton.png" hash="a786e478e747a1f7bd4f61805a9022d23d55f8809beb0ab95e72f60f4692dc76"/>
+      <file name="mods/game_guildmanagement/images/ui/rotate_button.png" hash="6ebe14bb77b4713028b69bed073995fdce1191207322ac5cab4139eecf4e93c5"/>
+      <file name="mods/game_guildmanagement/images/ui/scrollbar.png" hash="dc27e235b91857a30df71fc328ecca827f529a4743043fa4e9c1ff2613e6d144"/>
+      <file name="mods/game_guildmanagement/images/ui/separator_horizontal.png" hash="1f35ad62ded0ee9d11e2694c7c33264788937019eccb1bab8e5b07d2b13ce3a7"/>
+      <file name="mods/game_guildmanagement/images/ui/separator_vertical.png" hash="9fcec97e323ec9d2c549abdd88792ec4ad8fef1526273536806c718c11158ec0"/>
+      <file name="mods/game_guildmanagement/images/ui/SpaceWindow.png" hash="ed6c715421488108dbc0eb7f312d3e03408c425089d19c86caa4b46e947e424d"/>
+      <file name="mods/game_guildmanagement/images/ui/SpaceWindow.psd" hash="ee60b310dc2f98bfec1b12c6bdcaeb32cb7ce0ef8c4a0c45468309636a314387"/>
+      <file name="mods/game_guildmanagement/images/ui/SpaceWindow2.png" hash="b8dab11184bf07cab7d7a4453666d42ce76670513c272f7fb1f6404c1d27d97c"/>
+      <file name="mods/game_guildmanagement/images/ui/SpaceWindowMiniMap.png" hash="4ff70b9331ec9ca3a37933f1a8ad783021f072b0c5b810ca7d93fdf4bc3b3e08"/>
+      <file name="mods/game_guildmanagement/images/ui/spinbox.png" hash="acd857e065e8842d69227ff3e5db25a732b68185344ff00b8246e80b5aa2d660"/>
+      <file name="mods/game_guildmanagement/images/ui/spinbox_down.png" hash="2b29f222ccb02ede9b260516427852457ee5d76e4e083ed0571ad3393672bac0"/>
+      <file name="mods/game_guildmanagement/images/ui/spinbox_up.png" hash="5a298cb3164ea347360b0fc06207c5b4c02b69a9f6e6de76f799eb5a38700ec9"/>
+      <file name="mods/game_guildmanagement/images/ui/tabbutton_rounded.png" hash="eb055b67bed732ae900752c33d132ff5369a72924b4e88aff12e5a75d3ba6b92"/>
+      <file name="mods/game_guildmanagement/images/ui/tabbutton_rounded.psd" hash="858705bf8d16fb4b241b0287dcbc31c1d4701df9f50f2060fa4a6b1d1748c19e"/>
+      <file name="mods/game_guildmanagement/images/ui/tabbutton_square.png" hash="eb055b67bed732ae900752c33d132ff5369a72924b4e88aff12e5a75d3ba6b92"/>
+      <file name="mods/game_guildmanagement/images/ui/target.png" hash="90d6d44833273b8474c3abbc2ec7baef2a9df7f9e1d521de49af840ed918c548"/>
+      <file name="mods/game_guildmanagement/images/ui/target333.png" hash="b0c15fd2135f01d5c3a939cb5512906019f244653919c0a45c683d7bb4426947"/>
+      <file name="mods/game_guildmanagement/images/ui/target6.png" hash="c09828400cddc4e333481828427740c26289786d1d835ec5d3f561bbc8b45434"/>
+      <file name="mods/game_guildmanagement/images/ui/targetx.png" hash="fb175a1e5f22a4b65ea091e4091111a02adbff9965bc5314dae03a96ead7f269"/>
+      <file name="mods/game_guildmanagement/images/ui/textedit.png" hash="3cafcbb10a66ae1fb2c23a98e2cf17de30c47f509c15c14c97591b0ae53f575f"/>
+      <file name="mods/game_guildmanagement/images/ui/topMenuBackground.png" hash="60b3f88eae139dcbc899e0636b5ca236aed51895214a846b0f740a1198aadcc4"/>
+      <file name="mods/game_guildmanagement/images/ui/upScrollBarButton.png" hash="a9661a6576eae70312c137303280650109188101578c54f3cdaebbc47356a240"/>
+      <file name="mods/game_guildmanagement/images/ui/window.png" hash="059c56a7e4c088bd7cb4201adfe336fe16e5f15e92eb890c4f6bc7afe1954429"/>
+      <file name="mods/game_guildmanagement/images/ui/window_headless.png" hash="760ac85ec6333ae9127f299cfe0479588940c3b22741958d450e24fde3588459"/>
+      <file name="mods/game_guildmanagement/images - Copia/background.png" hash="8725b97f7f8911ea03d8bc082d7b40d4a11742a61bbca8431fdeb0374e38894a"/>
+      <file name="mods/game_guildmanagement/images - Copia/clienticon.png" hash="cd2456be567d5567f7be919a1198a3b68df05464b239d4ba6ed9e2aecddf4abd"/>
+      <file name="mods/game_guildmanagement/images - Copia/loading.png" hash="491ac78766f47439691c056507c677ae8d2e335c6d6df8d38262329aff56875c"/>
+      <file name="mods/game_guildmanagement/images - Copia/bars/health1.png" hash="28dafcc879bde023f24f50b414f71cd1037b864fa4358175c989b4ed41c8e9ed"/>
+      <file name="mods/game_guildmanagement/images - Copia/bars/mana1.png" hash="f14a14a9d86cf70149d549dd401215e459e31a373b0c1fddf7e863f32802a58b"/>
+      <file name="mods/game_guildmanagement/images - Copia/crosshair/default.png" hash="beebfd566a0118b1e17861e3061ff9b6fdd20672694d79861220af075ad03947"/>
+      <file name="mods/game_guildmanagement/images - Copia/crosshair/full.png" hash="49c79e17743fd3c626a287194daeea2331cd3465176bd8cb0eeccf7c45b47c70"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/de.png" hash="e4c3d655c70c0b5c289fa4f09dafa6e6c426da6df64187a46285a770dadda703"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/en.png" hash="97a089dce8587de76e5f196d294e08a7799bec5a319ca20fb9c0729355e38845"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/es.png" hash="c976ea410626bba2e40eb5d64ad915c9d29532db0c5966d7bdce4984a8c48a41"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/pl.png" hash="c220be8e6d7c9dce6283a27a32e6ea9caa4eb37128ceeb4c7eeabd1a89a95568"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/pt.png" hash="d6f3418e76b4ecaf601da8ff2eba8c4d32a86a3427679890b3faf8cf278d0be3"/>
+      <file name="mods/game_guildmanagement/images - Copia/flags/sv.png" hash="ebb9f4d264e04d900621801711fb0be9eaa49a0d456035c671eeca3d5e852849"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbarslot.png" hash="ce3ee3a5f684f8e0d09cf24461aea33d77e3b0f726a2a6d066a62fd37fb0dcbf"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/dangerous.png" hash="4dea7e323cd49515f077926c687a520125d2ec3b44195cffa82d1e723c471178"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/floor.png" hash="bf044d8cb571850970d57fec8776d0d1b5d192ad19374a7f14f3b97813030603"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skull_socket.png" hash="dfcf8bf82a586dfd3404ceb1b411498297fa41dcb96275b4e620aeeb0702416a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/actionbarslot.png" hash="ce3ee3a5f684f8e0d09cf24461aea33d77e3b0f726a2a6d066a62fd37fb0dcbf"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/arrow-disabled.png" hash="d8ae26a0575940fba64846b02212369ddc3d190e9bb7c25655b72ce0e9956204"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/arrow-skip-disabled.png" hash="5f79ab870fe8f922be9751d4b337bc221acef2e104b311e4750c540bb808a1aa"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/arrow-skip.png" hash="f2efe7b50b32718fbf07bb7b926f048f7f51f5bab571cdfdffd6e6f0f82f21bb"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/arrow.png" hash="df73d0e7ea64eba5b8893213bab168ee3a4d36ebd4cf4d2adeea0553a4667b48"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/locked.png" hash="6a248d9bbc016d0a8d5b19152ba758bb43b4d8757341670fee53f9fbfd3c5d03"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/actionbar/unlocked.png" hash="5109516851f3ecd60f6102ae719002301071b111521d72c324918336e218327c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/battle/battle_monsters.png" hash="1f15b64f26b2d36bdee983f23b97fc866131c9b4b2cf7fd8f9bd18652984fb22"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/battle/battle_npcs.png" hash="fae2445aa037b3fa33914c1f2afcdc56e7209d063279344cb99209c5f16ea020"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/battle/battle_party.png" hash="7be81103fcadcdecc31edd24b50b3a7d49b9b17449a38ca0fe088a2fb83b465f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/battle/battle_players.png" hash="5eb0db54e3518c7a0bdbf725df3e45327d63ec3d3fff9e3ff46e718757f3f5ff"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/battle/battle_skulls.png" hash="90be3b16eddc551431e29a18ff3101483db71c8f5f8a3d7ea63b1da85b1e68f6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/circle/left_empty.png" hash="a5ccd2409b8735ad6f845532990a15ad8c524d8e940730384e3ea5c853f664ed"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/circle/left_full.png" hash="c9499cb7f3bbf048e3885fa25a1f234d1b99344bec33365ebf0b62187a78ed40"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/circle/right_empty.png" hash="168733e5b7abb1ce17da985f231bb971877fe8536b99cc088ff1ab7c69388f98"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/circle/right_full.png" hash="b025e9744e0d7e1313dbe5b48d2d2965a8d75352ac3e083ed8468bd886ceee18"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/chasemode.png" hash="f21c70a394471fe0b6847edfd37961ed95c68bc70a96f0f1923f67d6599a9495"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/fightbalanced.png" hash="4b1c63bc1b590da285460700abbaaadc96d7c1f24425530caee500e29aeb2b81"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/fightdefensive.png" hash="d003dc95f8771b6f63816bd31cc00575a3a56a8fbced4d7d1da85c956dc59a57"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/fightoffensive.png" hash="ff27817ed020f7ce2bac3bbef3619477af5472673f10c4f1b4f60eb189228d02"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/mount.png" hash="0bf0acb3c8399b20461b786a333ec28a97ecd83bb785234c374ae0a5956e87b9"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/pvp.png" hash="268bdf19919e5f1f8b61a2dacb9e4056681a07accfc55bce5bb6b5b59a914934"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/redfistmode.png" hash="28b772de43d05e7d6f516890e027bcb849bd92f8a445c9caa7d9946dc8a8d483"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/safefight.png" hash="1113a630ab82814cddd91b09178063e3ea7c049254d7f38090574b653ecc43f0"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/whitedovemode.png" hash="23dade1b0150255273b8aa1fa87fde6fe9f3fc9672d23b0d63ff3a589d4ae9dc"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/whitehandmode.png" hash="70719921094294fdf703928dc6971003cdfbaf86b418e633576383d509aab0a3"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/combatmodes/yellowhandmode.png" hash="08212e05ed2375e2be85b9d6871dd3286590be2a149af345cd0a95dd3c183572"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/channels.png" hash="3b40206af5ff68c31675d4c042a03d234b89bf2f20e148450629b46d1ac174b3"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/clearchannel.png" hash="d39b24ec2c3b1e46bc09fc6f9a53cb268087d6bbff5a5bd47d9a28037e2e18e8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/closechannel.png" hash="ba694f8329bb41542e67956b567898cde88b08a3b744f993f2d2b1a20158bca2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/downarrow.png" hash="959f6f672b8179bb404a3cbf6ecfb9f7e158535c97c6625a9f7bed9dd06bf94e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/ignore.png" hash="93cac09c7e54ee5fc9864f6261ebfeeddc65d3cf1a3ee4a1e522a5ff79b9781a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/leftarrow.png" hash="ef0b265f0b51a8d4656682088d2bc6f1844c63cf595647020d8f71e273b9bbb7"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/rightarrow.png" hash="f2d4cae427286342d75b1eda1a312913fd35f40f812eebd624f458dfa89a1640"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/say.png" hash="5f0eea9c5704414be7c97df2effd1eef14483111ff4712e3b0ec8aabda89cec6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/uparrow.png" hash="aedb9f06f279af0b763dfbad5b285184d985de9560e64686e59f3f73d33367f8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/whisper.png" hash="75c376d5096fade8ad8e0b1a701471e27a029964df6b1c6c001e92f6cff6b33a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/console/yell.png" hash="0a1f405e816773c4b07bf3ba5638d6796c49054d1378efadedde51975ca16094"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/creaturetype/summon_other.png" hash="402b2c6d4829c2e12883c72933d4ab11b23da0aee85e93b4d9f8135b0337ea85"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/creaturetype/summon_own.png" hash="9c638e9ebfe244ba84fd57a7abf386a4688052f8a8f06d47c141cd26230aed1e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/emblems/emblem_blue.png" hash="8df1deb5cb691f576d98781e151c17c752c7f912e1e7f00d141b33d9721b20ed"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/emblems/emblem_green.png" hash="376091bcacd55a4d89982668ec126792f4c0a2fb93c0b3cb9d85e7a75896ca32"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/emblems/emblem_member.png" hash="2217b6d0aa7a58bcdc389853743cf4b1cf61c32141d024ae8884892c7229496c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/emblems/emblem_other.png" hash="c71b86c406cd61a32476ef88ba0ffb818525d249b735e03531d4534ecbb5c840"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/emblems/emblem_red.png" hash="7b1843d3d34c71c0fd5f8c2d490f7f7da6b2a651e7b6b913f135efcf79b36326"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/100percent.png" hash="5dc91dd85642da07ff3cc6691868eacde27b3845108789e138503106b622f0e9"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/clear.png" hash="9791ea0f6ac01ad42bed2cbca9e84ea1508437276035fb2f7948ee464e57bda1"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/imbue_empty.png" hash="e488bf8f1a559b1b109f208644815a3a9147767593da679992779f04693705c4"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/imbue_green.png" hash="51945021f370eade61786084f6dd8c4c8c982448c17f9b8347e61b459e79b82c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/slot.png" hash="b07afe94076bb63c79c4305842d5fe9391d4688672f5679b5e485a65a19525c3"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/slot_disabled.png" hash="649ee0d10f8f32f8fd5e441bc3a527a354182200a44f20fa5aa2bab18a0b192a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/imbuing/slot_inactive.png" hash="db3c612e333f6141bbee9c7ce79a88edb03da761a7ac7ac782bc825c7549fb89"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/cross.png" hash="409a22051bfd63d8f0ea4e930fbc0353a716792272106b745572b08b1b5617db"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag0.png" hash="b7b813dde7bba8c95a270a9fadd7237cb3a72edc7f7967bae1f92109b14ef53f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag1.png" hash="a7ae57b02883cbb65a2c248eac92bdcd0f1d660ca233f849c8d73669b67e0834"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag10.png" hash="d1dad031f6caceab1d44528195378ef73dc0b6248c01705f59f14d1cb655ec33"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag11.png" hash="33932f952b611ae3c178e5144b120f02bfbe1e770f33c271faf9f1903b9bbe0f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag12.png" hash="e3c95c416d4f4bfabc7f6a8b566ff6f1eb54f9c8932a2ca2970c558e23fe4eda"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag13.png" hash="8c75408e7606a33d6de720a3f38477c499809e9becf7b091ad61469824da0e21"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag14.png" hash="5c8f6b8989ca2ec18f622483835c0a6c71bd04ac9cab9548351d3939b7ebfb8d"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag15.png" hash="2173cc2ac655127f1776637206451db316bbcfa38c414d9e343d5322da390e98"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag16.png" hash="ff0965299b4c82c04cf5c900e056ce167f5c259a64065847f456bce665f67dc2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag17.png" hash="5ea91505551debb525a759ce1202bdb4d1203346e735cb5ddc19d42709bc83ff"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag18.png" hash="5eca1b366b742256ba0ee7271b105baadfa827e17515d9229826c224a9ed25a9"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag19.png" hash="dff081853b46618b92eb9e8cb3d1466954e21ecf4290a7dacb3f8955c8574574"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag2.png" hash="6713898ddaf1a3cdf3fcb1f295d05ee7b3f84470f0bad7365879e6db22cd8f36"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag3.png" hash="a28b4ce2e54eb105bbf0b5277b71945b8822f5bb0dc44b6338b30105a2889ffc"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag4.png" hash="9fdad0c92b50e41c921e6d58f430c3a6cb0abcfb49101b160af2f8849e02aaa8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag5.png" hash="920b824ce19e918b1b9288f0116d54eb2a19073136a3a9499829f7b6eb8ff8d3"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag6.png" hash="bba19abc1ccb41f915a5fb75a376a59f87b5d58bb685f64f98814a852aae2534"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag7.png" hash="8c5f2a0ad483f4cb209258e17b6847f567984c1b30c2276b0e7165cfbc78ebbf"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag8.png" hash="024c5e5835385afb4a3590dc2ff87a1e7a0f7779352d0a204c736e6265176da8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flag9.png" hash="5eca1b366b742256ba0ee7271b105baadfa827e17515d9229826c224a9ed25a9"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/flagcheckbox.png" hash="f9094efa00e3355132aca9c7c44c02ab0ef8b76a6a24974d160283ba9b429775"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/floor_down.png" hash="7c24279031bc7846337615b371aad2499d28ed9bd09b9c122120945f5de453ef"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/floor_up.png" hash="0c8e9e0ee4707acbd294dbd58f6689a9facec816a6ec1ebeb27fb03088e4b57a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/zoom_in.png" hash="5320d2a712f2fc86ae7470802d4b519108ba7112298dcac35e843cd6f152f447"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/minimap/zoom_out.png" hash="a1efe9b7af75411ee5cee9a9601d43e55b496e738ab2b0f31f3a5b8f70854975"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/attack.png" hash="9c018ad14ffc08bd41080d3c763d3aee68b38f244ef6fc8d8ceaecf6df013aaf"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/chat.png" hash="6ba98be9c3ba13f25318da81cadde108f5e42a609759c18c4c9280594cdbc1b2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/follow.png" hash="8fcace4f1e188192b38f2740e237a17a8c23f2bb160ea6c1b0b7e1b02d990203"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/keypad.png" hash="9a77a30a8e1f12ae6f660d3b47c0852c93fbe6b648bcff2c1fc54cbae128475f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/keypad_pointer.png" hash="bcf670dbd0b89f41e839a4c510fe57555b29d41f150636df3154e4e5e87f3f85"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/look.png" hash="a2a5411989bff589124aca748208925692fcd2530a4b8cf36e9b855688e00140"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/mobile/use.png" hash="49e2497fb6a6a48205fc211d825a07fd8f0d906afcc63744606e22c964e070b8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/npcicons/icon_chat.png" hash="2fbb957a7bc259ae2a87a3fe4222390169593f68dc2e652be8b3704de0e415e6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/npcicons/icon_quest.png" hash="c5d3d20b0ef358fa066c53fb9affdd40a1672c0a20b5e96308f53303f91916ea"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/npcicons/icon_trade.png" hash="b5f6093f41fecfa51a4eca1cf1205baca67747b57ba24bf9167276cff56eff0b"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/npcicons/icon_tradequest.png" hash="c1ea1b65d421387c977621395907e04cbb89026eed2f09c20d57df764d8f6f2f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bigdamage.png" hash="4a9af80eb77aea195488b41709840512ac543012fd866846de73e610b7366768"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bigdefense.png" hash="563a47bb4059f852318e553fce4824344a3a1f13370079894df03dfcf06b05fc"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_biginactive.png" hash="7908759853de59616e8fa93ab74cf100d68ac25768ff44a4a50e7045dee8ab3e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bigloot.png" hash="1e5c74c7aebfdf527def04bc95d10883f94bc6dae654546f4b8d669a240c4798"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bignobonus.png" hash="46e5e878940046074641302932737e39a5ae5eaa9d6da81fdab74c65a49b647a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bigxp.png" hash="cb2c27c4265cabb37e9a6d83e97ed8709399b1245cccade35fac751d508052cf"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_bonus_reroll.png" hash="1345e5c88c478f8a8e030b8dc941826730bf213d25ac563842b1fd56f94ad769"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_choose.png" hash="982fe8f373ba524e17c2a7b28085c0040805bfc670ea95e6c1179053aefed5cb"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_damage.png" hash="972a09e7aef733ed3abfabc3548f643e073ae1b025db81158b79174147a2cc3d"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_defense.png" hash="2a2f4f7d357061e0f534b18f1dad85b7683de42a269e783227b1524e4f3b2ce0"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_gold.png" hash="d4cfcda54c775b9bb1ab3638ac91b0feb583d1863aa414e62bbe4254716118cc"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_inactive.png" hash="003847c3c79285415d75bf29cec153b288372bddd579381a92e93f39ac803a3d"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_loot.png" hash="9bc79e96778ebfc75986a88ea86f568f71ecf23e181dbdeef8777763a991751f"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_nostar - Copia.png" hash="1f3285d597a7e7f015741542fce59e094de41a80494390d4a3c864771495568c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_nostar.png" hash="1f3285d597a7e7f015741542fce59e094de41a80494390d4a3c864771495568c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_no_bonus.png" hash="2a103fc75942719fcc43740812b472fb692c8e7f8dcdf11d789e3e238bb2f340"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_perm.png" hash="49e37a65e425bbede33d9961479290691ccd89ae52cfd8d599cdeeb47a4bb4fb"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_perm_test.png" hash="94038716c925de26fa2013929801c161befd0c94ef9a1904f4a0f6e569cb4ca7"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_reroll.png" hash="e61eeb82e2bbbd6599970e06d08a9bcea7316225321281f84f21f492667ebdf1"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_reroll_blocked.png" hash="6d1b43b220ef7448100180386831ab967ede20f91d7f16c2c615889fa1930432"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_select.png" hash="14c299f15aa4d326d124b8c11d47f03b4a148c7f65cbc3aa12788a29d9fc6fae"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_select_blocked.png" hash="24f2c479d0cd87f5914bc86d1ff08ac87d7c13a4b743c57104ec9c34fa9598c2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_smallstore.png" hash="ef55bff95a565663dd98e0f8cf20259fdee37ecd560048701dd4cf5b3f8e2b3d"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_star.png" hash="7243fb96915e2634d994a303a7aa206b2607e75e8519df45d206f47443a590fe"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_temp.png" hash="cfafb0e06671ccca6584f9b16474a77dfffaed658226ec051f04bb66313278e3"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_temp_test.png" hash="5f94b43a37b0509ad3d1cfedf49c311bc691dfccf50dfdac82b8ee3a0b59baed"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_wildcard.png" hash="7fd2712ca7b8d08021748c1e832fb9bc217259c5f4ff2fca468824b7194c6634"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/prey/prey_xp.png" hash="486b8f4cd41bef7e0f422674af1445692d94ffdb6e50512eaec0388eeb5dcc2e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_blue.png" hash="1d7533f16d7d4916e95ff8f2b91c74f9c25da561e8e646bc1e345380ddfdacf2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_blue_not_shared.png" hash="d51c5b626c532e4b7269f6f3a1df80cade93eb8f966f0d14a4fe74d5059b4aee"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_blue_shared.png" hash="a0116d9722e49164d91a762b35e77bc6a5f209d1a309942c8cf285278c8e0378"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_blue_white.png" hash="31e254b7ef82fdd8ca6dc55f5de6f40f1044e62ffb83fcd15c16a61aa40bf25e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_gray.png" hash="2a3c79c3a493ec2abbbd1e0cce1d98381ade6e8518c34f6709ba388c00424be6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_yellow.png" hash="3ac73df1f4871cdf3fb33b7524d37d9f9d147f68c2ac125689d32302005cdb5c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_yellow_not_shared.png" hash="a5aa44dea8cacd57e54ad094348c9881ebccfe7cdbec3f8b176cb4113a4224a7"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_yellow_shared.png" hash="47296097f59b4d55941673d11c6f1b2d957322f6df7c008f7801d7f2fd3948a1"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/shields/shield_yellow_white.png" hash="0e331e987dbb075be1879628e510397026ca269117d54f2606880593e463223e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_black.png" hash="1410745aff20a96f3887e46de2e08abb5f8bad3e52f74b67d5520ccc4c388452"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_green.png" hash="443b44b3271a49f006bb11c291f0af847e3ff77f9d1111fc6b4556d240629064"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_orange.png" hash="b4e086b5d7ab6241efd4b0c15b944a6aed987b8fa476edff4262e5eb98b839c6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_red.png" hash="00e3c9a7b05bf79ef5d0f22da9373b28222832b6561a9b57fb45690bf09c7974"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_white.png" hash="1131527f6d6ee2040696bfec9631ddc153f7ad84ca054a8f032cfb7f8cfe4949"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/skulls/skull_yellow.png" hash="ec13aae649b7a312671d088fce1a6712464b05fc764e251086145170ea22bfa6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/ammo-blessed.png" hash="8c28f9bf4f2815e974ed4c4fec776e91294fba48597309922268cbd36e83562c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/ammo.png" hash="d730fb2cd33be91092406e2d2291bd3ac27da19b50fcdf90b65a00cac99ef5fd"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/back-blessed.png" hash="11153852dd9c955fccaf68cd52737734c74e692f2db0987c95b8c23ef057622c"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/back.png" hash="68e37c5ecebeee70c7459ca0dce033a66106b1778ff7ce62aab252d53f7f3488"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/body-blessed.png" hash="1441c5e8d5dce4d91e574e3d7dcac6c408e644db3c0f654fa8db06c5da2b3d3a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/body.png" hash="c51cc9d3e332d9300b706ff1c7bfcd7c87f1c380ef956534a76f9ee1378355e0"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/coins.png" hash="a0494e824593ebfab7214a70320abc347b98b7b9969680c29b7cc6fd6c230a39"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/feet-blessed.png" hash="8eda2787c565876c098075caf722b939dcf43efd4ebe8e81af675aece4a38f8a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/feet.png" hash="8ff524d812a61b52564361806741009974201b03282ac22a8818146dc603ec87"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/finger-blessed.png" hash="530320724d7e0f5dbd7f04e67b1b4a65cc4579395c10538bb0eabf66a474beec"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/finger.png" hash="f688dd179765ba45e51ceef2110cf1a5635694612b1b5a92729697f77bfc0655"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/head-blessed.png" hash="1bcfac3dfbe1660e11c0c1f5037b090fc905d09012f563ecb17ebc2df291aac2"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/head.png" hash="aaeb784fba9096e65ac5cd07151eeb56705071975dffb42af6d2baca3c668d16"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/left-hand-blessed.png" hash="b7b27783f01560e017da07b884f4cddbb243710d60bd893324d2928b7ec28413"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/left-hand.png" hash="0a8a1ae1b8961430ea882087d4237cdafb5b846cbc41c2ae81e48995a05cabd1"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/legs-blessed.png" hash="332a2718c57a257b8081ec42af707eb7eda2eec7bed51e21c7b4cec98b18748b"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/legs.png" hash="53431cb03062b1bd94c72833bf0615dbd79bc2f8f0422e40f5348f57e91267fe"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/neck-blessed.png" hash="3ffb08add2e64a3976a774eca45f228b344088a2aa3e6f6034ca477906348246"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/neck.png" hash="bc85ffcb3e3cc1d1db68e7f17e3046c6b185ab95a7ac85f2285786072e28c0ea"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/purse.png" hash="88e39d1b193d64fd056ac9a7e5dd579b308bd9be5909dea62c623300d1f4fe9a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/right-hand-blessed.png" hash="48fc93d116cb03a7d4a172caf8ac6bc2c967fe741457103d19107fdffad8c8f6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/right-hand.png" hash="12b54a0995d169c68a0ab3cf20e93eddeea46c25dc28a6a10fef1802e11972cc"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/slots/soulcap.png" hash="88788207f43b9e956a3766d647ab0757b9af342ee671ae6533e398153e44bb33"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/spells/cooldowns.png" hash="73ad5f8799a991ddd8cb9f7e9fde27d87af25044f1f2eef784361de803cef7a6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/spells/defaultspells.png" hash="0c7e02ed96dbb8de1e935717b41c97598c5799f06d8e6a785096bd13367ce22b"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/bleeding.png" hash="6d940341ad0e42ed6dd7e9a3aca963ddf2d4f4b13f49d144bb1f9ce33ac7beb6"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/burning.png" hash="4f7c92ccde1d6b8626a132e57691eb7284108cafe50b2fe7592b8def2aece610"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/cursed.png" hash="50f2f4fc8c31b13b8f748fb6f1382d13f259ac730aadb387bfaacd81ad6d0911"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/dazzled.png" hash="3d0e84831497350aaad7f76abd440ef0b29606cd317e1f12c5d68984898eafb8"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/drowning.png" hash="0e88985b100c1bf267270b6d0ce204918f8cf6203d74a94547f57f54205a462a"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/drunk.png" hash="f69dd946551bb377f321f81238a098548da0a6ced8bcdacf614241dc4705ba53"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/electrified.png" hash="927c530ba033ca06c86f67f8ac6baa0f1cf35d0639b0ed90f7436aaa16475c67"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/freezing.png" hash="e9ea215263b96c79df1792a3905d9b645145a80db417d3727cdbfbc75b55ed6d"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/haste.png" hash="cf0f42b036c40e6df4a36ce49a399d8ca9e1f9183fd2eba5efb44c6a36154f40"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/hungry.png" hash="bc84499a862127abffdf250f47eeb9b1f1be667fbd97a131d1fe3a2579496d32"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/logout_block.png" hash="b74538309c04558abef31b0eff6d06ec8ec3237b4483ed082ed8c287b9de47ff"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/magic_shield.png" hash="c5de64a200776f35bde4e0efb7bc4c554a48889d2bf231641711fcaabff86f90"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/poisoned.png" hash="07f5c0ad4e8573c893d12595286d875dc4ea5b55b68f1329ca37724029748d5e"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/protection_zone.png" hash="ebf35261a698e31cef0eee343fcdd8717cc71779dff38d1393f24e7aa497aa15"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/protection_zone_block.png" hash="6dba9b54728501407e6779214267f4ca05951fbe3d8eda2b4350e99ee437ea03"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/slowed.png" hash="f4a33d458cea4992e44bd2b09a223810fd221f49808a7322a6886fd38866e8fd"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/states/strengthened.png" hash="915f8d6dd7c0e2c1043fce268ee33831776abcfb602070ef6523d192d3f00481"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/topbar/boost.png" hash="9c4187ffca5c77acdbed7ccf274f17d0c79c13db5b844b0cc9adec04ea70a6ff"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/topbar/icons.png" hash="8d0cf20ba5372ab29057dc53f931aa2ef4da53f7b04a6fdc9954a6ab650ad539"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/viplist/icons.png" hash="48e95320daf1895fe1e2300d5cb58b725b030612553853f62e51407e30b2ea64"/>
+      <file name="mods/game_guildmanagement/images - Copia/game/viplist/vipcheckbox.png" hash="f9094efa00e3355132aca9c7c44c02ab0ef8b76a6a24974d160283ba9b429775"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/all_skills.png" hash="a382a90e189544f5640e3d8ec6cde616fd6cc57768a931db1547baea55064d3d"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/atk_speed.png" hash="b1a0b7a023b90efc71847fdf4457b4b1b267aa2ff8034a697a6183fe15ffd2c6"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs_bg.png" hash="1d249c0d1edefd4297119af9ba6061f2f42ebcc976cecbc5474456a3d632d399"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/cd_reduction.png" hash="2c651e5afbe2dd34ef23827682a0b2776ee6e659a0d5aeef7c93b29c6633f5bd"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/crit_chance.png" hash="42b6087a3f9161fa98f4ce77eadbf033a22d530274ab12759f65da163c9df603"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/crit_damage.png" hash="b182f7175dc9bb53d50535502d2d0eb446d1948fee5ab812c8bbc029f114a4c7"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/deposit.png" hash="71363f23ffc51d087fcc24803133df55a585279cd4a22ea2cb0bd61a9f88f8ce"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/dmg_monster.png" hash="be5a154072d47d0f952a55c6ea7541e2efda889356b96e2abc909a51d080ea83"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/dmg_player.png" hash="056d2926900ff358cab20c55f846c37fa33565fa1c19608e69187ba0cf5396e4"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/druid.png" hash="45ef13d18569d489b48de529132b6603022098f66d628527322b4b33c64457f7"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/emblems.png" hash="eff4ec32f7fc59ac2d64b25edae5ebb28cd5f77337064a7ad53215462e143204"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/frame-2-magenta.png" hash="961baf57da395defb40cbb8fd7d24fcdc334fd8acab379260f380329192d8057"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/frame-3-red.png" hash="497ac8f4c576ba9e13697f320835fe7e0f458cd75e440321511c8fc113de47b1"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/frame-8-acid.png" hash="2d5c76d485c61a5f39406661b24476a130ead63daddb0ddb1156a955e03089be"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/hp_regen.png" hash="cdc06f363e27c0ba4c804c27e1e767a78be99a8cb233aa46ff0e31445b974f21"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/invite.png" hash="bbc1654b485abf30ec1167d4db21c5f1cd1fc6885caaada75d195621b5dbb4bd"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/joined.png" hash="4f4574887618217949f2d55e2b516ad57d25cb44427263536c9b4346efc7343b"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/kicked.png" hash="bb3d2cc52fd29754c098cb87ba1c995ab62660b9c317cd0d6b4f6e811197ec5c"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/knight.png" hash="b5c3a7045facdb7aacfa6112b5eae0a33c456bd9b821adbcb336ee8b475ad70b"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/left.png" hash="79084aa51fa28474a242e864cf5ec71829476d571c04b6e43306cf44b8dccdbc"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/life_steal.png" hash="5ab45ba4bfd3735353a4b47a90b9a383f2f4ac5c91aff08f2f500479c5422218"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/magic_lvl.png" hash="50082958e9512fc323fa5f389c7a341d94283f2fc0f93d995731c407151061f7"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/mana_reduction.png" hash="bbc8eb93a3c890168b12082a34ed26043a205d57028f890aeeb103cbca55d840"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/mana_steal.png" hash="47401130caaef0a896a7199cb2882484b6935e27ad7d566ab0e3ebb3c8db248a"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/mov_speed.png" hash="f154c6b840015ee775641c3be86f9332a401e42502e5575c667910727c4cc8a2"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/mp_regen.png" hash="70dc75f100b94f5fc8d7f8ee1241258324ae21cb97f58eadac387ddf94221506"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/paladin.png" hash="9086d2a6faeccc7f9bf3b1b8cc15d711952f67bab120ab7e1e31daa98d76cc72"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/panel_small_dark.png" hash="8fa204a8407e3dc918eb1f680fd548819ce7fa6ba8ad8fda50cd044073d4cccc"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/peace.png" hash="cf5b7a761dca0bd10d31b86eb3fd783139f70001091652331b32ce87d09ebbcf"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/prot_ele.png" hash="9a98e1d70793cf50729244e4af16395f80b69805bdea137b4c9d851c3663d424"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/prot_monster.png" hash="ba9adda39df0062e98ccbbeaeeb76c4a97dfe89f98d1789eac6775952c43bc3f"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/prot_phys.png" hash="1cb47ebd11e7832d2369fc2d01b91d7b93cdac496c182c821aa159d954af95d4"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/prot_player.png" hash="d444376ca7faff918b40476f90b09411105dbee15d324be28c38f08d4bec3932"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/sorc.png" hash="3fc788fdb5fcaa17d0e53c6bfc2ac24487a6cc277b930bd69941528e1aded7ef"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/unknown.png" hash="8df67a2e37e0d695b9d979de0dc1a733a02e40a909c2cee53c608beff5276552"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/vs.png" hash="9dfbc270a754f5be04a734bdc2b9cbd72040ea6d324ea7950338db9612d28f17"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/war.png" hash="b4b0b09d33ec69807c75c8cd8ac444977f3764af94419364901028762708bc56"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/defensive/block.png" hash="9e7526373433c80ed108468dcb37c00797a016cf0307c9fdd158780269e77a19"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/defensive/cure.png" hash="f4f891a4684c3e2e8881fae61b883d5c5734936f1f43b1ed9f8490605485099a"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/defensive/defense.png" hash="b48700df9073985c53ff2ae53a62f6070270eea3e7647e554a81e1210a2899e3"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/defensive/health.png" hash="be296d82ce6e4871a0c305dddc96ef8b04a2e9f00ef19d772d655cc618c54b6a"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/atk.png" hash="da3dd122e940653094d33d30d8c7fc806f16b638a57a11abe67fb89817283dcd"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/block.png" hash="021b901847f86c60eba4a4ccd35e3124f6a003afbfc234f4efa884c5ccec8afb"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/crit dmg.png" hash="887205f97207196b3a0a875d7b024e1305b1dd5416e10b5c0fc7bdcfbe105b93"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/critical catch.png" hash="05149e410cc5e9645894587a6811c48cb9f4b332f21b7c812317e380f633921b"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/critical.png" hash="d5bbfc0de92902d907ff9d77340b64f3eb7e429a4169103dac3680335b81185f"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/def.png" hash="97d737980ed7542cdb870158b6771632629308ce4d59d5faec77ddbbd4cc203e"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/dungeon exp.png" hash="e33f32b4be0196f5922da2258153ef666f9537ad6921652f063c6e523f1b95be"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/dungeon reward.png" hash="75e6022ab3663b1eca9ae08d942957c5eddfcfda7e8a1d41f07708f83d15f31e"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/health.png" hash="d5123de18d8aecd96da6e4408bde5392b0a5641f0b6dcba0adfd116322bf1c0b"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/lucky.png" hash="628b1f69fff4d832786efbd7a4e4efbc64e426e89d6efa97838d5e16562fed6b"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/mega charm.png" hash="caa00927c8ec2fcef10c759e5e3fe00f764894c2599a6d3b55894a1db9a41213"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/none.png" hash="de7f7e57f78e5c057915262925e4d149d427caf0c7987acefb5982148a6176b8"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/player speed.png" hash="466c803edf0ed0edd68947fd37648fcb78c432644289ccc95a0bcbb70293ea81"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/pokespeed.png" hash="8c00b70cd019942d08b9ae5eb325792a408ac6da09ffe89e828ab6108c4b3531"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/iconguild/shiny charm.png" hash="9170fcb0c1f9f81527263998a41617263cba1cbd88349adce68e5ef31a62a627"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/offensive/attack.png" hash="57a106a7c394830459a9fd4f18828ae1afa3d9cf3b2bfb6080b510dd045c49a3"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/offensive/critical.png" hash="00547312412647c545169ba1c5ab4f12db1dac883a0684ae3ba06d623183dc72"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/cooldown.png" hash="24958c1801450abe4892338c4437df22dfb75ff0fd7da92093ab633c4a50a3e2"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/lucky.png" hash="d7df7ac1680266f322d5c41316d74191e04b8c306d930a498f5a8ebdb20451ea"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/potion.png" hash="65ef57eaa2523ac4cd4e6f3695cc8899da7c51065cb70827bda9461651f5c5cd"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/regen.png" hash="6d4c2ff77b0f5e05480b23d927d059b54cc56b341a7788f33d9cfdd53d5362fa"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/speed.png" hash="1f8e3fb9409480e642de8325be32299e68839547787820ebf52748422883fc3d"/>
+      <file name="mods/game_guildmanagement/images - Copia/guild_management/buffs/support/stun.png" hash="43195205ae3107efd392c56b4d3a40646ff934e5be8e7e5cf0b2f43c76b1f14a"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/audio.png" hash="9973118cf7a331fac3c1c6a9764d6c54e2469aad7fe2580d27583654dc703779"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/console.png" hash="fb7859081a2446fcd1c05e7f3db2aae491e37e91f02c982d5769abf5a2757df9"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/extras.png" hash="afa2516a4bec08f55a1b537f57ad0381d3ac5cafe70cde272a77c5bd20a49110"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/features.png" hash="1d41ab35272179d136a6b10e62a20556047378f017162540711572396ce416af"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/game.png" hash="b6f8b04699cc2ba783e369eafc51dae619adc96a3b3848e0196a5580964fa419"/>
+      <file name="mods/game_guildmanagement/images - Copia/optionstab/graphics.png" hash="afa2516a4bec08f55a1b537f57ad0381d3ac5cafe70cde272a77c5bd20a49110"/>
+      <file name="mods/game_guildmanagement/images - Copia/shaders/brazil.png" hash="fbdc85e4ab292e0fd00151bf3ab6c78692ea7b4c921d2ba3abd9e1d27c3a8fe0"/>
+      <file name="mods/game_guildmanagement/images - Copia/shaders/gold.png" hash="705947b62a3ea80f1813e7438b7e328f2352376fd53c7fe981fecbd7d7055d12"/>
+      <file name="mods/game_guildmanagement/images - Copia/shaders/rainbow.png" hash="d2d60df57fc9286f2d7b0cd6e3f5293be763bd2dbaaa940bfdde4a47a1258430"/>
+      <file name="mods/game_guildmanagement/images - Copia/shaders/stars.png" hash="604c507d30f1f7863d2be7dbd7d9a5a79a442a504c435603d2f7f1063530588b"/>
+      <file name="mods/game_guildmanagement/images - Copia/shaders/sweden.png" hash="d45cd61ad055f6a6a7fc5a422694e30c24da34e42676e550faf8c67e17ab61f3"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/analyzers.png" hash="77bca85503dd186d2bd6c884692883c82d6277a1c9f53d7ff72b1295266f2771"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/audio.png" hash="ed6e047174d5d65781ecdb3b7d7c28175597b20eb8ff1271c9b639c284614539"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/audio_mute.png" hash="d1947be0aab843420933d10fd953398eb7c8761f73b9bf4b226c60e4137304f7"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/battle.png" hash="5a33df4fdbb14c45dc4fd0801e1e044e175d22f41af5cceacb9b2e2131ec89da"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/bot.png" hash="1dfcd81a4ce8b859a0881cca57c718db75077baa57916d58652adf73ff2921ad"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/buttons.png" hash="395d5c7938699da2870beb913e83112c1f92d6cc5b47d5c753a993feb26185df"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/combatcontrols.png" hash="ce5769e53cde29b91a3b4844a60a8f3cc3e5f5d22f83c85b8c068c39a33a3d6b"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/cooldowns.png" hash="1d65c4bad28c0117a9ab66e35933c57c886a50ae652b966d245f75b08e97cfe3"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/debug.png" hash="948be14579b7324b6b8ea773ca74190a1957c2b470b83e925ab57568fac4bc5c"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/healthinfo.png" hash="2e6734595606745a4ed5df0594877691820e96112fba5bfdb57f20a9e07c4b70"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/hotkeys.png" hash="a552d9cfd8286886bcaa519b798a45c73d002ed8bcd55ca4885f7008421d7b75"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/inventory.png" hash="bae0e190a3f8436463bd384510d22da605b501b67760ef311cea2e2d2dae913e"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/keypad.png" hash="7cf0b2e3d8a3dc98a8a8b0319e252eb325f26b33b96010a63595c0b175dd2ce0"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/login.png" hash="19363b1d0b10b9f3937bae4f30c3594a720c870c9ac88e8216422427edcb088d"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/logout.png" hash="9937a46cb68d18d039cb538cd56b018623d8dda69ad55cf094c60fd74fb86185"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/minimap.png" hash="9ba0f3194ece59bcadf75789f785db020ba4977f9a622b8770286b2a929e993f"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/modulemanager.png" hash="d03595e1affda1ce6e59acb511c08d9d300666dda22b52933122198a08a6eb56"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/motd.png" hash="395d5c7938699da2870beb913e83112c1f92d6cc5b47d5c753a993feb26185df"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/options.png" hash="98c702bc4780d10f194ee483ff5ed4795622a28f71b00975667c21cf473ff47f"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/particles.png" hash="8339f5aba0f3793a611562a0c94057c2bfdf8c6d8810c8c947b766ec820b7622"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/prey.png" hash="c310774645aec92ec704ebee367033401670d8a93fd5b1120095d1fccd4676a4"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/prey_window.png" hash="847054afcf2ff118de60d5c24d1300a87d1d805868675d2c3b12acd0a95ad6fc"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/questlog.png" hash="759ea67dee1b39ab97bb151485f2cdfeaa60d6767c51b17a9597e4204cf31de6"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/quest_tracker.png" hash="4e4a3730f403f16dd8d3ba19802ce7b93b47fad1ce7a1288ab7857fe8f8b81f4"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/shop.png" hash="0d0502e13a05202749f4f1a04b73eccb1bd54c7e2997206e1544658ac761ec58"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/skills.png" hash="ed57aeb3a01962db115d73c112b3b66bf9307aec3ae81344885497fb44be31fc"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/spelllist.png" hash="bb75dd98f037178b023213371324677f89be175f7a38c326ba9edcd079a89ff4"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/terminal.png" hash="7149e5de5e87d94aa2ab3b0aa42170239f98fd0ec3c61053412ea5d5752efa53"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/unjustifiedpoints.png" hash="00e3c9a7b05bf79ef5d0f22da9373b28222832b6561a9b57fb45690bf09c7974"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/viplist.png" hash="cf5e7abb75760a420616c4ff1af9321dfa320b459c539e90219ba0817a34987f"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/zoomin.png" hash="9239cd2adac0dab1a67e32851ee4f4f3a4063f80d9ba47a1475b0b00a3ab97f0"/>
+      <file name="mods/game_guildmanagement/images - Copia/topbuttons/zoomout.png" hash="e1158cedddac07fe6e686e128663d0ca918a8e1caa7b3fc95b124b698335d41a"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/actionbar_background.png" hash="69df4f89e3eb1bd7970415df7923b5690000218a39751d17ced85b49410e8c71"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/android.png" hash="a2db35e847c2752c02a114b92dc2511166980e74d214f6eec36af9f5a1a480be"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/arrow_horizontal.png" hash="859d109937b050341c0072145335c28e4f4f7503bc333ff3aef579c321c13da2"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/arrow_vertical.png" hash="c5d205d9f4d521ff602d23e61d25080dbebdf28dfeb638ba0f08999b25c510e4"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button.png" hash="c1c882ceb93fbda1aea12535c921aa62839f4de6838eb352fae6032eb80b7273"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_popupmenu.png" hash="deb3e42a2d68ec6adfacc54db2f67c090f9b1144dc08e7e72966c2e5e2f0a24a"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_rounded.png" hash="06ac07bbeea0a8d2f33695b1497a43f26d4947d4cc0e77f7eb145850e137c7a4"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_square.png" hash="deb3e42a2d68ec6adfacc54db2f67c090f9b1144dc08e7e72966c2e5e2f0a24a"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_top.png" hash="9790d354c7655b0a36a3c5a9a8df926603c8941c88dead0ef0ac47fcac4d025a"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_topgame.png" hash="7fc9c3f875c6249a4fa4fb1143199143b1d3ab9646f5abdf63bb8fb8c37916f6"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/button_top_blink.png" hash="de67343c3a48ea21daad724cbeb6c7f71d55c696319168d3e6003f51b8cc9f0b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/checkbox.png" hash="4c405aebac16b9a93cb63ff58cdc4c54add06d0b7fa7e37f46a3c929ee7fa060"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/checkbox_round.png" hash="06e07e97d9c6fbdbeba334448f809b2a69b753ae5a37251ca420fe08aa6eed91"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/colorbox.png" hash="4d83ea59ab5f4e9e5abc91103c3af5f8a4abe87c0382b70c5f0889574e4c9ef2"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/combobox.png" hash="6edba26b292ba3dc362abac9dd3e8d0acd6cdeb0f400262a00d4db8265d4386b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/combobox_rounded.png" hash="ca3486203231245bed8771ea43a99cb86623d117936172e1c1e0e3fd0b35acdc"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/combobox_square.png" hash="6edba26b292ba3dc362abac9dd3e8d0acd6cdeb0f400262a00d4db8265d4386b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/continue_with_logpass.png" hash="f42454007c9013570c396d7699205da41b8467f05ba097ae9c18b55f0752ed0b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/dark_background.png" hash="56449641478f206618e342c30e79a17a6fb3a5c506e6a3f1a77bf4c79ce993a4"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/discord.png" hash="b8bb7026cb4d1db0701b8d5bf2ea8ddd25ab2fd657547730a3054d115bb50820"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/graph_background.png" hash="c67392445a1076a5ce12ef496536fc99daa74ee16148fc9efbcc17096f6554d9"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/icon_add.png" hash="70d25b41730a71bef58dcf9b9643836ce67c49e82491ec9d2bae477168df7062"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/ios.png" hash="aa0d2ba78a51b66ab33d30bb67193e9590c6346d41be36967eff0670b1a4dfba"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/item-blessed.png" hash="704f0bb219532148d99cdc64ee83ecc9943af4f87227607cb8e99a48a10782fe"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/item.png" hash="717467fbea5e76cc7a4b046df8085e218d156af810e968546f69e94ab88c4559"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/menubox.png" hash="aa7ea844b51e92747f8b6c9a3161abd79cbea53015f4f438788aca595345d1cd"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/minipanel.png" hash="66becf050b9045e6f7a455870785983d72a0efb03c1f12192e2e6c991ba268c5"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/miniwindow.png" hash="399743d246c2215fb8f65020da9a1abb8acee03c482453e4cff2f9eceda7e63d"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/miniwindow_buttons.png" hash="20ee26f94c1fdca97d22794909d5f6d815f1b78602212faa54853611d32f128b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/otcicon.rc" hash="fec7a6b6a2803d097c0d90848b447b3f6feb68bbdd9b8a6b820d7722c6e4feef"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_bottom.png" hash="f747c1c0ee07e1820c7c8a2872cea8d88b06100704fd135cd8c9aedb5283e390"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_bottom2.png" hash="c91e21fff5de73d080453d15a8d755c90524a86735a045ebb38c6621aa978f99"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_container.png" hash="cb3e42cabfa56751e6c85f1fc6a39cfb21b3538bd83fbff4a7fe3b33f5a04d37"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_content.png" hash="8c9a8e3cc23ce6c362fff4df21900cb8ae03b7b07950e4f666a7975194f93b92"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_flat.png" hash="5c8907abd7def82a7c31ed52e862d985b1f3142a9ac745a3d857d92365fe158b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_lightflat.png" hash="5c8907abd7def82a7c31ed52e862d985b1f3142a9ac745a3d857d92365fe158b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_map.png" hash="f747c1c0ee07e1820c7c8a2872cea8d88b06100704fd135cd8c9aedb5283e390"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_side.png" hash="f747c1c0ee07e1820c7c8a2872cea8d88b06100704fd135cd8c9aedb5283e390"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/panel_top.png" hash="eb34d9de4366198b196934dcb3f9bea288640e9b077f66356666afcd718aec83"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/progressbar.png" hash="a85722bc51e6eefbd8d19dece618e163bfc96c20e5ce5803d5e2ec0f0fd02dd4"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/qauth.png" hash="b2a509b8ff776217ed5f05701801b99efa1fd0a7619c4f7cc2c34fbaa385d3a7"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_blue.png" hash="47a39d280ce4bc6d9f7b39eaed1dc671f4044118082c1f9f6cd5266ad5424c72"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_frames.png" hash="6e71bfc1bc9fa1f111334f498e901895822df076c05cc663ca570a6c3cb25903"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_gold.png" hash="7b61e8dac45ba559ea07cb294dfe2aec3c746c1ab1b12fad547147cfd4dd577b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_green.png" hash="c3a41ced48d63b6410cee30d8c4da5a0f864a63689746f271f25205d7b0210cd"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_purple.png" hash="505cb4f03dd05d050af34e71e27a6a527fd6859b992e83bbed886f5b56b194de"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rarity_white.png" hash="eac34cf3e559bf75e76625ab576767cf2bffacc7d7a36c266815dc541cd60630"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/rotate_button.png" hash="042165f232e0d257912bf305471d4a6abb0897dae37e9f482e7552c8f5982056"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/scrollbar.png" hash="11641c5b5ced16eb9393adca004a8ce41936ea0460205f46e1269f8b7b8b483b"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/separator_horizontal.png" hash="1f35ad62ded0ee9d11e2694c7c33264788937019eccb1bab8e5b07d2b13ce3a7"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/separator_vertical.png" hash="9fcec97e323ec9d2c549abdd88792ec4ad8fef1526273536806c718c11158ec0"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/spinbox.png" hash="0ba0acb33f86b215067ff0776b843cf6d95ab0f7ff91f5a87d9ad3ac112be14e"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/spinbox_down.png" hash="315e71da995d0c794b7a197f3306228ed2f8ee5b7d1450363074c77057dac1bf"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/spinbox_up.png" hash="7d1f0bcf636674f47d24623073c8e2c52429c2df2ebde92b7cadf252a028835e"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/tabbutton_rounded.png" hash="06ac07bbeea0a8d2f33695b1497a43f26d4947d4cc0e77f7eb145850e137c7a4"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/tabbutton_square.png" hash="0a1a2f13909a31c78d96a1342dacb286101562ef2fef1c808c5efbcfa1910b97"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/textedit.png" hash="3cafcbb10a66ae1fb2c23a98e2cf17de30c47f509c15c14c97591b0ae53f575f"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/window.png" hash="9c762be02a49431503caeb4d66bb6212e1312fba0142b81c467eb28f5c4eb2ca"/>
+      <file name="mods/game_guildmanagement/images - Copia/ui/window_headless.png" hash="5989d5632aa6e22442a7aedda3349b414270f7810197cd89db86cf19e1154e0e"/>
       <file name="modules/bank/bank.lua" hash="5ae7579f034b105d0573738224b6a5f9d549da27b7ad51a780f7b0961a3288c6"/>
       <file name="modules/bank/bank.otmod" hash="75536a4e48b0aa0eb35dd122e4757a5ce49f45e5dd32377958eb9e571ce2a735"/>
       <file name="modules/bank/bank.otui" hash="a19e9fa8b2db746c3ea7178d50f4567d4c75abc87380570e564d6010911d6c84"/>
@@ -10650,7 +11450,482 @@
       <file name="modules/updater/updater.lua" hash="ad8e28570d39450368fa0f49dc4884ca0da304c6419e069a03a7ad460020c476"/>
       <file name="modules/updater/updater.otmod" hash="89937a3dd5d87090f7c8ef416c9d4a5992231f0bad323108f4ac05041a59fc32"/>
       <file name="modules/updater/updater.otui" hash="afaa2c5d59519a391330ffcc5feb3d669ca87588ad70ddc22eec8ba597ab27c7"/>
-      <file name="otclient_dx.exe" hash="61245dde04982dbc6d11061cba2047974c9dce8708ea6d056296e86e331e20d8"/>
-      <file name="otclient_gl.exe" hash="0c3eb397453c018fa16482861d07656679e4c07dba9e2b7771a20fecbbf0414d"/>
+      <file name="src/main.cpp" hash="642c2a4724ba23188ee6880e31e68d136c70911d7ca302b9848d67e97a2b4bb8"/>
+      <file name="src/otcicon.ico" hash="e6f3017c611584e8b7c7cf91c40cec7bd06ea3ca347f633d521af1304f7a0191"/>
+      <file name="src/otcicon.rc" hash="fec7a6b6a2803d097c0d90848b447b3f6feb68bbdd9b8a6b820d7722c6e4feef"/>
+      <file name="src/otclient.rc" hash="340f0fea3854ff56f17b2574a08b6ac1da82358382b5ba44221de3e068ed6ec9"/>
+      <file name="src/resource.h" hash="dfe7c9a931d500eead4b203712b2821765476df5937d244abd576f25f2045ec2"/>
+      <file name="src/android/android_native_app_glue.cpp" hash="0eab273e790fba7ea61f84bf62e1bdad76f5ee6bdf1918cc4405f8a633c9abf9"/>
+      <file name="src/android/android_native_app_glue.h" hash="254fe4ee3bd849696012f6653e69b0e1e1bc8e074cd5a51f87e172d09886c770"/>
+      <file name="src/android/dependencies.cpp" hash="c5eb87620ce96f5e862cee92ee40e3b5bd9bc02a70cc143f6684eb37d78b1a0d"/>
+      <file name="src/android/pch.h" hash="d7a4b7e85b51954ecb5454fe617880c9c2ee11ef89d3cabf224b2e3beb596877"/>
+      <file name="src/client/animatedtext.cpp" hash="0a98958a0660b9bfd904165cea19c3286461bd17ef1938fdbaf32cbddad65ca7"/>
+      <file name="src/client/animatedtext.h" hash="13f1618f3383fcf398783fd957ac18ffb3193c0c5080f5f2132018c497248dfe"/>
+      <file name="src/client/animator.cpp" hash="3cfbad77edce69e25d138e9ab1cc98c478283410f76927705372c75ca2b4780f"/>
+      <file name="src/client/animator.h" hash="5cc10552caa6714f64eaeb99480bb0cd336b6649eb01b12be103b3d8baec6a96"/>
+      <file name="src/client/client.cpp" hash="f1f303ac0e7dbb4412b114ecbd97d3ab18721c66114626602c452b7c99e9ef58"/>
+      <file name="src/client/client.h" hash="66fc00efdd7bac9b0c047097f9d515c79f9e3f625fc69a7f7437aad1441c2577"/>
+      <file name="src/client/CMakeLists.txt" hash="4ae427da018d8a09636afc15fbd47683cda02ac4387863644be3916de5e72b69"/>
+      <file name="src/client/const.h" hash="b31441b5e4328d86264bd1ad4c7cac3f8c443b6932b0ac8cac81044e66c1738c"/>
+      <file name="src/client/container.cpp" hash="cc6ed1a7d7ded8038784c849dbee73447ab1967fb4b8c868593fc4ba8c295c31"/>
+      <file name="src/client/container.h" hash="869f1ab6fe25fe49b0fe077f0a8b0f5ea61506e903b7cda55cf6d397332811be"/>
+      <file name="src/client/creature.cpp" hash="6d04513098d9555f641be4cbadaccedacf2f037cb8447ddd443d87c0d92a3acd"/>
+      <file name="src/client/creature.cpp.bak" hash="29726d1a86e8fb0a9dd3698ca5ee395cecccfc265778a2c4d6d8f68b4931a7b7"/>
+      <file name="src/client/creature.h" hash="a92fe598fed2709451c0057fc6a413c43a93897b29612576ebe0075d530788d9"/>
+      <file name="src/client/creatures.cpp" hash="6abeb05e51c151000ae293a97bd8644cba315b5fad3118b56d97105076c8f822"/>
+      <file name="src/client/creatures.h" hash="e2430eb911c9c7f42442f5e94871aca8f078588dd950b1f5a2cc9dc627b239ff"/>
+      <file name="src/client/declarations.h" hash="20a56620b8cf2800b0b25eee0b3107d73a1dfa205a5c6d3673cb23c26e6f49ff"/>
+      <file name="src/client/effect.cpp" hash="03eee301bcf516d2f8465fe4e5513c6de99c27e8d3ee609d00a14680e243cd5a"/>
+      <file name="src/client/effect.h" hash="72fe346f142125ff139ab69639a1d71eb1b2d4b4c90c87b0ce40c86d6e8c25ab"/>
+      <file name="src/client/game.cpp" hash="9d5df2baa4f91f5bcaf09672ef84334d388a75fcce713d54a02d3911422375d4"/>
+      <file name="src/client/game.h" hash="bcd069390e0cbd6b8d466430a922a36238ecf6f313d7950a8c6713d5708246a6"/>
+      <file name="src/client/global.h" hash="33d01967249d04f920b07223e50be688fc1e216e70b994c1824594aae6d2d3d8"/>
+      <file name="src/client/healthbars.cpp" hash="61c79c3df3cf601e9a3b2954c7618d3885b61c74f817b838f404e013e0e5db95"/>
+      <file name="src/client/healthbars.h" hash="8f26298a89d34f36b93bb49386dd6dae546a5fa0150fdd877eb8cda981e15e7a"/>
+      <file name="src/client/houses.cpp" hash="cb4351528651b95154c5ed2cd99f725323abfd88ebcde0d3a6eecfaf997cd11d"/>
+      <file name="src/client/houses.h" hash="2b2217ff186991b95eca3c41087ca213185d2ddc0cae25a9e68257ac4599ad36"/>
+      <file name="src/client/item.cpp" hash="799752255b960680f477afd33e37f50eb27b37ee621b51ff6b74d43f0b0b705b"/>
+      <file name="src/client/item.h" hash="057764be57969a243aa474e0f387fed5677eb4cf78007eb194a7258a743b5b11"/>
+      <file name="src/client/itemtype.cpp" hash="d0db55f43e8233a1bec26eb38ed055dd15a71761704c0e2ee00285c6c6fbfc8e"/>
+      <file name="src/client/itemtype.h" hash="50ac2c687ba09f0e974aa6a26b92695dc31d5e47a2bf5abd08f2614809369aa7"/>
+      <file name="src/client/lightview.cpp" hash="9be2ecd40bd8b9b330d5510bee21afdbcc0ffb3e29ca9299ae613c61bf3a2a12"/>
+      <file name="src/client/lightview.h" hash="f9fe0b4950566a7397320bce93b3989b5503d966bec50914ba2521f3b88094c8"/>
+      <file name="src/client/localplayer.cpp" hash="555a6c6e48a3781652733d5bb6ebf64d6412228de002218130929f8c1c91dd8c"/>
+      <file name="src/client/localplayer.h" hash="844a9d460f0e9fe1c3a75601692cda9f36d1fbbdf4da2a8a030eebda2d405a55"/>
+      <file name="src/client/luafunctions_client.cpp" hash="da386f7baa9000792c5c4e619f594e6ecf7060172c730a5a8794c5264bb5417d"/>
+      <file name="src/client/luavaluecasts_client.cpp" hash="635fd2ce300cd3343df21b636d65fd7abd4c36d7353df41545b707389affd6d2"/>
+      <file name="src/client/luavaluecasts_client.h" hash="8cdd7b7cc9005845578e1ecbca1c8c629820dcfbd1befcf243d2033def57054b"/>
+      <file name="src/client/map.cpp" hash="6d68eb7a6b20301a38345da496b1261c94fbe1c0927e3de34c5c94b4cb51074d"/>
+      <file name="src/client/map.h" hash="6016ed3198c5ba109b9c1c45866e9bc132b44ac65f70a0b268f07cde43386b18"/>
+      <file name="src/client/mapio.cpp" hash="bca225d3d33419a1b08f81bf9aeb2842268c85b2c0a59b05c686089550a35527"/>
+      <file name="src/client/mapview.cpp" hash="7b93936fa1065eab82b0b910596b3d9bfd2fd90ad5bb36d3b5ea0d78880aed15"/>
+      <file name="src/client/mapview.h" hash="940e559968d10f1a95300e70530255afa2f3e7db9d1de14e7a4ac19db2095d9a"/>
+      <file name="src/client/minimap.cpp" hash="dda1b3dce936b269c3d356c7c889f4ec5ab9732c569bdeb6a47b2ad0c36e9895"/>
+      <file name="src/client/minimap.h" hash="f78e0dd4b33a0ca58d6268a1b58c992a21f9d941b1d435c298239fb17a120a2a"/>
+      <file name="src/client/missile.cpp" hash="e7a4f527298ddd1e58725a490871a483b0a1bf88757af688837286eafd269c3b"/>
+      <file name="src/client/missile.h" hash="34a04a23c1ddba687c35f88942171d3032fa961df0b5d9c9f66ff8ff0a033dca"/>
+      <file name="src/client/outfit.cpp" hash="c41403bec5d834815f86d1e676ac4c72ac4924a7b04ac50c2930c759a598e7be"/>
+      <file name="src/client/outfit.h" hash="5138d6fa990d194f6a8299d8cf0a11939d2ed3744777729098fc9fcc4f6b09fd"/>
+      <file name="src/client/player.cpp" hash="bd478186d0f9c0b20464049df766e7b728ea75252e938c3c421eb8cec6328c50"/>
+      <file name="src/client/player.h" hash="fe233d85f4c723c8f030082153b56f3c55b2a92f23c444c76acb8c57dfdd2c2e"/>
+      <file name="src/client/position.h" hash="9de290b48f73960c6dc0b09b2a99000681270cd322f24b38a2c378f22eda5f62"/>
+      <file name="src/client/protocolcodes.cpp" hash="ecd305832b2f729a5446dfc2a2370878902440805d07c1262c6fb9f4d740f704"/>
+      <file name="src/client/protocolcodes.h" hash="1e3cad17890910d2a755732d4f4322e0c381fb5071ec2331d426f5534cabcaed"/>
+      <file name="src/client/protocolgame.cpp" hash="0bcd2a2a5d7df50a646b06a6fc3936e524ac4694e169bc8d2f7be30e40364d7c"/>
+      <file name="src/client/protocolgame.h" hash="24fc781cbc5bf9b19170cb530f4e7188677c906817255da0be7855cbaa4e9b53"/>
+      <file name="src/client/protocolgameparse.cpp" hash="d2e75665ea3e7e46396272c77db5f13fa6247b351fe9f11719030db73e68ea38"/>
+      <file name="src/client/protocolgamesend.cpp" hash="84d9d20de6a05cd359ce8ea619685311d22605984a6d09fa89dbf50762d44689"/>
+      <file name="src/client/spritemanager.cpp" hash="a7a9bb722a199605c39fea78fce0c5289cb54d9ada2e34f91842f43a783405e3"/>
+      <file name="src/client/spritemanager.h" hash="335fcd92258f9dd9b80e1e82c77b144660b627b119c0c01e8a5e024f684b19a3"/>
+      <file name="src/client/spritemanager.h.bak" hash="61520c5e848367451e5fa66e5ac2d988b3159eb4f8b2628f904fc2a3dbcd855a"/>
+      <file name="src/client/statictext.cpp" hash="0a5f2afdc46f139b242d6769f3e05e81104ea805357b2dd979680abd2884c4e8"/>
+      <file name="src/client/statictext.h" hash="56a29aef80fd57ee2cec975cd51f686dcca7bea079014b73847641c63194f43a"/>
+      <file name="src/client/thing.cpp" hash="192cc81432d786a3468dec0ac6cbe243901ee9cfff0ab775097755f60b5aacd2"/>
+      <file name="src/client/thing.h" hash="71803cb0175c7aced64928828d57d7ffe91f492851be3fef859b424330343cb1"/>
+      <file name="src/client/thingstype.h" hash="ac963f2950025a7c0eff224e8f28a56e3754b658356278011283a1ce9e4c844c"/>
+      <file name="src/client/thingtype.cpp" hash="8c9a7d002ac3feba421658b6a720410c93fc9abbd700bfc7d66658dffb019c8d"/>
+      <file name="src/client/thingtype.cpp.bak" hash="cd813ad24fa46c862f39ee7736ad620bb35c4e1b99db4b3852c0ba3e1d6f3b31"/>
+      <file name="src/client/thingtype.h" hash="1c9d7606feead2694cf9189826597769e4bbc93f97a8e73053a81b427eed82cb"/>
+      <file name="src/client/thingtype.h.bak" hash="8b5b29f1653d94c9a99917aabe060e2e28d7b0c410be1610b6d8773e8481ed9a"/>
+      <file name="src/client/thingtypemanager.cpp" hash="d7142d4a66e42fd9513a38d62253859718ed141eb780de2b251b7d68360ce447"/>
+      <file name="src/client/thingtypemanager.h" hash="6b02a9995202a6b1223d834f7072384ee8e6c83b6323e94bd669ab4411e9d154"/>
+      <file name="src/client/tile.cpp" hash="c21d5179f4f08f5c47d82f759eedee475a0345525c566071b501e5a6b086db22"/>
+      <file name="src/client/tile.cpp.bak" hash="e102b355708df8cd15ab527ca096bda6018becd7390427b0d359f41a26aa7946"/>
+      <file name="src/client/tile.cpp.bak.bak" hash="8c9f8ec94a82cff0909a3cd8964cf1f74830db588506154b94c3db77028aa79c"/>
+      <file name="src/client/tile.h" hash="abf3487283ef94f30ebc713c3d517a12ed2a265e3705743e2b945d1c4276b34d"/>
+      <file name="src/client/towns.cpp" hash="0628b481b66a82fab9229dc7ee79dd2b4362aa2e1ce02c4acde8f38f567865cb"/>
+      <file name="src/client/towns.h" hash="61ae772a59d3297bdf9be81e625fa550aa1305bffb9137a86d8608185645182d"/>
+      <file name="src/client/uicreature.cpp" hash="05b80dafd82d46bcfd068928214fa0ab069be4a15718b3d11ad04caf80afb657"/>
+      <file name="src/client/uicreature.h" hash="63d617632aaab71cf5ce4494613d944d54b2aa7dda609ae36ed5c1fc4d1b80ac"/>
+      <file name="src/client/uieffect.cpp" hash="061d74874fab6c4265b03e2a616cb70aeaed9d567b3109255a98dd6b0d2a6182"/>
+      <file name="src/client/uieffect.h" hash="c2b7901e73f84ec02aa736b4d53922ed5050519d8b7b004494d167f2325fecee"/>
+      <file name="src/client/uigraph.cpp" hash="af9c2790d343d355ea2a309e22c302f69e34e1a224b9209101fed13782c1bc7a"/>
+      <file name="src/client/uigraph.h" hash="908ab227e20ae10419bd95d71f83b97d85e816f671ef724b54341dd6f61342ad"/>
+      <file name="src/client/uiitem.cpp" hash="d9d3ea6f6d25ea0fa955351775bf9843c64856fc459754a6b4ba591eec8e5c5d"/>
+      <file name="src/client/uiitem.cpp.bak" hash="46d2d6376914346e37a9fbbadba0ca29e78660f6951b3fb27b97ca78949dcf0a"/>
+      <file name="src/client/uiitem.h" hash="7747d1b523e63de4e4e5dd6c655b47764a39636efdef09eddc1e0c6a5e8553f2"/>
+      <file name="src/client/uimap.cpp" hash="6e3560d17585de076afa2c5c911b57726d7f9b63f9361cbe3434ed03d99dd8ae"/>
+      <file name="src/client/uimap.h" hash="7f12960ce617f5d3c0642ceb80c5f5e0ba577f33da7fc0c9ad24af292f3f32ca"/>
+      <file name="src/client/uimapanchorlayout.cpp" hash="23f99b17c014a623204096f2ffa0e2102a9b3965a642347de112b73786bab912"/>
+      <file name="src/client/uimapanchorlayout.h" hash="82b40977b12edfc5dbf8ce860c925456e991ce01f47d84fb723321ce91fd9cba"/>
+      <file name="src/client/uiminimap.cpp" hash="7b3d16936f8cd1a9661f46c43da69187fecf8d79e8261ac8c4b1cdae27ff16af"/>
+      <file name="src/client/uiminimap.h" hash="afcf930693a181dc3553348bfe70c8f38c004355d42728a0f62592147f2bd1e2"/>
+      <file name="src/client/uiprogressrect.cpp" hash="136387871ffb6e7922658c3f5fe9dd7ab43fbda93b125d771d2b45c7597308d4"/>
+      <file name="src/client/uiprogressrect.h" hash="55fd884520d28203e87c7e7c642b893e99eb339ba1aaba33560ce1d6d0cb99df"/>
+      <file name="src/client/uisprite.cpp" hash="7463367e178f15ba7ae26374893a9684ff3e2f58ec7afd148f9a12c32147f6de"/>
+      <file name="src/client/uisprite.h" hash="d023336e612995560ba126b66e33c5d22ac2f1d5f5780b992c923736ce87c5eb"/>
+      <file name="src/client/walkmatrix.h" hash="f5672af729a55639a35fc621e966c10e60f4bc3317bd03953939a69a2ce19218"/>
+      <file name="src/framework/CMakeLists.txt" hash="331a4f4735ac23ebf9513c06877d1ba97bede768384698549fc8cabcce977782"/>
+      <file name="src/framework/const.h" hash="e4e1b80955e2a842b21a389e37e8467b9fb16b726e00a74f8da1a296df219d3c"/>
+      <file name="src/framework/global.h" hash="c159b738d1f99f23d08b33d020a469e5ef7e3e9950d7a1b8f477643ad5fff184"/>
+      <file name="src/framework/luafunctions.cpp" hash="b47576d96e084b32fb3fa64a6f4ef112edbf3375a0eeb3d40ba50467c7f7c18e"/>
+      <file name="src/framework/luafunctions.cpp.bak" hash="19e2b708cc3b18a93fae74e4e40e9875f91a68cb2e902ba5547898393f84640f"/>
+      <file name="src/framework/pch.h" hash="cddffbe58c8041d0ff785184a7c9a5b5ad91d900b356bd0ca1d44989080eb0d3"/>
+      <file name="src/framework/cmake/cotire.cmake" hash="be3521b0f69fe935fe594b1815be19a660c9634e3b01a3bf7f0d5ea66ef55791"/>
+      <file name="src/framework/cmake/FindBoost.cmake" hash="0f9b4d78d14ff1a690752c2f2fa5321379a1384b5ea68e1d52c18655388d51f1"/>
+      <file name="src/framework/cmake/FindDirectX.cmake" hash="97c733e3e0be4d1358199b8343e591247045e85f61b753ebe2f8f37fcccc4d35"/>
+      <file name="src/framework/cmake/FindEGL.cmake" hash="e68a13b59ac953b075548b11a1cabfa1af8c03537c3a87289c2e3a05cda935a5"/>
+      <file name="src/framework/cmake/FindGLEW.cmake" hash="ab0eba157830456d728054e853e52da03d40a990b773689f35b917e1f3036f8c"/>
+      <file name="src/framework/cmake/FindGMP.cmake" hash="50cb7c8554d52b14e6ab26bffec718655ed1740a699f66929aea61d8a373121b"/>
+      <file name="src/framework/cmake/FindICU.cmake" hash="288fe9abae8803f24e4ff5e9c3051746f7f750da915f48cd72d2d5adb8615ae4"/>
+      <file name="src/framework/cmake/FindLibZip.cmake" hash="605d717ed8aedef497b1c63bb3789067262695ffc4f4a2f74113b2ef595d9493"/>
+      <file name="src/framework/cmake/FindLua.cmake" hash="8dee7308264015cdf2a9ff537f00473972c07fb1c3b1f98e0d7eeceebb428fac"/>
+      <file name="src/framework/cmake/FindLuaJIT.cmake" hash="e2d0308224ffcee56afe647001eb3203cbc6dd2345d9752f80de4b1a79927c12"/>
+      <file name="src/framework/cmake/FindMySQL.cmake" hash="760ce130c75b8bc836b69aab3ec34a76df9d77959b5a0c5ab23f8407f484495e"/>
+      <file name="src/framework/cmake/FindOgg.cmake" hash="93d5797837a2d9fde72ee224d5344eeee557c36203c7ab0d1d4f9953c80aa394"/>
+      <file name="src/framework/cmake/FindOpenAL.cmake" hash="28349e173f97360c59c4692427eef8ce8048904e4892a7ab0a7e1f0300dec465"/>
+      <file name="src/framework/cmake/FindOpenGLES1.cmake" hash="3a86bc6398061d0eb3ae3aa83247cb6dfc198fcde46be367e458d5bc0a7c445d"/>
+      <file name="src/framework/cmake/FindOpenGLES2.cmake" hash="c83b40a9838fba91bf53efc2bf4e8091d243213798b205701d806e92d48850bb"/>
+      <file name="src/framework/cmake/FindOpenSSL.cmake" hash="7425ae5888e4ce4b43142702922b7852502b98753fd23bbbc4c6658283581894"/>
+      <file name="src/framework/cmake/FindPhysFS.cmake" hash="d73f5b78ec336e7f741b5fc9238d41ad0de1b06708f94a3180bdb2ef5f1f005d"/>
+      <file name="src/framework/cmake/FindPkgMacros.cmake" hash="2424f6c3a45c2dc0fc6db111cd613730add504286c3bfa1f865041b1c21a0bd0"/>
+      <file name="src/framework/cmake/FindVorbis.cmake" hash="6101251db7ef648e1da072c1c2e067ff3989d2f8feab7935942fb2d8208a229c"/>
+      <file name="src/framework/cmake/FindVorbisFile.cmake" hash="54d23ce81fe87bc1394797a0b0df9ba6ee332e535f37c888cc39e0b38f87eba7"/>
+      <file name="src/framework/cmake/FindZLIB.cmake" hash="2bbcda2486f5722299da1ee58b8c72c1be66edff10e94d963ab76d39a172c4d0"/>
+      <file name="src/framework/cmake/i486-mingw32_toolchain.cmake" hash="e5f9cfeae26b7a08fdfb3b379a4ced03fc5cbfdfbccd80b29d1d8751539a072d"/>
+      <file name="src/framework/cmake/i586-mingw32msvc_toolchain.cmake" hash="27fd506a34f8afd76ff6f2ff0863969ac8ea37a26f0480c3ca923eb2833599d6"/>
+      <file name="src/framework/cmake/i686-w64-mingw32_toolchain.cmake" hash="a883c00ee06ea6704af98242277c2cf65d7041766a1aa165f81bed916d6d8baa"/>
+      <file name="src/framework/core/adaptiverenderer.cpp" hash="6f3d206f79f74258e6cf4b716e1b70d399f56bcd46758730ea8e8229dd317923"/>
+      <file name="src/framework/core/adaptiverenderer.h" hash="b8c8535047f05b60f1f185f62093e8d5815959d5b4848f19f504bd8b81fec3cb"/>
+      <file name="src/framework/core/application.cpp" hash="5fddf772210e81d7d492bccf706112df481283b562843bb14660140a8c37faa7"/>
+      <file name="src/framework/core/application.h" hash="dd9cdd2c2623bdfae3529def9f3b56982420dada33f663887c155aca0c01c472"/>
+      <file name="src/framework/core/asyncdispatcher.cpp" hash="c6633470e90229ebbf561e3b7deab194b2a038e8d7c3a4334f4270955a59576a"/>
+      <file name="src/framework/core/asyncdispatcher.h" hash="607ac7652594d39ac4812f88cc7aafda6265fcfc8823fb4da048b30f838fe040"/>
+      <file name="src/framework/core/binarytree.cpp" hash="df9b003a4eae61d515cd823c12f5e9ca5fe76b9a997123b0b797694cb0cf4e7f"/>
+      <file name="src/framework/core/binarytree.h" hash="db1acc1b8fc0cd3b8173b292fb793ecf011f938e57d4be4aeb387aac495d9db1"/>
+      <file name="src/framework/core/clock.cpp" hash="3fa3f277797663b9bbf94e75b851848e9588a807799dcecc8134a3bd6aeba8f0"/>
+      <file name="src/framework/core/clock.h" hash="81cf8e7139879edd4b76d0e74971b0866195d998356519840e9df09125b9cd5d"/>
+      <file name="src/framework/core/config.cpp" hash="0df0461e281b71cbf1a4e4e9dba2069966ae701c14a10a57e6cfea1965f1133e"/>
+      <file name="src/framework/core/config.h" hash="8959017ff3f779924d428eb7c25a84dce53e55352739c29e0408dbe3811a1526"/>
+      <file name="src/framework/core/configmanager.cpp" hash="c0813e7f189350404cbe8e64c2f735e5fd5b5b318a4a3ef63d8cc55657f0d514"/>
+      <file name="src/framework/core/configmanager.h" hash="111ef91b31d6c7f67db90b18d3066faa0ade686ff42308b69369e0ad55dd635a"/>
+      <file name="src/framework/core/consoleapplication.cpp" hash="6d64bc1d051cd4e3fb95dbb79cd58c1f0fd4724ff2c81793c23e3cdfb407213d"/>
+      <file name="src/framework/core/consoleapplication.h" hash="261d11cdeaf963dfa405d69530736c072d5fa2d1b2c11ed76dc110bddf8bbb45"/>
+      <file name="src/framework/core/declarations.h" hash="dc7f25afbee6ba514f19506e3b3d76fa486e35a982ed985b012bd34c5a1b901d"/>
+      <file name="src/framework/core/event.cpp" hash="dcdfdacf76a810905076c0fb28f1ac4b0572cbe336e14e4132d9e377a7b4633d"/>
+      <file name="src/framework/core/event.h" hash="0b2bbed1c3d0a72f10d8c3aa96a4715c275dcc1d72c4ef44eac123c45c6af153"/>
+      <file name="src/framework/core/eventdispatcher.cpp" hash="970f0b380419817a8ad234826891855794ec229bd1c75111cc01d439a05e6964"/>
+      <file name="src/framework/core/eventdispatcher.h" hash="886f3975771815c007cf46baafeec83cbf5d802144b7b79430cf1925fa35e845"/>
+      <file name="src/framework/core/filestream.cpp" hash="f10f3bc6b9758b53b5a1d22d7ec6b45bc59b2d8fb061bf21532b7b62df0b1caf"/>
+      <file name="src/framework/core/filestream.h" hash="a673696e84c8626a1cbe20b93015023e9e956dd773d71c6abf738069dbf8f187"/>
+      <file name="src/framework/core/graphicalapplication.cpp" hash="77a793d6867bf174047738b8cbd3679b9dd84ff22cd2ce3e5c7b84bf3375ceef"/>
+      <file name="src/framework/core/graphicalapplication.h" hash="e3ebfa1e014989412840f690e863fef1d6c782bc27fdf549975aa2250334fb4e"/>
+      <file name="src/framework/core/inputevent.h" hash="0b29dd25d42263c5c47d9ba7bfc10ac24c799407bd08969afb8d5cbfd9429237"/>
+      <file name="src/framework/core/logger.cpp" hash="00f0ed2056afdf4c718c096b0aeee7bd9fe252f7474e7ef69c44e764cb5dc8cd"/>
+      <file name="src/framework/core/logger.h" hash="ccee30558087ee184387c1430464a5f8d1874b0807b1f725dca22ce954b5901e"/>
+      <file name="src/framework/core/module.cpp" hash="396ba33909fbda6161916641dc97a86bf8ff1cd3c7fd445baeea0fb74ce6e4a5"/>
+      <file name="src/framework/core/module.h" hash="7cbcad9fe31df9b944bd48f3d7513feb4ac989f220ad1ec33a668f4dc0436ab1"/>
+      <file name="src/framework/core/modulemanager.cpp" hash="c9f15019cbbef5fa39a70f2439d4e5e7f33cb10ccb1fba9093bb3eb969fd49f0"/>
+      <file name="src/framework/core/modulemanager.h" hash="e4516b51d1b97d0945ac199f57b0e13fc0c202f7b54eb138b671a0e4ad842994"/>
+      <file name="src/framework/core/resourcemanager.cpp" hash="025b2d4eddebd1a5533f07a6ce54ffd696f33929b979e038cf1b6844af11e29f"/>
+      <file name="src/framework/core/resourcemanager.cpp.bak" hash="d581fb290d609dc047acb9739a1c6763098b7c628b0b1b8d2337e4b7414d9ce4"/>
+      <file name="src/framework/core/resourcemanager.h" hash="28803b9913791ddf5311da2d4b4e2bf29e80ae15ca1158f7f0bb5255d8f25ddd"/>
+      <file name="src/framework/core/resourcemanager.h.bak" hash="8a0fd8aa8e0d6040d58cca98167cb49e305028a9b6455a6862cf2f7ccf2a306b"/>
+      <file name="src/framework/core/scheduledevent.cpp" hash="c22d4b79dbe76176e6180a69adfcca690de061c27aea2a81d831922a55107f12"/>
+      <file name="src/framework/core/scheduledevent.h" hash="630b36ece8c6e73c4edadefe920671b9bcd9b1bbce29bfdbe71c0ee59e656840"/>
+      <file name="src/framework/core/timer.cpp" hash="ec3b23d6a11f1a05539685b6108bad78e1e23977d1eb47092d42f1103250b482"/>
+      <file name="src/framework/core/timer.h" hash="73d62e01d824ffdce94eb81331a633c1ede8c295c013cd3b0550a490b837d303"/>
+      <file name="src/framework/graphics/animatedtexture.cpp" hash="64a90e79d7e768386c9a6aa7e1f9dfd1d8adf48fa12de49fd86dc8fa8e29deae"/>
+      <file name="src/framework/graphics/animatedtexture.h" hash="0a2e41efd3b58029b4245c2dd1f29a3a82108fd34b7d3a9fa1bc16174d38572b"/>
+      <file name="src/framework/graphics/apngloader.cpp" hash="8995901d18668059d8dbf81f26ffd626337b49f8764399e1b4042bee9ec036ab"/>
+      <file name="src/framework/graphics/apngloader.h" hash="8ba1f8ead8486220053a59ec4bbd95b917bd6fd3a3186680e0cab750c9b6352e"/>
+      <file name="src/framework/graphics/atlas.cpp" hash="5a8b4cbc03ef791b4ef96e3db4f3daf3c6062e60d96d7fb5ea84e8aa8823b892"/>
+      <file name="src/framework/graphics/atlas.h" hash="70e364387723b21d652e05751c16c3f9acf1a531b68bbbb7110e5f47fbe11a9d"/>
+      <file name="src/framework/graphics/bitmapfont.cpp" hash="131fcf9676c31aa6c00e504fc29f8c92baba5194ce151ad95c743729691a1690"/>
+      <file name="src/framework/graphics/bitmapfont.cpp.bak" hash="615444236cfdab1c00240bf80e5df736a8bbd868e395cf6987e88cbe1a769d69"/>
+      <file name="src/framework/graphics/bitmapfont.h" hash="ad33bb464ec3be2f7c0f885f91fa7acc81b99809b28e1cb856c7ed38f30ac383"/>
+      <file name="src/framework/graphics/cachedtext.cpp" hash="eae0e7946d7b0acf70a48a55a0aeb0d5e2343dfe963d34a01daaef75c677f749"/>
+      <file name="src/framework/graphics/cachedtext.h" hash="b32cc3fd233ff35fc650b3ce05ed58ba7ea200b6a1e497ea93691e867ef968de"/>
+      <file name="src/framework/graphics/colorarray.h" hash="50cc28c698e97f8073b56762c99966403daf19451d0751be03d519250590b0fa"/>
+      <file name="src/framework/graphics/coordsbuffer.cpp" hash="14c332dfff437b77468fb83e3746b30c2204681ec98de910dbf5fe36816a49ad"/>
+      <file name="src/framework/graphics/coordsbuffer.h" hash="f911bcf9cce0932d075e765d3252d79dbbf04429dabf2e95b690348a043994fc"/>
+      <file name="src/framework/graphics/declarations.h" hash="cc85538b9b3e34cc546f5f6cfc43fbdec0cc1a58c61bd95fb602cfdcdca8b91c"/>
+      <file name="src/framework/graphics/deptharray.h" hash="87fd80cebe22f7b07d9e430aae74ff16ba96d4b4c4d47a05302cebcbeea356b9"/>
+      <file name="src/framework/graphics/drawcache.cpp" hash="b6368d43245c4c227f3ee865f76cbf53476cf8c283621fa479e4c714e4f0fe02"/>
+      <file name="src/framework/graphics/drawcache.h" hash="e89f38ee0aefe3ff3a77964b9e21fff41c2272f4fa17f80e00b934b862b45a34"/>
+      <file name="src/framework/graphics/drawqueue.cpp" hash="7ce942cb4daef94b3cc03176dd5ddd999814df99f8a028a41bd9abf15c65b270"/>
+      <file name="src/framework/graphics/drawqueue.h" hash="39bd2908fa698500de3734a5dae371eab513f6bf4decd91418039cc22673ba71"/>
+      <file name="src/framework/graphics/fontmanager.cpp" hash="6fe7d16065e7f204ea71bd20bc5de699225d8d70a9c251b55bd181c1b826248a"/>
+      <file name="src/framework/graphics/fontmanager.h" hash="0cc78aced193ebe6c8135cf6d30873e8a20a082b2a0073fafa1d72e4190f8ef1"/>
+      <file name="src/framework/graphics/framebuffer.cpp" hash="c864e0469df26fec2c4528888645b9ffff5b556fed71e68c4265ae4b43bb1254"/>
+      <file name="src/framework/graphics/framebuffer.h" hash="26909b9b37bc9e04cdf95e507e38e67b64f282a32236abc2afe8d76c2f463f27"/>
+      <file name="src/framework/graphics/framebuffermanager.cpp" hash="623a01b24e34d12c57ee36d7cc6379915345ab6cdc4529beabc1d9e39e648fc7"/>
+      <file name="src/framework/graphics/framebuffermanager.h" hash="cb0b5c8e0dc9458cd8b29425c7b4df072da730add41fe078388c3b3335fae316"/>
+      <file name="src/framework/graphics/glutil.h" hash="fc019d409f9c7333afd1feb8e1f9137dfb2a01170fcc67578897907c198ac2d4"/>
+      <file name="src/framework/graphics/graph.cpp" hash="aa8ff180b314446fb3149ec61b17fc5763db21b21d8476ed6dc4967703131e1f"/>
+      <file name="src/framework/graphics/graph.h" hash="f92ea90ee909cd7ca586b48909920f34e574558f6410a5e87e00259d163713ce"/>
+      <file name="src/framework/graphics/graphics.cpp" hash="49d31cb604ea87e11f0541f87445a1e9fc8928b2928a13fc627abd2335c0789e"/>
+      <file name="src/framework/graphics/graphics.h" hash="5d8a2fa23e0d9c2e9ac1eead00446a538a86f892399bc7ede98f1bd761883ef7"/>
+      <file name="src/framework/graphics/hardwarebuffer.cpp" hash="899ba7603b6fc9b4f86d46c3c199358c79ad2afe6566490c9bcfa291dce2387d"/>
+      <file name="src/framework/graphics/hardwarebuffer.h" hash="84812939ba1ec75b7867c478454c465747f4d5258d0b859f2f56b03c19114f0f"/>
+      <file name="src/framework/graphics/image.cpp" hash="cee28e0fe9309daeacf7114ca5ded668b59212717d7f283fa5c767f7287c05b0"/>
+      <file name="src/framework/graphics/image.h" hash="19527ce3ec8210ae572747d3d1709dae878eeccdc62084ed2fd26a9fce617340"/>
+      <file name="src/framework/graphics/painter.cpp" hash="f654a736d2f9510987120a36248475e4ccfecff89d6151fa7d0a61f03ca0fc35"/>
+      <file name="src/framework/graphics/painter.h" hash="5e7ef26c597033ea78f0676067950548eca3405eb2d6efb16496a6cb26c5dde8"/>
+      <file name="src/framework/graphics/paintershaderprogram.cpp" hash="ea8ec59d7cca352e10c3ed468a09cf9ab6e0e2b5032d2edbfae6e54a8c9fccf9"/>
+      <file name="src/framework/graphics/paintershaderprogram.h" hash="fca63d5b5a8d45a6f1e91709103560cf8f6309efac853d692adc5f2068ff06ee"/>
+      <file name="src/framework/graphics/shader.cpp" hash="5b6e336e28a0b4b87bbb5f7aae2e37b87f77e198aa468d485dcd2d076f115163"/>
+      <file name="src/framework/graphics/shader.h" hash="1c8ece9b2723f4492eac2d0d19e34dcb31f049ca62748620725db622f13093f7"/>
+      <file name="src/framework/graphics/shadermanager.cpp" hash="4dfe62932426ec6da981cba090693260a1303f1e55632235088ffede1b611c2a"/>
+      <file name="src/framework/graphics/shadermanager.h" hash="969c45351f40ac45bcfb01ff0ec3f10d5b7f1767a46dabf4372480f65b026d7a"/>
+      <file name="src/framework/graphics/shaderprogram.cpp" hash="4f39c3451b50395bc6672969462cdf5e5f54899fbf8272e680334f722c925cbc"/>
+      <file name="src/framework/graphics/shaderprogram.h" hash="ecf9e5eab5c4086fabf4c0ac7f73e5cd44c66aa422db90c5b0bcf3c29ac45afd"/>
+      <file name="src/framework/graphics/textrender.cpp" hash="400aa2b50a98a469eb9627a264b8791a9106044fac7a2f32b08bc712142e9406"/>
+      <file name="src/framework/graphics/textrender.h" hash="a3d266d0c27ae9c386edc3bb4d397bdf475af688bc25bc3519863bd608b9ecdf"/>
+      <file name="src/framework/graphics/texture.cpp" hash="29df9d2b3224c753a7f9d8faf94af4bf25b78f67c966748809227afef7e1fe2b"/>
+      <file name="src/framework/graphics/texture.h" hash="e8943a008770a2adcf3eb1263d6ac8a76b299cebd8c29519a1ab7b9f3ad50bff"/>
+      <file name="src/framework/graphics/texturemanager.cpp" hash="6e8e768625a2c53c2f869df8b3f03547f90eb4b580f1e2f1279d84381990d319"/>
+      <file name="src/framework/graphics/texturemanager.h" hash="299a7f195a447e828820d4b2c718f9185f05f7b49cd9d9d5ed323591b9be95bd"/>
+      <file name="src/framework/graphics/vertexarray.h" hash="f1ece0254533c226720e81a46dd8cf39b825a5c19650fc1b734aea1b9366c941"/>
+      <file name="src/framework/graphics/shaders/newshader.h" hash="d519aa36d89a85a7da5f9e4f142e64980a3f1cde502b1c98f71111fe61277733"/>
+      <file name="src/framework/graphics/shaders/outfits.h" hash="1d42ee05389cd43cc5ebfb711e9df8f6c1add67bdd7c931fd4ca2ef6e01e6484"/>
+      <file name="src/framework/graphics/shaders/shaders.h" hash="9de7737f462181297d65c04694fa5459c1aa246b3182a6dd905ecb50e8b350b2"/>
+      <file name="src/framework/graphics/shaders/shadersources.h" hash="2a6eecc5ddf7ed8c1e80511872c89d20de06e40572b3d73b1cb249a950da16a3"/>
+      <file name="src/framework/http/http.cpp" hash="1b052d4c8462c1f05f15a749730c0baf58201a95778aa274d38f304410838042"/>
+      <file name="src/framework/http/http.h" hash="6e80f32276aaaffce4a772213fda21294e34dc23b167abec888970b45e1d6684"/>
+      <file name="src/framework/http/result.h" hash="0448a99cf1fe18e4c9df5a529dfc4cc35edfa46cfdc0b34ab4c3d55bc9d04ef5"/>
+      <file name="src/framework/http/session.cpp" hash="dbc743963249eadc40c18b71bffe9068c83377207efad5025c25ecad070f472d"/>
+      <file name="src/framework/http/session.cpp.bak" hash="2abec3e48c05ca9ff9f50b236e1c466245ff9f5899c4aa792490e89dbb189829"/>
+      <file name="src/framework/http/session.h" hash="156ce73f550155fe6c4833cea5b4babc671e1d224d97d964c5b508ed5ab556f0"/>
+      <file name="src/framework/http/websocket.cpp" hash="6a8b972f91ff39e794070971b66007addb4536141f0d17e0c133937fc4fbffca"/>
+      <file name="src/framework/http/websocket.h" hash="57d4a81b327a12ed5cac5c34a8bb831e2df4a44f5d65e8efcb4aa19760fa6ff2"/>
+      <file name="src/framework/input/mouse.cpp" hash="922b2b3b15247cb1ee55c4296a98c57b5c55ecf6f0ce718a4117250c893d675b"/>
+      <file name="src/framework/input/mouse.h" hash="1c7fbd1c3fd2dd30ecc410896aacd381ebf1ddde53bd9605604ffc690ad7338a"/>
+      <file name="src/framework/input/mouse.h.bak" hash="0a7fcf4be889780829bfc6233923441389a2d1f12185223d10d534c6830ec75d"/>
+      <file name="src/framework/luaengine/declarations.h" hash="6bbce0fb44ca6d12aff4a5232adee9cd60e1cb7e8a50e80957478bce08db133d"/>
+      <file name="src/framework/luaengine/lbitlib.cpp" hash="74156a5e4300839cc06bee5faa51b9d50f89cbf310bc9ed42892b6c74713d90b"/>
+      <file name="src/framework/luaengine/lbitlib.h" hash="7696beef068b6bb253fab1c3a8d96c534aa36cf60c5c1da189c523b45111dd28"/>
+      <file name="src/framework/luaengine/luabinder.h" hash="2f663cb0e37b34d44ae947ffe50ce4f4e609db9b714de3f15cc88f05e7c22fdf"/>
+      <file name="src/framework/luaengine/luaexception.cpp" hash="b3af557cea9bc2161f1a1f84090a9ceae45dfcc8e1bfadecb82b5840f2d26218"/>
+      <file name="src/framework/luaengine/luaexception.h" hash="2b11989a6dd3022e028f9c117b7d484096dafdeb060f3c96ce217556ed04eda0"/>
+      <file name="src/framework/luaengine/luainterface.cpp" hash="e964b13fb406d65bd74c98867f60940956c10e0a6cae7144e80aff70694bdca0"/>
+      <file name="src/framework/luaengine/luainterface.h" hash="6842bf34dab0c7ab52eb2699ad34cbaea4497b26ff6171aec7fcb5e84fd773bd"/>
+      <file name="src/framework/luaengine/luaobject.cpp" hash="b6a603be3a438e9d5be727c9bb3eb0537bf38f8682c6eed7955abc0d7254592a"/>
+      <file name="src/framework/luaengine/luaobject.h" hash="1c32e4d69014512c0e1c686a9bb234c1e3f632c00b9146c3ffae8b92efcf25f4"/>
+      <file name="src/framework/luaengine/luavaluecasts.cpp" hash="38f8d3e409cc64c72c4b385f81ffce98916a57a558b3384ef5dceb702b3c960e"/>
+      <file name="src/framework/luaengine/luavaluecasts.h" hash="2597c729d85ea7e0628a665fa63cdfaee9a93ea627b0b69593bf6b196b4a69e9"/>
+      <file name="src/framework/net/connection.cpp" hash="9b12ebb51148158d2f2710fb33c9f7c99ae8f7cd232c653ee95902047e4cfca3"/>
+      <file name="src/framework/net/connection.h" hash="195fa499a265597ba7d484bd087667cb278b643e32127d2c047300add81a4830"/>
+      <file name="src/framework/net/declarations.h" hash="18edc9e34a17b72292f8a73c7994c0fb895df9f3df6c96f322e69076e520c599"/>
+      <file name="src/framework/net/inputmessage.cpp" hash="7baff1342d39a5b55639f13284bff0fc960eb71a2904aa39bc9a8a5c75605259"/>
+      <file name="src/framework/net/inputmessage.h" hash="07d51a1d58c86c5adfb51f253c253abf38bdcdae042d85cf88579b686bd82105"/>
+      <file name="src/framework/net/outputmessage.cpp" hash="70bd7d4ac8ee9aad2e6acf35403e0b6373c7350659d60ddd8b506b98315de43a"/>
+      <file name="src/framework/net/outputmessage.h" hash="7d677ff4b6720fe8238e6498910aefa9f7e39fd099f3f71736eea8fc8e5289b3"/>
+      <file name="src/framework/net/packet_player.cpp" hash="25420d41ac14f0cdde15b0592cece49d41eca4dda6939519d829f7787fcbbd44"/>
+      <file name="src/framework/net/packet_player.h" hash="0341f5e29672dfaf8ce939e4a808a8322f4a2edff05003a05c6aa9d0687b16dd"/>
+      <file name="src/framework/net/packet_recorder.cpp" hash="6472084f8babb204b405435fdb4c0367357f01d7873dac1143b717c80d531a78"/>
+      <file name="src/framework/net/packet_recorder.h" hash="0f1d1fe9ed8e45cce68339d9611f8cb039044e3036a8ea67e0cfee28d94ab506"/>
+      <file name="src/framework/net/protocol.cpp" hash="279436308eac1b0ac0920377702316b808a01349ba913a6c8e1e74a268e13f2f"/>
+      <file name="src/framework/net/protocol.h" hash="ce4a1ff52f4683a0e626d4863070c9d13fd3f8cbcf5365bccac8e8e2dfbfc8ec"/>
+      <file name="src/framework/net/server.cpp" hash="b00300fcee7c1d44e00063b1b826c45e33e9bd6e48242277ed6fde0a744ba35c"/>
+      <file name="src/framework/net/server.h" hash="d0ce1df8dc78f337bef876e9b583d2fd86b00dc9d7cbaf0a1e78001630b755f1"/>
+      <file name="src/framework/otml/declarations.h" hash="4dbb12eb499df952d103ef0d31bc6bb3e356686da6dd5cc00816a6c88d3b17aa"/>
+      <file name="src/framework/otml/otml.h" hash="b25479dbb6ded3a24256a3ac0976997e7a315b6c42b4a8c5b1589dd23bfde7bf"/>
+      <file name="src/framework/otml/otmldocument.cpp" hash="730020a8be50ad83b984252f9afd3a6f82bb21391a27c2f1ff23e0e563485ccf"/>
+      <file name="src/framework/otml/otmldocument.h" hash="cfd1695a0ac83bf44b0a82369cbf8568d8bf7c99bfb30f5c84cb5636834aca24"/>
+      <file name="src/framework/otml/otmlemitter.cpp" hash="7647921ba26271bd9136ad7a209aa4d026c12edfba8ccbfacd1c25cd961b0906"/>
+      <file name="src/framework/otml/otmlemitter.h" hash="f3e7296fb74a589e4bc36c539cc6daae0d434f334958ff95badda929c9df5fca"/>
+      <file name="src/framework/otml/otmlexception.cpp" hash="ca7f080dd854695d4b9f4d6bbc80a523584465164f141622323db9000cc4470c"/>
+      <file name="src/framework/otml/otmlexception.h" hash="b16537328fa9bf86d0c4c1ae4bdbf547c0448d22a8118505b4cd8dc395d6e473"/>
+      <file name="src/framework/otml/otmlnode.cpp" hash="e43a4a77a5988efd0574b55228e574f73ade7637b59ef4fea8f749f67730cf70"/>
+      <file name="src/framework/otml/otmlnode.h" hash="c2c930b4d3beeaaff8bef9f1317fbe5afb05fb9eb2e2aa3f9849599635c03dfd"/>
+      <file name="src/framework/otml/otmlparser.cpp" hash="6add2005e44a52a4a14b56a001840f9b973d84db2727348e616ff83f2522c4eb"/>
+      <file name="src/framework/otml/otmlparser.h" hash="94a8e04c90b46091089116560d07e6d6e64506300315c50b3cbb18a5a03baadf"/>
+      <file name="src/framework/platform/androidplatform.cpp" hash="7c03f324394738635dfec2609a4ec52e9c62dc1402656911630b2516bd18c08c"/>
+      <file name="src/framework/platform/androidwindow.cpp" hash="a3c30fc395c609fd2ab780abb763c81473817fc571d3837d9f32b1dc73810c74"/>
+      <file name="src/framework/platform/androidwindow.h" hash="760e0a09a80a861748a836a3d9500e37b8c31b2b5814eb72120aaffa9bf3f463"/>
+      <file name="src/framework/platform/crashhandler.h" hash="742309d878714e6eb167d942a9060a7e20720d16097c9aaafb602ab0f8639972"/>
+      <file name="src/framework/platform/platform.cpp" hash="8d792391cd7dc0ee965d050517a86bc25dbd8e8337e22d94c0dfbca20ea0a2f5"/>
+      <file name="src/framework/platform/platform.h" hash="93576813238efc38ceee19f57f37981806d2aba0477fca1dba0e34309215cd22"/>
+      <file name="src/framework/platform/platformwindow.cpp" hash="9df3401f4d2c21953a8007971a3d81f4c1e5ee2d8926fff3802d34103eea904f"/>
+      <file name="src/framework/platform/platformwindow.h" hash="27dcf980a3ffd2bb0a1587a2c4e8d7cf68c8556de9b7fac7fffe6fff8bc213f1"/>
+      <file name="src/framework/platform/sdlwindow.cpp" hash="1ede32e93d290de60434b2705ed6d27c9cc0955be32f1141ae688fc17b17c7ce"/>
+      <file name="src/framework/platform/sdlwindow.h" hash="f0ba1fc71f15a1bd8d6a24b4d29c1394708ea7878b13bed2e8aa0c2b634b30fe"/>
+      <file name="src/framework/platform/unixcrashhandler.cpp" hash="5827561df6a0af051460f0dbb0ffc43b697045e04ba7f40754cc84dd0a9b78c5"/>
+      <file name="src/framework/platform/unixplatform.cpp" hash="ec172d35a87159a6310ab2a2e980b31b1887abb145353813646cd7b73b1bb02f"/>
+      <file name="src/framework/platform/win32crashhandler.cpp" hash="e749b656e37c27a982e9d50e4ad79ff756475e4a1b0847e7843afec387feea9a"/>
+      <file name="src/framework/platform/win32platform.cpp" hash="2afcf156f7ba804a7f57ebc3311923e77f62f65199089da7e0eb0631088fc640"/>
+      <file name="src/framework/platform/win32window.cpp" hash="4b74aee5892335b2000b4645f66eb6e738e877c7ea67f4fa82a3bae41d990198"/>
+      <file name="src/framework/platform/win32window.h" hash="a13cb32254477b93d01a6a6062e275612b2f61475303ef88266d5383e13d14d7"/>
+      <file name="src/framework/platform/x11window.cpp" hash="ce8067d64dcdda87947bcf7e9abfc9a028adb009f1558830b71409c7c0c03848"/>
+      <file name="src/framework/platform/x11window.h" hash="12e4fc7ce63171eb0c6c05b275e451bad4399de457a1b9e2fc7f17144c0f3558"/>
+      <file name="src/framework/proxy/proxy.cpp" hash="06eb54ab71f3d6bbaf39c3f7b690b4f94672f14c8a1836db2304201699bd982c"/>
+      <file name="src/framework/proxy/proxy.h" hash="0b6358c31528b5d30f7b2020fe03dccb6af246ed8746f3a1c3d1a142930f8804"/>
+      <file name="src/framework/proxy/proxy_client.cpp" hash="ca15e4a373a7899575135e591a8d8bbbadcd30800235bc75116e5c5f943c2f0b"/>
+      <file name="src/framework/proxy/proxy_client.h" hash="50b405302701a452f81a0381349e92dfaf2344b8d65235e64099ca1c96aa3a8a"/>
+      <file name="src/framework/sound/combinedsoundsource.cpp" hash="aa71cd46d665a7f9d9483c82d15e0739db63df5e851958ead65bc5071c43a9a5"/>
+      <file name="src/framework/sound/combinedsoundsource.h" hash="78bd711fa57fc7aec30ebf1e8873cc2cc724c1f6b41d8a855f85fa5b4944e86b"/>
+      <file name="src/framework/sound/declarations.h" hash="2bbff22729f71ef0fcbc504af06e9f576df6429c4ea9936e91a3bd0fc47709c6"/>
+      <file name="src/framework/sound/oggsoundfile.cpp" hash="84b8a5fc6f583d2df7e92ca07a3513f1f6f16dd5967670e6c2cba03e10bf125c"/>
+      <file name="src/framework/sound/oggsoundfile.h" hash="cf7e191b3b8f0d7257e1c8c8531100970486da3ed321f7a602124d334b150e89"/>
+      <file name="src/framework/sound/soundbuffer.cpp" hash="0ddb9c8c4e4277e0f64889733d0d0b8e4a250b647904562d62def8f05c471753"/>
+      <file name="src/framework/sound/soundbuffer.h" hash="131a6223f3f8d1c11fa780faf8e06377e45ed8c18a76f1b5f8740a0c0e21d5f2"/>
+      <file name="src/framework/sound/soundchannel.cpp" hash="8ad30daf294017471105d68b273fc399e5448998c3943e8f0e1aab5766445f2b"/>
+      <file name="src/framework/sound/soundchannel.h" hash="6d6da6f24c3a96f23f2aa3941beda68e37be53c4a7605716be167a09f63c0623"/>
+      <file name="src/framework/sound/soundfile.cpp" hash="a5a16f0f02394a01a7c9a6d36882728bb60709f33e31be6ae37a96052de5ef60"/>
+      <file name="src/framework/sound/soundfile.h" hash="25bbe145153d50092546dfa407b4c87a8ef0e5e7f2be7a2e5079321e6228c213"/>
+      <file name="src/framework/sound/soundmanager.cpp" hash="fab3ea4838115d335312eb30954f916a03084e834acf8b38fe2c9d601191ec0b"/>
+      <file name="src/framework/sound/soundmanager.h" hash="41c32cbc5c8e7aecbf8351cb61782bbb9a8df0aa1d7d8aefea58513e8caea273"/>
+      <file name="src/framework/sound/soundsource.cpp" hash="2ac0afc71c12c3ab55febcd5a6c9cafcf6e318419a58fd8a8e417563883bdf51"/>
+      <file name="src/framework/sound/soundsource.h" hash="f2a0e82e6296bd854d27ffc9c3437bf0642568539e1c2d04e189c8a00537101e"/>
+      <file name="src/framework/sound/streamsoundsource.cpp" hash="2b40cdc66176698d53c22214aca7404e96a1e6265b5b3dd627bd37e4e725ccdd"/>
+      <file name="src/framework/sound/streamsoundsource.h" hash="bede6f47a19702efd343f8fe640654d1b0bee0ea90668688953dd81a7b54ff69"/>
+      <file name="src/framework/stdext/any.h" hash="8f324df29b9fb1ede919d4733fe97d70c086b4ea4b55fc546ad1f225cac544f4"/>
+      <file name="src/framework/stdext/boolean.h" hash="cc0adecbd5a2bad1c96789b87b45abde444e6a22ffbd3a1c032dbeac03ba0090"/>
+      <file name="src/framework/stdext/cast.h" hash="e5385f566f0a11eae2568f18fbc5b448b59dfb1aca0f4a1d23ebe01931437df8"/>
+      <file name="src/framework/stdext/compiler.h" hash="7edadb56ebe0cfcd1434207298c372beed54b818778c8d4b23604c58d2e68488"/>
+      <file name="src/framework/stdext/demangle.cpp" hash="de8dfccd50aaa26f8b9d1c298b54e792922f47013ebadc5668db0b32b53677fe"/>
+      <file name="src/framework/stdext/demangle.cpp.bak" hash="ed7e71b68fa84e2da6c2d7e3eff601111d3ee60c93819c8d15c819613ff1164a"/>
+      <file name="src/framework/stdext/demangle.h" hash="1ebe15434eb850a6a255c779d9ae460163f9d67323edf844835b9bb10a4a648f"/>
+      <file name="src/framework/stdext/dumper.h" hash="5b0f95778c98f13b47ebe7c960828fa3d65de1b79c09d713cb1a38feff4a3a3a"/>
+      <file name="src/framework/stdext/dynamic_storage.h" hash="f895202e06ad8f437d06af9188486c563c249242475eb43e5b9f46ebd80bc447"/>
+      <file name="src/framework/stdext/exception.h" hash="f9b68593a8d5397aaedd1678d273bdbfdecfa5be1643024f052873027d549a84"/>
+      <file name="src/framework/stdext/fastrand.h" hash="2d5667e1a8daf2d5d1c94041716730692a8851761ce074eae2320e181be0a0ab"/>
+      <file name="src/framework/stdext/format.h" hash="64ce1d8f73a94558b81c509e9f85bf4e3eaedb3ecb4f5d5e421123e5ef635917"/>
+      <file name="src/framework/stdext/math.cpp" hash="a5828d3804c62e7a8f4c9756c46801007fbe7d6fd9b37dd20bdc5919d528de21"/>
+      <file name="src/framework/stdext/math.h" hash="d176b6b28bd7bad3809c3654e823dff2a738bad3f5244aeaa10b5eb3f55d4ce6"/>
+      <file name="src/framework/stdext/net.cpp" hash="30d8cf8b8057df4fa6f24fc9fc402205a8c34469177379b7741b2f2da6356f4b"/>
+      <file name="src/framework/stdext/net.h" hash="784a0019f74abdbfd54185236b3732ccc522293bd039531e6c2124f6d4876a30"/>
+      <file name="src/framework/stdext/packed_any.h" hash="51868dcbd30f173c6baf9a9bf94aeea03ea965b537cebc8d4e5795ba14a04b2d"/>
+      <file name="src/framework/stdext/packed_storage.h" hash="ed523c1ff7c2e73b05ac021246bea3a6207f402af8d6a2cdcdfe844cd3184ad7"/>
+      <file name="src/framework/stdext/shared_object.h" hash="775aba8d7363685959430556480eecaf047db728da1a84baf54a3929a8153482"/>
+      <file name="src/framework/stdext/stdext.h" hash="f940c6971c80ce0ad8d9add4cdf1df0f7836280decb11f7c53374085804877d8"/>
+      <file name="src/framework/stdext/string.cpp" hash="0d0f8a2d27e2a235a6fdd66d114c279452daaab9d92e92b200fe1e8d7c80a6f6"/>
+      <file name="src/framework/stdext/string.h" hash="e19b4d49f4d86d55b0f84fdced02adf5c130dec23a93b2165f8bf172cdff0ddf"/>
+      <file name="src/framework/stdext/thread.h" hash="4b596857ecf38530b06eadc1db8d51239c49ce8a1adb8a37adba5041ced933b6"/>
+      <file name="src/framework/stdext/time.cpp" hash="c126d5ba5d86426f2a9ad0c6c292a9b3b0a8dbdaf82f99e35c971b980062d4db"/>
+      <file name="src/framework/stdext/time.h" hash="343a02850d1e37cbea58fa1251ab79564c0eaf8f1bc5be8be17b3ae399aef4fc"/>
+      <file name="src/framework/stdext/traits.h" hash="0afda6fcff6226cf47219a0bf39a70182468080d3a24f47199e5a7cf482c3080"/>
+      <file name="src/framework/stdext/types.h" hash="7ff4936fefa37012390f93bbaa2c061881d8cd26b3debf528d66c757e11ce78c"/>
+      <file name="src/framework/stdext/uri.cpp" hash="fc9b1ef3230f451adc796ddb3b06d23e92f7266cfda7037dbff1cdc219c06986"/>
+      <file name="src/framework/stdext/uri.h" hash="5bd3330e0e03da07620a1f7149df5ac494df181f15b63fb6d673de5bedbca569"/>
+      <file name="src/framework/stdext/uri.h.bak" hash="abca06b8a6c5d81e71433471beb9cabb0485f6b01848c133755bb84d8584df27"/>
+      <file name="src/framework/ui/declarations.h" hash="09ed952681b6974b3c61db59f21c60ceb7b665321d3d84d6b2c664f2d5dae6bf"/>
+      <file name="src/framework/ui/ui.h" hash="af5cbd20c9dbcd7b78ef005130bebea3f81ce726847d14174be594ee8dc42e1c"/>
+      <file name="src/framework/ui/uianchorlayout.cpp" hash="6ff94e01008ee14087c7bf43a58f5afe0a5e6dac95a49361743e1c5665b804f9"/>
+      <file name="src/framework/ui/uianchorlayout.h" hash="4a8367db57b1105de52436b113af79d560fa8b998f36dddecd9ac425692b10bd"/>
+      <file name="src/framework/ui/uiboxlayout.cpp" hash="1ad5f9c4b30ee06607dc4f410570eecf45eccb5f121718105e7a654e4f3d8723"/>
+      <file name="src/framework/ui/uiboxlayout.h" hash="ee7886e51723bdfa3bd9c237e63048929fbfd46303233bb706be6b5ed14925de"/>
+      <file name="src/framework/ui/uigridlayout.cpp" hash="2c38f9d230e09c9d352ec3ca527ab25724ae2e90ab6ac93010ada56e8d111015"/>
+      <file name="src/framework/ui/uigridlayout.h" hash="86c26d98fa57231f193bb709aa0a0fa278e3b1d1d7351f11079a7b82fef3f9b5"/>
+      <file name="src/framework/ui/uihorizontallayout.cpp" hash="35750c77edd639d80834e4513252ea3a8e52e9caec0f76ab63f2ef7b0535877a"/>
+      <file name="src/framework/ui/uihorizontallayout.h" hash="4fbd0beb000906dabf73f12ba7a4d3712ef82db02f0fcae59f61e83b37a727d8"/>
+      <file name="src/framework/ui/uilayout.cpp" hash="1bd1047d5c5f2ed62269ea5a8960cbf63b40a87b2454c81cc338383d5356ea63"/>
+      <file name="src/framework/ui/uilayout.h" hash="dc9c5ea982de9c51bff9ffaf565aa8ba9698d19e3d68e14ef91d6781e5ff5f35"/>
+      <file name="src/framework/ui/uimanager.cpp" hash="853a6a773d8f306252de3118ff6c1fef4e2baa02991de252d46e276b631274df"/>
+      <file name="src/framework/ui/uimanager.h" hash="8a61bb7d1dedf03b242fd36fee0450e005a1186aa88d0263b626201015ebb88a"/>
+      <file name="src/framework/ui/uitextedit.cpp" hash="bb74faa892d43b1a2415aed3805024841e82086e1055e6477e8556847d77d632"/>
+      <file name="src/framework/ui/uitextedit.cpp.bak" hash="23ffaa5fe8d3b4ac3b31087d523a121fd7eb5ff1b42ad4a45ddfc80ad1d9cc16"/>
+      <file name="src/framework/ui/uitextedit.h" hash="a3659671dfa15f093e0e92acac8f7c63f26f21b97c90e37a797f4d058c4968f9"/>
+      <file name="src/framework/ui/uitranslator.cpp" hash="62f1b2266fb4012ae0d72e7a414a60510a2c6c2f5d2f025b5943731cebe0e25c"/>
+      <file name="src/framework/ui/uitranslator.h" hash="1850838ed13b567a9f3fbdb668f3ad11f1fecce8b205cea2df74cd61a3130360"/>
+      <file name="src/framework/ui/uiverticallayout.cpp" hash="ad3e2642eab8e7c0e5209f842278622afdcde24e8be99fa76335c3c1aa5afc88"/>
+      <file name="src/framework/ui/uiverticallayout.h" hash="49165f83ab76e79ade54a980baf45898265c1a2f043ea448661f88d171ad6ff4"/>
+      <file name="src/framework/ui/uiwidget.cpp" hash="3e1dfa4026f6b25c695c49eda1d6c548edab4b64d8c4e34c392a31efeac9b7a8"/>
+      <file name="src/framework/ui/uiwidget.cpp.bak" hash="78b2711803fb76b231273737507687c1e60f10f43929587fd0a3804db5f22a9d"/>
+      <file name="src/framework/ui/uiwidget.h" hash="bf3584947edc9cfffb082452599a044003158f3dc95909004dffaa868f500e8a"/>
+      <file name="src/framework/ui/uiwidgetbasestyle.cpp" hash="7d23fb5cf2abe36e5993d2795a64045f63c81caddee5f453bed9fbc3d3f0f246"/>
+      <file name="src/framework/ui/uiwidgetimage.cpp" hash="c5e7deb06b6c50831209218999cf5a9e13f83ed6b9744666a055341cc92e67dd"/>
+      <file name="src/framework/ui/uiwidgettext.cpp" hash="de960a4fe4044039a18ad445a921b6aeb2921ef16bddc9e2d717ebf3051a1839"/>
+      <file name="src/framework/util/color.cpp" hash="fe393491862564172e8e7dcc311e1f64aff509af65f43d89a9f7a2c07d0ad6e3"/>
+      <file name="src/framework/util/color.h" hash="b8fb84886793546e7ab718170177d8b98c4baac8d4401315a6ee2d2c740bd5bd"/>
+      <file name="src/framework/util/color.h.bak" hash="222812ca456d0248e012abe9cca9656dc9e30e6058ad55a10157d6ca58f3d94b"/>
+      <file name="src/framework/util/crypt.cpp" hash="3c6a67641314d657e3c289854de8832635e9e923bddc169f7b36a50fc4e7c39d"/>
+      <file name="src/framework/util/crypt.h" hash="232a988a67422c3a6db0329d1458ba4807006fe9d3209048a25d367e5c4ffd94"/>
+      <file name="src/framework/util/databuffer.h" hash="dbb6c77af48267d7813feadf0499edd10513a263df3264d26aefe609ad78f429"/>
+      <file name="src/framework/util/extras.cpp" hash="794855a8f209d1debcf586c22716357ab95eb538355ff4db0ba67e3b8f4b1b98"/>
+      <file name="src/framework/util/extras.h" hash="99b00e8b668955c1affbb4284bcec6a09b8adb128cf60e743e52dd8afb366130"/>
+      <file name="src/framework/util/framecounter.h" hash="941144c281aa724ece27a3f80d25656fbee081a7166599b02f1de23d75794a79"/>
+      <file name="src/framework/util/matrix.h" hash="b3e8e986ebd16d6a6f67120623474d3b6e583ee12e44707ba76f0b10c2920eac"/>
+      <file name="src/framework/util/pngunpacker.cpp" hash="b84aac2e468ac7a891889295048382c0734e733df40b28039986faec97ff3161"/>
+      <file name="src/framework/util/pngunpacker.h" hash="40cfecdb2f406944ea14dd8096bf6d7d8626dcc0d22a036c43c2a211c856a4a9"/>
+      <file name="src/framework/util/point.h" hash="d54deb641814af3a1cb72e900f6e53eb254c79919263debe3d1c85eb0c282852"/>
+      <file name="src/framework/util/qrcodegen.c" hash="20a74b10ea31ddab908e3e2bc3d31ff6a9be5c5532df8ee653a80586cfb41c51"/>
+      <file name="src/framework/util/qrcodegen.h" hash="fba71a2eab98fd662f9298cf92f2404ab5872758d15d887c1d05514d8edccc4d"/>
+      <file name="src/framework/util/rect.h" hash="ba01fc0ba697355b054cf42b28f453cbf7edcd178554ab2983f8176ee6a80781"/>
+      <file name="src/framework/util/size.h" hash="2c18d4af527843dfad0df6ac474ee8de6bc7c4bd3fe57e08507cf293fd23bf67"/>
+      <file name="src/framework/util/stats.cpp" hash="24ea45111644f0990b20a32d312a7d779ee68c091c4f35d67c3d76b175bc3b75"/>
+      <file name="src/framework/util/stats.h" hash="bc3c57dfc2e5e4b845b7a9e232dccd15676c4372ca05e6effc81748495891229"/>
+      <file name="src/framework/xml/tinystr.cpp" hash="cdb063e502a2393ce6eaaadc3a2af0147f93a6651898867faea4ababd67df7e1"/>
+      <file name="src/framework/xml/tinystr.h" hash="889d4f956df379ac23e7adad5610ff5c414c15c9c9b4e6bbf4ab836aa0a966fa"/>
+      <file name="src/framework/xml/tinyxml.cpp" hash="0efceed282b6226a8fefdc94cd67e0c2c6f4050ef6e522a4378fba79e069fd01"/>
+      <file name="src/framework/xml/tinyxml.h" hash="08edb441e370bcd7f07bfb854bf5437d8049918269524027dcd6a97a53831526"/>
+      <file name="src/framework/xml/tinyxmlerror.cpp" hash="9386bf4300d8d85ec47ecb3c821fee70ceaa2e9fe68704a903f02e9bb0ad934e"/>
+      <file name="src/framework/xml/tinyxmlparser.cpp" hash="eec6fab70bb47b62e38838b66fd079087a2b10d4395c108b089d23d197233f7a"/>
+      <file name="vc17/otclient.sln" hash="540e69834a0099d3471065ef98f9353a97e24fec25ea7a1d90b57ff886e47134"/>
+      <file name="vc17/otclient.vcxproj" hash="7acd5d6d75ea6a76d478b92d60c62db324d74482d329912e5ddd82b86e5e9bba"/>
+      <file name="vc17/otclient.vcxproj.filters" hash="0e7285f9eadd3e601053dab8147d2f8f88f6585502cb2306368a224aa7ccd03a"/>
+      <file name="vc17/otclient.vcxproj.user" hash="c06a75b13f855a94d46616796e024c52b499f8f92cf00ccb571ddbc6ff574676"/>
+      <file name="vc17/settings.props" hash="6daeb82373a4d1a8bf747074e1a98e9354cc88cb42d633fc877ecfc766fe1453"/>
+      <file name="vc17/.vs/otclient/FileContentIndex/33912f79-96db-4825-b09f-04263277f24c.vsidx" hash="06e2fecee6cae418f5c28f1980af138c2baafae6d9c75629a3186e20497a60db"/>
+      <file name="vc17/.vs/otclient/v17/.suo" hash="485ea6e49922d6b2df3d2d664ef9e552f69f6a08b1775d7aa3ef63769ec62ce3"/>
+      <file name="vc17/.vs/otclient/v17/Browse.VC.db" hash="b66814a63d587e50ce9455b66fa0a5026b6fa754d8f5461137468a0a35294ab9"/>
+      <file name="vc17/.vs/otclient/v17/DocumentLayout.backup.json" hash="084a204bcf25372b3c6381ebbd734731457632043f7b5771c8656769f7427f62"/>
+      <file name="vc17/.vs/otclient/v17/DocumentLayout.json" hash="084a204bcf25372b3c6381ebbd734731457632043f7b5771c8656769f7427f62"/>
+      <file name="vc17/.vs/otclient/v17/fileList.bin" hash="fef9003244a76bd471f04ef031e3b6851755019f09636c8c09f9b9288a43810f"/>
+      <file name="vc17/.vs/otclient/v17/Solution.VC.db" hash="ad85f7f1b8eb57f3b2d005855930b03803c6af013e2d85e9347a511dfa18f019"/>
+      <file name="vc17/otclient/DirectX/otclient.log" hash="dde9275cbea85eb23b2ffb4bb4b5595f92398f4af7dc771580a7e45a163f94d0"/>
+      <file name="vc17/otclient/DirectX/unity_4PLWM1KJR50ZBQOS.cpp" hash="5bc3587541eb9311f3d3efb3bd37c1ee178c636df73f608390346fec9939fc2a"/>
+      <file name="vc17/otclient/DirectX/unity_AHM4THNK1X8DJYMN.cpp" hash="3f3401af06a076c74ef0058e8e155cf261ff1b4021b2a74b6a33f288a878fd5b"/>
+      <file name="vc17/otclient/DirectX/unity_BSZZP84P3DGIWO9U.cpp" hash="bfd737e9f1375b4387fa33b3b5408162c308bfdd007e55b94b40cd6ac2441f62"/>
+      <file name="vc17/otclient/DirectX/unity_C5SLAVM2OZU9Y7ZY.cpp" hash="ef7f60eaf815a49dfdcfd7c26bbb50b454c2f49c97efeb96925994dd63f35b14"/>
+      <file name="vc17/otclient/DirectX/unity_DA8XYMX7SOTQKGV5.cpp" hash="a9e218338e546ae9e213f0d38ae79438ba886397f321644f20867843c0639f58"/>
+      <file name="vc17/otclient/DirectX/unity_F5XNWC37QSSS5SX6.cpp" hash="94ea5b032b29df2f5bbed4ed58f421d1ef826e27be17cd9b4b7d80f11ee3af00"/>
+      <file name="vc17/otclient/DirectX/unity_HV5ZY32WEPEWNT2B.cpp" hash="db304adf5d554a98ea39013dc3251fe8ef98771bfa2334d61ed7bd92815a0481"/>
+      <file name="vc17/otclient/DirectX/unity_IW6LX6JVJQJXAS88.cpp" hash="90e350a92bc35c69f09ed2e74c347ba0437ea71a3cf313a0c0704277110d1db2"/>
+      <file name="vc17/otclient/DirectX/unity_K20IXBCF40MDPSXH.cpp" hash="9f1f26c48cc0d363ad904a44f114bda5f17ddcb5e706be819e9b524ea7f4dd26"/>
+      <file name="vc17/otclient/DirectX/unity_KE2T4I93UGJZXGH4.cpp" hash="d44cba22e72c1957ec2c71072993cb4bb23f4651478f9cbe26e4739946a287c7"/>
+      <file name="vc17/otclient/DirectX/unity_NHA9IZGHCT0JFOHX.cpp" hash="4bce0a250f3a0d770657d0f5e7cad0553ee860aef40b673703b0a630f628269f"/>
+      <file name="vc17/otclient/DirectX/unity_SJL09039OBB0LGV8.cpp" hash="68f977ff3877b49859b6808c90536098fd0e0ba79c8643648d8eaddd70b3974f"/>
+      <file name="vc17/otclient/DirectX/unity_T34WWL91XFH7PKP7.cpp" hash="e15caa014159704987399fb81462439f704a89e9c6253465eed3f8b23b7566cd"/>
+      <file name="vc17/otclient/DirectX/unity_W2FBUPY3BPOQ808T.cpp" hash="67ae1a96454725c451a28fa512853cc634629f8ad6a15fc924c10f155aa33e23"/>
+      <file name="vc17/otclient/DirectX/unity_X99JEUKP25AAX5HP.cpp" hash="c8397df86feb82dd5321f83bb3b7f9c3d35717b41c67f3812671dfe6793bd178"/>
+      <file name="vc17/otclient/DirectX/unity_YV1W05MU7H2I3UY3.cpp" hash="892bbc685a699783bcf039badd3ce6807a089ba34eeb0c7aef3b6a8bffe7418a"/>
+      <file name="vc17/otclient/DirectX/otclient.tlog/GeneratedUnityFiles.txt" hash="e862f1de4de750d4d20e1a4e1fdbbbda3ba12237c13881e742ade532305e10af"/>
+      <file name="vc17/otclient/DirectX/otclient.tlog/otclient.lastbuildstate" hash="0bfcf50b80da85959cd043c344cb48b1ede480b9240e4809c9f924684be4c74f"/>
+      <file name="vc17/otclient/DirectX/otclient.tlog/unsuccessfulbuild" hash="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/info/egl-registry_2024-01-25_x86-windows-static.list" hash="242b6bb9b9f447f9d614798b94d5111314b2ae534c8110db2177ae436acda462"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/info/vcpkg-cmake-config_2022-02-06_x64-windows.list" hash="69e0644c7bb61ef1acf15e336db105a5b11e5756bc379cf07d2e89a1b486e033"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/info/vcpkg-cmake_2023-05-04_x64-windows.list" hash="c6e412bc967c160e890fcd791ab7d07e6cf2325d3fed4f3d731ac8e268d0f335"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/info/zlib_1.3.1_x86-windows-static.list" hash="9e78b940848728d11afb19a2379de60e32d8bd9a1ab72b0366ca5f8a2a36027d"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000000" hash="8a4f831e45a83fd5d668b6338ffcadb11520708d89b1c31a8085174b39fd2834"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000001" hash="09626c02b6a5be81a7ec0a80d95ba3f8cb41709b6a808aa0d1d383c52ab428ea"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000002" hash="04e62b24b9f94c61395d6b04012294f075eaf3ec356322d8692f811aff32f375"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000003" hash="31de322adc9129ee0e9aa3c34c0ad9172b5407fc4a90f9218e421d582d5af771"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000004" hash="6943ddadf438e85f8328353adbb01a7fc2fbc2166e62d6460d2ef7ae5500ecf6"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000005" hash="323756b21043becfe17f76581ee292f2390e3c2f729c90eea09ce7034f6069ce"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000006" hash="f57577122a2b941df6edec30678971538a7b41000dbabb271b881347a9620598"/>
+      <file name="vcpkg_installed/x86-windows-static/vcpkg/updates/0000000007" hash="9d34e9771d17d033df1ded053dc353aba8c5fd71f743bc71c028e30dee43efad"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/copyright" hash="1ee376fc340e0aa6ad6a3581c94126e741468705096ac92263048a21daa86460"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg-port-config.cmake" hash="f0a30f77c8f5e3ac40436fe2518a61ad067f2955c7ef3be6d6a0ca4b81cd2a45"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg.spdx.json" hash="388672820bc343650e3b64b41f06bdb742f69ad4ef9efba37d428193499a9170"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg_abi_info.txt" hash="f061d32393ea2a7480cf14d5da656869b58d4ba50ad5dc97e50f90eca96fdcde"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg_cmake_build.cmake" hash="6d1c27080fe3e768b5e7b968d6a28a37db154ebcb214297de25f10b6713511e1"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg_cmake_configure.cmake" hash="8aae610f5d431a163da08ceaf88c41e2f0046c12c614f186d4b4119663785736"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake/vcpkg_cmake_install.cmake" hash="3ae7886dc8434fac6f1e61190cc355fdec5fbd4f60758e2de20423cf49c91369"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake-config/copyright" hash="04b60f99a43bfd7fefdc8364b24aac704a2160cef969b75ba6a38b62dc4c4b70"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake-config/vcpkg-port-config.cmake" hash="72bc3093337e633bdd19fe5d4dd1f38ca1918def49608d676a9c98c686d38b1e"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake-config/vcpkg.spdx.json" hash="43eb0a349c3ce8071551328d914785148cc596879ecc058249c102b4b8cdef7f"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake-config/vcpkg_abi_info.txt" hash="f136e876f1f033c94fc8d8522b8da24fd277478c9b7f2fc6caf9da560e5ee18c"/>
+      <file name="vcpkg_installed/x86-windows-static/x64-windows/share/vcpkg-cmake-config/vcpkg_cmake_config_fixup.cmake" hash="f92905382d90e37fa2addd96becce31f5075175196b117de6dd997a4ac1d6d06"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/debug/lib/zlibd.lib" hash="944c8b207cd6a8863f36b72ac7a6d9fedae91f608deedf97bc29d220e8dfdb3d"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/debug/lib/pkgconfig/zlib.pc" hash="aba6c83ead83cab5ea9cd634ea15b11c9a04357faf4fc53cb5ad5f07a2b46462"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/zconf.h" hash="69b8edb08395c9cd21c55d7ab930170835a7349ce75a7475c1fc363ff7ba1f78"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/zlib.h" hash="8a5579af72ea4f427ff00a4150f0ccb3fc5c1e4379f726e101133b1ab9fc600c"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/EGL/egl.h" hash="f5f41711f5d7517eb50d63726d786d471a3e84a52b94fd9aca9b6262b629347c"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/EGL/eglext.h" hash="efc117e5cbbf21fa4f2e9dbfb3899eedb3235c0152a2f6d9ca4510b7505e400f"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/EGL/eglplatform.h" hash="25b5391655effcf363a38fa00c3154f356a3eab3d35dc067847875513cf1e441"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/include/KHR/khrplatform.h" hash="7b1e01aaa7ad8f6fc34b5c7bdf79ebf5189bb09e2c4d2e79fc5d350623d11e83"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/lib/zlib.lib" hash="2a92d392237c9d17d2e5aade8a22cc7c952873bafedf0514952d0d1d5ea5662c"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/lib/pkgconfig/zlib.pc" hash="791407ef014c613ec7e76d7dcb543bc463d277ae4c9175c6f947fc61450d8532"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/egl-registry/copyright" hash="5d77554ffc974ce346430a01a30be8176ca5c46fb1b53a7233291195ded592d3"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/egl-registry/vcpkg.spdx.json" hash="284aba73c0c2293dfc3c36a4c57937e9b291b6527b2b07b5e0a55545076f781f"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/egl-registry/vcpkg_abi_info.txt" hash="3d10b787d7a59d5a33c4571667166ed0ad3113214aed7c1b872029d0ff386c7d"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/opengl/egl.xml" hash="a8144770957942e120941edc09c6a4d8c000b41ddc3ebe59e6321a4e176cd8a4"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/zlib/copyright" hash="845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/zlib/usage" hash="be22662327df993eebc437495add75acb365ab18d37c7e5de735d4ea4f5d3083"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/zlib/vcpkg-cmake-wrapper.cmake" hash="5d49ef2ee6448479c2aad0e5f732e2676eaba0411860f9bebabe6002d66f57d1"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/zlib/vcpkg.spdx.json" hash="5a5d021c6758d84b974a909f93e0950b0bd9a79b84dec7ef8090efc81eee65bb"/>
+      <file name="vcpkg_installed/x86-windows-static/x86-windows-static/share/zlib/vcpkg_abi_info.txt" hash="b9a7a3340832a8ec25597a62c92f425f60959e69b8128b16c3314fec36e3a1a9"/>
    </files>
 </updates>
