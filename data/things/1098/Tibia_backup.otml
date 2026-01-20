@@ -1,33 +1,3 @@
-creatures:
-  6:
-    outfit-displacement:
-      opacity: 1
-      North: 0 0
-      East: 0 0
-      West: 0 0
-      South: 19 0
-  20:
-    outfit-displacement:
-      opacity: 1
-      North: 0 0
-      East: 0 0
-      South: 50 0
-      West: 0 0
-  89:
-    outfit-displacement:
-      opacity: 1
-      North: 0 0
-      East: 0 0
-      South: 10 0
-      West: 0 0
-  94:
-    outfit-displacement:
-      opacity: 1
-      North: 4 0
-      East: 6 0
-      South: 4 0
-      West: 2 0
-items:
 effects:
   1:
     effect-displacement:
@@ -79,3 +49,33 @@ effects:
       opacity: 1
       x: 0
       y: 0
+creatures:
+  6:
+    outfit-displacement:
+      opacity: 1
+      North: 0 0
+      East: 0 0
+      South: 19 0
+      West: 0 0
+  20:
+    outfit-displacement:
+      opacity: 1
+      North: 0 0
+      East: 0 0
+      South: 50 0
+      West: 0 0
+  89:
+    outfit-displacement:
+      opacity: 1
+      North: 0 0
+      East: 0 0
+      South: 10 0
+      West: 0 0
+  94:
+    outfit-displacement:
+      opacity: 1
+      North: 4 0
+      East: 6 0
+      South: 4 0
+      West: 2 0
+items:

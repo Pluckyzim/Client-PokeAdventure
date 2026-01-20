@@ -85,32 +85,34 @@ SpeakTypesSettings = {
 ChatStatusActivated = false
 ChatControlStatus = nil
 SpeakTypes = {
-    [MessageModes.Say] = SpeakTypesSettings.say,
-    [MessageModes.Whisper] = SpeakTypesSettings.whisper,
-    [MessageModes.Yell] = SpeakTypesSettings.yell,
-    [MessageModes.GamemasterBroadcast] = SpeakTypesSettings.broadcast,
-    [MessageModes.PrivateTo] = SpeakTypesSettings.private,
-    [MessageModes.PrivateFrom] = SpeakTypesSettings.private,
-    [MessageModes.GamemasterPrivateFrom] = SpeakTypesSettings.privateRed,
-    [MessageModes.NpcTo] = SpeakTypesSettings.privatePlayerToNpc,
-    [MessageModes.NpcFrom] = SpeakTypesSettings.privateNpcToPlayer,
-    [MessageModes.Channel] = SpeakTypesSettings.channelYellow,
-    [MessageModes.ChannelManagement] = SpeakTypesSettings.channelWhite,
-    [MessageModes.GamemasterChannel] = SpeakTypesSettings.channelRed,
-    [MessageModes.ChannelHighlight] = SpeakTypesSettings.channelOrange,
-    [MessageModes.MonsterSay] = SpeakTypesSettings.monsterSay,
-    [MessageModes.MonsterYell] = SpeakTypesSettings.monsterYell,
-    [MessageModes.RVRChannel] = SpeakTypesSettings.channelWhite,
-    [MessageModes.RVRContinue] = SpeakTypesSettings.rvrContinue,
-    [MessageModes.RVRAnswer] = SpeakTypesSettings.rvrAnswerFrom,
-    [MessageModes.NpcFromStartBlock] = SpeakTypesSettings.privateNpcToPlayer,
+  [MessageModes.Say or 999] = SpeakTypesSettings.say,
+  [MessageModes.Whisper or 998] = SpeakTypesSettings.whisper,
+  [MessageModes.Yell or 997] = SpeakTypesSettings.yell,
+  [MessageModes.GamemasterBroadcast or 996] = SpeakTypesSettings.broadcast,
+  [MessageModes.PrivateTo or 995] = SpeakTypesSettings.private,
+  [MessageModes.PrivateFrom or 994] = SpeakTypesSettings.private,
+  [MessageModes.GamemasterPrivateFrom or 993] = SpeakTypesSettings.privateRed,
+  [MessageModes.NpcTo or 992] = SpeakTypesSettings.privatePlayerToNpc,
+  [MessageModes.NpcFrom or 991] = SpeakTypesSettings.privateNpcToPlayer,
+  [MessageModes.Channel or 990] = SpeakTypesSettings.channelYellow,
+  [MessageModes.ChannelManagement or 989] = SpeakTypesSettings.channelWhite,
+  [MessageModes.GamemasterChannel or 988] = SpeakTypesSettings.channelRed,
+  [MessageModes.ChannelHighlight or 987] = SpeakTypesSettings.channelOrange,
+  [MessageModes.MonsterSay or 986] = SpeakTypesSettings.monsterSay,
+  [MessageModes.MonsterYell or 985] = SpeakTypesSettings.monsterYell,
+  [MessageModes.RVRChannel or 984] = SpeakTypesSettings.channelWhite,
+  [MessageModes.RVRContinue or 983] = SpeakTypesSettings.rvrContinue,
+  [MessageModes.RVRAnswer or 982] = SpeakTypesSettings.rvrAnswerFrom,
+  [MessageModes.NpcFromStartBlock or 981] = SpeakTypesSettings.privateNpcToPlayer,
 
-    -- ignored types
-    [MessageModes.Spell] = SpeakTypesSettings.none,
-    [MessageModes.BarkLow] = SpeakTypesSettings.none,
-    [MessageModes.BarkLoud] = SpeakTypesSettings.none,
-    [MessageModes.Potion] = SpeakTypesSettings.none
+  -- ignored types
+  [MessageModes.Spell or 980] = SpeakTypesSettings.none,
+  [MessageModes.BarkLow or 979] = SpeakTypesSettings.none,
+  [MessageModes.BarkLoud or 978] = SpeakTypesSettings.none,
+  [MessageModes.Potion or 977] = SpeakTypesSettings.none
 }
+
+SpeakTypes[999] = nil
 
 SayModes = {
 	{
@@ -185,6 +187,10 @@ function init()
 	})
 
 	chatWindow = g_ui.loadUI("chat", modules.game_interface.getRootPanel())
+	if not chatWindow then
+        perror("ERRO: Nao foi possivel carregar o arquivo chat.otui. Verifique se o nome esta correto.")
+        return
+    end
 	configWindow = g_ui.loadUI("config", modules.game_interface.getRootPanel())
 	allchat = g_ui.loadUI("allchat", modules.game_interface.getRootPanel())
 	configWindow.configsContent.chatAlwaysActive.tooltip = "Essa op��o desabilita o WASD."

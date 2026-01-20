@@ -89,14 +89,10 @@ function terminate()
 end
 
 function createActionBars()
-  local bottomPanel = modules.game_interface.getBottomActionPanel()
-  local leftPanel = modules.game_interface.getLeftActionPanel()
-  local rightPanel = modules.game_interface.getRightActionPanel()
+  local bottomPanel = modules.game_bottombar.doGetBottombarButtonWind()
 
   -- 1-3: bottom
-  -- 4-6: left
-  -- 7-9: right
-  for i=1,9 do
+  for i = 1, 3 do
     local parent
     local index
     local layout
@@ -105,14 +101,6 @@ function createActionBars()
       parent = bottomPanel
       index = i
       layout = 'actionbar'
-    elseif i <= 6 then
-      parent = leftPanel
-      index = i - 3
-      layout = 'sideactionbar'
-    else
-      parent = rightPanel
-      index = i - 6
-      layout = 'sideactionbar'
     end
 
     actionBars[i] = g_ui.loadUI(layout, parent)
@@ -166,10 +154,44 @@ function online()
 end
 
 function show()
-  for i=1,#actionBars do
+  for i = 1, #actionBars do
     local actionbar = actionBars[i]
     local enabled = g_settings.getBoolean("actionbar"..i, false)
+    local bottomPanel = modules.game_bottombar.doGetBottombar()
+    local bottomActionPanel = modules.game_interface.getBottomActionPanel()
+	local backgroundInfos = modules.game_bottombar.getbackgroundInfos()
 
+    local enabled1 = g_settings.getBoolean("actionbar1", false)
+    local enabled2 = g_settings.getBoolean("actionbar2", false)
+    local enabled3 = g_settings.getBoolean("actionbar3", false)
+
+	if enabled == true then
+	  if i == 2 then
+	    bottomPanel:setHeight(141)
+	    bottomActionPanel:setHeight(141)
+		
+	  elseif i == 3 and enabled2 == true then
+	    bottomPanel:setHeight(187)
+	    bottomActionPanel:setHeight(187)
+		
+	  elseif i == 3 and enabled2 == false then
+	    bottomPanel:setHeight(141)
+	    bottomActionPanel:setHeight(141)
+		
+	  else
+	    bottomPanel:setHeight(95)
+	    bottomActionPanel:setHeight(95)
+		
+	  end
+	  backgroundInfos:setMarginTop(12)
+	end
+
+	if i == 1 and enabled == false then
+	  bottomPanel:setHeight(95)
+	  bottomActionPanel:setHeight(95)
+	  backgroundInfos:setMarginTop(59)
+	end
+	
     actionbar:setOn(enabled)
     setupActionBar(i)
   end
@@ -378,8 +400,8 @@ function setupButton(widget)
     widget.item:setOn(true)
     widget.type = config.type
     widget.text:setText(config.sayText or "")
-    if widget.item:getItemId() ~= (config.itemId and config.itemId > 0 and config.itemId or 0) then
-      widget.item:setItem(Item.create(config.itemId, 0))
+    if widget.item:getItemId() ~= (config.itemId and config.itemId > 100 and config.itemId or 0) then
+      widget.item:setItem(Item.create(config.itemId, 50))
     end
     widget.sayText = config.sayText
     widget.autoSay = config.autoSay
@@ -411,14 +433,14 @@ function setupButton(widget)
     widget.text:setImageSource('')
   end
 
-  -- widget.item.onDragEnter = function(self)
-  --   if g_ui.isMouseGrabbed() or actionbar.locked then return end
-  --   mouseGrabberWidget:grabMouse()
-  --   g_mouse.pushCursor('target')
+  widget.item.onDragEnter = function(self)
+    if g_ui.isMouseGrabbed() or actionbar.locked then return end
+    mouseGrabberWidget:grabMouse()
+    g_mouse.pushCursor('target')
 
-  --   self:setBorderColor('#FFFFFF')
-  --   cachedSettings = {id=widget:getId(), data=settings[widget:getId()], widget=widget}
-  -- end
+    self:setBorderColor('#FFFFFF')
+    cachedSettings = {id=widget:getId(), data=settings[widget:getId()], widget=widget}
+  end
 
   -- popupmenu & execute action
   widget.onMouseRelease = function(widget, mousePos, mouseButton)
@@ -426,10 +448,10 @@ function setupButton(widget)
 
       local menu = g_ui.createWidget('PopupMenu')
       menu:setGameMenu(true)
-      --menu:addOption(widget.spellId and tr('Edit Spell') or tr('Assign Spell'), function() assignSpell(widget) end)
-      menu:addOption(widget.item:getItemId() > 100 and tr('Editar objeto') or tr('Atribuir objeto'), function() assignItem(widget) end)
-      menu:addOption(widget.text:getText():len() > 0 and tr('Editar Texto') or tr('Atribuir texto'), function() assignText(widget) end)
-      menu:addOption(widget.hotkey and tr('Editar atalho') or tr('Atribuir atalho'), function() assignHotkey(widget) end)
+      menu:addOption(widget.spellId and tr('Edit Spell') or tr('Assign Spell'), function() assignSpell(widget) end)
+      menu:addOption(widget.item:getItemId() > 100 and tr('Edit Object') or tr('Assign Object'), function() assignItem(widget) end)
+      menu:addOption(widget.text:getText():len() > 0 and tr('Edit Text') or tr('Assign Text'), function() assignText(widget) end)
+      menu:addOption(widget.hotkey and tr('Edit Hotkey') or tr('Assign Hotkey'), function() assignHotkey(widget) end)
 
       if widget.type > 0 then
         menu:addSeparator()
@@ -526,6 +548,7 @@ function assignItem(widget)
   window:focus()
 
   -- basics
+  window:setText("Assign Object to Action Button "..widget:getId())
   window:setId("assignItemWindow")
 
   -- select item
@@ -911,10 +934,10 @@ function assignHotkey(widget)
   end
 
   -- things
-  --barDesc = barDesc.." Action Bar: Action Button "..widget:getId()
-  --window:setText('Edit Hotkey for "'..barDesc)
- -- window.desc:setText(window.desc:getText()..barDesc..'"')
-  -- window.display:setText(widget.hotkey or "")
+  barDesc = barDesc.." Action Bar: Action Button "..widget:getId()
+  window:setText('Edit Hotkey for "'..barDesc)
+  window.desc:setText(window.desc:getText()..barDesc..'"')
+  window.display:setText(widget.hotkey or "")
   
   -- hotkey
   window:grabKeyboard()
@@ -1176,6 +1199,11 @@ function load()
   end
 end
 
+function getActionBar()
+    return newactionbar
+end
+
+
 function switchMode(newMode)
   if newMode then
     actionBars[1]:setMarginBottom(27)   
@@ -1183,3 +1211,4 @@ function switchMode(newMode)
     actionBars[1]:setMarginBottom(3)      
   end
 end
+

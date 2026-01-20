@@ -41,7 +41,7 @@ function init()
   background:lower()
 
   clientVersionLabel = background:getChildById('clientVersionLabel')
-  local text = parseColoredText('<color=#32a852>Pokémon Space<color/> <color=#e60ec2> OTCV8 <color/> <color=#4dff00>1.0 <color/> dffsd')
+  local text = parseColoredText('<color=#4dff00>Version<color/> <color=#e60ec2>1.0<color/>')
   clientVersionLabel:setColoredText(text)
 
   connect(g_game, { onGameStart = hide })

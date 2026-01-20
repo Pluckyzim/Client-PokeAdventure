@@ -1,6 +1,5 @@
 local mainWindow, createdWindow = nil
 local bankButton = nil
-local bnkIcon = nil
 local opcode = 75
 local currentTime = os.time()
 
@@ -8,27 +7,12 @@ function init()
     -- Carrega a janela principal
     mainWindow = g_ui.loadUI("bank", modules.game_interface.getRootPanel())
     mainWindow:hide()
-    
-    -- Cria o ícone flutuante no canto inferior direito (onde está o risco azul)
-    bankIcon = g_ui.createWidget('Button', modules.game_interface.getRootPanel())
-    bankIcon:setSize({32, 32}) -- Tamanho do ícone
-    bankIcon:setImageSource('/images/topbuttons/bank') -- Sua imagem do $
-    bankIcon:addAnchor(AnchorBottom, 'parent', AnchorBottom)
-    bankIcon:addAnchor(AnchorRight, 'parent', AnchorRight)
-    bankIcon:setMarginBottom(275) -- Ajuste a altura para subir ou descer até o risco azul
-    bankIcon:setMarginRight(200)   -- Ajuste a distância da borda direita
-    
-    bankIcon.onClick = toggle
-
     ProtocolGame.registerExtendedOpcode(opcode, receiveOpcode)
+	g_keyboard.bindKeyDown('Ctrl+H', toggle)
 end
 
 function terminate()
-    if bankIcon then
-        bankIcon:destroy()
-        bankIcon = nil
-    end
-
+	g_keyboard.unbindKeyDown('Ctrl+H')
     ProtocolGame.unregisterExtendedOpcode(opcode, receiveOpcode)
 end
 

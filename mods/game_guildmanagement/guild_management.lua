@@ -88,6 +88,7 @@ function init()
 
   ProtocolGame.registerExtendedOpcode(OPCODE, onExtendedOpcode)
   ProtocolGame.registerOpcode(GameServerOpcodes.GameServerGuildWarKills, onWarsKills)
+  g_keyboard.bindKeyDown('Ctrl+Y', toggle)
 
   if g_game.isOnline() then
     create()
@@ -142,6 +143,7 @@ function terminate()
       onGameEnd = destroy
     }
   )
+  g_keyboard.unbindKeyDown('Ctrl+Y')
 
   ProtocolGame.unregisterExtendedOpcode(OPCODE)
   ProtocolGame.unregisterOpcode(GameServerOpcodes.GameServerGuildWarKills)

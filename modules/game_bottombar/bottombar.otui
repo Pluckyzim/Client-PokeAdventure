@@ -1,0 +1,254 @@
+UIWidget
+  id: Window
+  size: 805 95
+  image-source: images/background
+  image-border-top: 68
+  image-border-bottom: 27
+  // Ajuste global da posição vertical da bottombar (não mexe só as barras)
+  // Aumente/diminua este margin-top para subir/descer toda a janela.
+  margin-top: 168
+  image-border-right: 120
+  image-border-left: 120
+
+  LegSlot
+    id: slotDex
+    size: 32 32
+    &position: {x=65535, y=7, z=0}
+    anchors.verticalCenter: backgroundButtons.verticalCenter
+    anchors.right: backgroundButtons.left
+    margin-right: 75
+    change-cursor-image: true
+    cursor: pointer
+  NeckSlot
+    id: slotFish
+    size: 32 32
+    &position: {x=65535, y=2, z=0}
+    anchors.verticalCenter: backgroundButtons.verticalCenter
+    anchors.left: slotDex.right
+    margin-left: 10
+    change-cursor-image: true
+    cursor: pointer
+  OrderSlot
+    id: slotOrder
+    size: 32 32
+    &position: {x=65535, y=11, z=0}
+    anchors.verticalCenter: backgroundButtons.verticalCenter
+    anchors.left: slotFish.right
+    margin-left: 10
+    change-cursor-image: true
+    cursor: pointer
+
+  Panel
+    id: backgroundButtons
+    size: 469 30
+    phantom: true
+    anchors.bottom: parent.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    margin-bottom: 8
+    margin-left: 130
+    margin-right: 5
+    layout:
+      type: verticalBox
+      fit-children: true
+
+  // BARRA DE INFORMAÇÕES (LEVEL, FISH, SPEED):
+  // Para subir/descer todo o bloco de infos, altere anchors e margem aqui.
+  // Anchora no topo para manter as infos mais acima; se quiser descer tudo,
+  // você pode trocar para anchors.bottom com margin-bottom.
+  UIWidget
+    id: backgroundInfos
+    size: 582 27
+    anchors.horizontalCenter: parent.horizontalCenter
+    anchors.top: parent.top
+    margin-top: 17
+
+    // LEVEL: Para posicionar verticalmente toda a barra de nível,
+    // ajuste o 'margin-bottom' deste widget (valores positivos sobem, negativos descem)
+    UIWidget
+      id: backgroundLife
+      size: 108 25
+      phantom: true
+      anchors.top: parent.top
+      anchors.left: parent.left
+      UIWidget
+        id: icon
+        size: 19 20
+        image-source: images/heart
+        phantom: true
+        anchors.top: parent.top
+        margin-top:  17
+        anchors.left: parent.left
+      UIWidget
+        id: base_progress
+        size: 85 6
+        image-source: images/life/progress_base
+        anchors.top: parent.top
+        anchors.right: parent.right
+        margin-top: 24
+      UIWidget
+        id: progress
+        size: 85 6
+        image-source: images/life/progress
+        phantom: true
+        anchors.top: parent.top
+        anchors.right: parent.right
+        margin-top: 24
+      Label
+        id: value
+        !text: '1.235'
+      
+        color: #c6c6c6
+        text-align: right
+        text-auto-resize: true
+        anchors.right: parent.right
+        anchors.bottom: progress.top
+        margin-right: 1
+
+    // LEVEL: Bloco principal da barra de nível.
+    // Ajuste vertical geral alterando 'margin-bottom' aqui.
+    UIWidget
+      id: backgroundLevel
+      size: 209 30
+      phantom: true
+      anchors.bottom: prev.bottom
+      anchors.left: prev.right
+        margin-bottom: -10
+      margin-left: 10
+      UIWidget
+        id: icon
+        size: 24 24
+        image-source: images/exp
+        // Ajuste fino vertical do ícone da barra de nível
+        margin-top: 15
+        margin-left: -5
+        phantom: true
+        anchors.top: parent.top
+        anchors.left: parent.left
+      UIWidget
+        id: base_progress
+        size: 187 6
+        image-source: images/level/progress_base
+        anchors.top: parent.top
+        anchors.right: parent.right
+        // Ajuste fino vertical da base da barra de nível
+        margin-top: 28
+      UIWidget
+        id: progress
+        size: 187 6
+        image-source: images/level/progress
+        phantom: true
+        anchors.top: parent.top
+        anchors.right: parent.right
+        // Ajuste fino vertical do preenchimento da barra de nível
+        margin-top: 28
+      Label
+        id: valueLevel
+        !text: 'Lv.10'
+      
+        color: #c6c6c6
+        text-align: right
+        text-auto-resize: true
+        anchors.left: progress.left
+        anchors.bottom: progress.top
+        margin-left: 1
+      Label
+        id: value
+        !text: '750'
+      
+        color: #c6c6c6
+        text-align: right
+        text-auto-resize: true
+        anchors.right: parent.right
+        anchors.bottom: progress.top
+        margin-right: 1
+
+    // FISH: Para subir/descer toda a barra de pesca,
+    // ajuste 'margin-bottom' deste widget (adicione ou altere o valor).
+    UIWidget
+      id: backgroundFish
+      size: 82 18
+      phantom: true
+      anchors.bottom: prev.bottom
+      anchors.left: prev.right
+      margin-left: 10
+      // Ajuste vertical geral da barra de pesca (0 padrão)
+      margin-bottom: 0
+      UIWidget
+        id: icon
+        size: 25 16
+        image-source: images/fish/icon
+        phantom: true
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        // Ajuste fino vertical do ícone de pesca
+        margin-bottom: -3
+      UIWidget
+        id: base_progress
+        size: 53 6
+        image-source: images/fish/progress_base
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        // Ajuste fino vertical da base da barra de pesca
+        margin-bottom: -2
+      UIWidget
+        id: progress
+        size: 53 6
+        image-source: images/fish/progress
+        phantom: true
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        // Ajuste fino vertical do preenchimento da barra de pesca
+        margin-bottom: -2
+      Label
+        id: value
+        !text: '0'
+      
+        color: #c6c6c6
+        text-align: right
+        text-auto-resize: true
+        anchors.right: parent.right
+        anchors.bottom: progress.top
+        margin-right: 0
+        margin-bottom: -3
+
+    // SPEED: Para subir/descer toda a barra de velocidade,
+    // ajuste 'margin-bottom' deste widget (adicione ou altere o valor).
+    UIWidget
+      id: backgroundSpeed
+      size: 74 17
+      phantom: true
+      anchors.bottom: prev.bottom
+      anchors.left: prev.right
+      margin-left: 10
+      // Ajuste vertical geral da barra de velocidade (0 padrão)
+      margin-bottom: 0
+      UIWidget
+        id: icon
+        size: 17 15
+        image-source: images/speed/icon
+        phantom: true
+        anchors.bottom: parent.bottom
+        anchors.left: parent.left
+        // Ajuste fino vertical do ícone de velocidade
+        margin-bottom: -4
+      UIWidget
+        id: progress
+        size: 53 6
+        phantom: true
+        anchors.bottom: parent.bottom
+        anchors.right: parent.right
+        // Ajuste fino vertical do preenchimento da barra de velocidade
+        margin-bottom: -1
+      Label
+        id: value
+        !text: '1.200'
+      
+        color: #c6c6c6
+        text-align: left
+        text-auto-resize: true
+        anchors.left: icon.right
+        anchors.bottom: progress.bottom
+        margin-left: 5
+        // Ajuste fino vertical do texto de velocidade
+        margin-bottom: -2

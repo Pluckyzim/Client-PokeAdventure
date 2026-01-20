@@ -63201,3 +63201,298 @@ stack traceback:
 	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
 WARNING: attempt to destroy widget 'missionPanel' two times
 WARNING: widget 'widget993' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:39:46
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1037' was not explicitly destroyed
+WARNING: widget 'widget993' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:50:01
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1037' was not explicitly destroyed
+WARNING: widget 'widget993' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:52:03
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:54:31
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+WARNING: widget 'widget1036' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:55:19
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:55:58
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+WARNING: widget 'widget1036' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:57:44
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+16384
+ola
+16384
+ola
+abrir_trade
+16384
+16384
+ola
+afirmativo
+ola
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1036' was not explicitly destroyed
+WARNING: widget 'widget992' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 17 2026 23:59:02
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+ola
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 18 2026 00:01:52
+loading
+Cliente não está online. refreshQuests não será executado.
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1036' was not explicitly destroyed
+WARNING: widget 'widget992' was not explicitly destroyed
+Connecting to:127.0.0.1:7171
+ola
+ola
+ajudar
+ola
+ola
+16384
+16384
+16384
+ola
+16384
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+WARNING: widget 'widget1036' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 18 2026 00:18:17
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1036' was not explicitly destroyed
+WARNING: widget 'widget992' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 18 2026 00:38:55
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget992' was not explicitly destroyed
+GPU ANGLE (NVIDIA, NVIDIA GeForce GTX 970 Direct3D11 vs_5_0 ps_5_0, D3D11-32.0.15.6603) (Google Inc. (NVIDIA))
+OpenGL OpenGL ES 3.0.0 (ANGLE 2.1.5414 git hash: aa63ea230e0c)
+[Atlas] Texture size is: 4096x4096 (max: 16384x16384)
+Found work dir at 'E:/Poketibia/Base Monster Completa/GIT/Client-PokeAdventure/'
+== application started at Jan 20 2026 02:38:18
+loading
+Cliente não está online. refreshQuests não será executado.
+Connecting to:127.0.0.1:7171
+Exiting application..
+ERROR: Lua error: /modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+ERROR: Unable to unload module 'player_brokes': LUA ERROR:
+/modules/player_brokes/player_brokes.lua:360: attempt to index upvalue 'catchButton' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/modules/player_brokes/player_brokes.lua:360: in function 'terminate'
+	/modules/player_brokes/player_brokes.otmod:11:[@onUnload]:1: in main chunk
+WARNING: attempt to destroy widget 'missionPanel' two times
+WARNING: widget 'widget1036' was not explicitly destroyed
+WARNING: widget 'widget992' was not explicitly destroyed

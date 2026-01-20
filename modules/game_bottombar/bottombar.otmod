@@ -1,0 +1,11 @@
+Module
+  name: game_bottombar
+  description: Player information structure for easy viewing of information at a glance
+  author: stone
+  website: https://x.gd/kJ2WH
+  autoload: true
+  autoload-priority: 1000
+  scripts: [ bottombar ]
+  sandboxed: true
+  @onLoad: init()
+  @onUnload: terminate()

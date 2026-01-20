@@ -1,5 +1,5 @@
 RoundCheckBox < CheckBox
-  image-source: /images/ui/checkbox
+  image-source: /images/ui/checkbox_round
   
   $first:
     margin-top: 2
@@ -9,14 +9,12 @@ RoundCheckBox < CheckBox
 
 MainWindow
   id: assignItemWindow
-  size: 275 210
+  size: 275 195
 
   UIItem
     id: item
     anchors.top: parent.top
     anchors.left: parent.left
-    margin-top: 18
-    margin-left: 6
     size: 86 86
     padding: 5
     &selectable: true
@@ -29,8 +27,7 @@ MainWindow
     anchors.left: prev.right
     anchors.top: parent.top
     anchors.right: parent.right
-    margin-left: 16
-    margin-top: 14
+    margin-left: 10
     layout: 
       type: verticalBox
       fit-children: true
@@ -66,16 +63,22 @@ MainWindow
     anchors.right: item.right
     anchors.top: item.bottom
     margin-top: 5
-    font: window
-    size: 60 22
+    font: cipsoftFont
+    height: 20
     text: Select item
+
+  HorizontalSeparator
+    anchors.top: prev.bottom
+    margin-top: 10
+    anchors.left: parent.left
+    anchors.right: parent.right
 
   Button
     id: buttonClose
     anchors.right: parent.right
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Close
 
   Button
@@ -83,8 +86,8 @@ MainWindow
     anchors.right: prev.left
     margin-right: 5
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Apply
 
   Button
@@ -92,19 +95,6 @@ MainWindow
     anchors.right: prev.left
     margin-right: 5
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Ok
-
-  Label
-    id: topText
-    text-auto-resize: true
-    !text: tr('ATRIBUIR OBJETO')
-    font: future-earth-18
-    anchors.horizontalCenter: parent.horizontalCenter
-    anchors.top: parent.top
-    color: #68b4db
-    draggable: false
-    phantom: true
-    margin-top: -30
-    margin-left: 16

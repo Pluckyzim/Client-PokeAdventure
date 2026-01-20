@@ -1,26 +1,12 @@
 MainWindow
   id: assignTextWindow
-  size: 275 210
-  Label
-    id: topText
-    text-auto-resize: true
-    !text: tr('ATRIBUIR TEXTO')
-    font: future-earth-18
-    anchors.horizontalCenter: parent.horizontalCenter
-    anchors.top: parent.top
-    color: #68b4db
-    draggable: false
-    phantom: true
-    margin-top: -30
-    margin-left: 6
+  size: 275 150
+  text: Assign Text
 
   Label
     anchors.top: parent.top
     anchors.left: parent.left
-    text:  Texto:
-    margin-top: 20
-    font: window
-    color: #68b4db
+    text: Text:
     text-horizontal-auto-resize: true
 
   TextEdit
@@ -47,12 +33,18 @@ MainWindow
       text: Send automatically
       checked: true
 
+  HorizontalSeparator
+    anchors.top: prev.bottom
+    margin-top: 10
+    anchors.left: parent.left
+    anchors.right: parent.right
+
   Button
     id: buttonClose
     anchors.right: parent.right
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Close
 
   Button
@@ -60,8 +52,8 @@ MainWindow
     anchors.right: prev.left
     margin-right: 5
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Apply
 
   Button
@@ -69,6 +61,6 @@ MainWindow
     anchors.right: prev.left
     margin-right: 5
     anchors.bottom: parent.bottom
-    size: 50 22
-    font: window
+    size: 45 21
+    font: cipsoftFont
     text: Ok

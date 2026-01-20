@@ -77,7 +77,6 @@ TopSliders < Panel
 
   Button
     id: prev
-    font: window
     anchors.fill: parent
     anchors.right: parent.horizontalCenter
     @onClick: modules.game_actionbar.moveActionButtons(self)

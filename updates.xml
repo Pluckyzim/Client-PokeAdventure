@@ -15,7 +15,7 @@
       <file name="otclient_gl.exp" hash="60895cebd0d3d206c2c09b47a6d239922e855bb0148d34bd60a6c77c9aa6fa9a"/>
       <file name="otclient_gl.lib" hash="ef721b501b022758496808d2024975eb00d46e95db271de3cc1ab53b65341771"/>
       <file name="packet.log" hash="987ccc447001c719d79431276790fbeba80b6952b42cba3bee8422e771bb3a8f"/>
-      <file name="PKM.log" hash="2ec0ee283677ae11b8e4ba55eb02b7037e2462c3fd515e82c7c89509ba607b34"/>
+      <file name="PKM.log" hash="1a5b9eb3aa6e7a155f8a5cebb731b3911e8be64c8bd05017004ed5d863bf78c5"/>
       <file name="vcpkg.json" hash="2e564d982535bb1121b089fda7e1b419210c99c5c38e2e0dfde831cccc91084d"/>
       <file name="data/map_desert.frag" hash="013b02ed9663bcee8916a3b42af0b6e5f75257c35b4f6477fff6b92508fc58ed"/>
       <file name="data/map_night.frag" hash="67f32b02b50102de5866b605fa8d9098b6faa7865fc61c6b2ea0d051c04897b6"/>
@@ -202,7 +202,7 @@
       <file name="data/images/background.png" hash="6e1f485c0018ca9682ca8e0aac89c70c80f47b8ead4d0bca88a0561debf75c8c"/>
       <file name="data/images/background2.png" hash="0e063312a57ea10e85bf79d85d4ff56fb654e49f8e1851fe20687db5273b076c"/>
       <file name="data/images/background3.png" hash="e9c1297a86abe5d3af4940ba374b4226e18f0d00dafad46710aaa8b3a7380c0e"/>
-      <file name="data/images/clienticon.png" hash="cd2456be567d5567f7be919a1198a3b68df05464b239d4ba6ed9e2aecddf4abd"/>
+      <file name="data/images/clienticon.png" hash="408c5699c6cc52ab31e18a3b345ef82ff34353169dcfdfcf06cc35b606f3a406"/>
       <file name="data/images/cursor.png" hash="6706330dc20f82cd1c3ffc6fdf95f9f249059177c99befcdd336014508673d34"/>
       <file name="data/images/eye.png" hash="4bc6be6bea6eb9a47b45917db8e583240dd30ff4decb1557cb9720588da34432"/>
       <file name="data/images/eye.zip" hash="550c750917c8bd825dc3829ccf7647cc206d2720828687afcbb3701678eca321"/>
@@ -272,6 +272,9 @@
       <file name="data/images/game/skull_socket.png" hash="dfcf8bf82a586dfd3404ceb1b411498297fa41dcb96275b4e620aeeb0702416a"/>
       <file name="data/images/game/actionbar/actionbarslot.png" hash="089b82c8c94cb59a96e44873aaf1d08bac3d3b517443ec73bee7bdc28df15175"/>
       <file name="data/images/game/actionbar/actionbarslotUsed.png" hash="089b82c8c94cb59a96e44873aaf1d08bac3d3b517443ec73bee7bdc28df15175"/>
+      <file name="data/images/game/actionbar/actionbarslot_border.png" hash="d1666549506cdf5d7e63f73745b91ee629b47bedb56ada8b6a28e7de285b2688"/>
+      <file name="data/images/game/actionbar/actionbarslot_border.rar" hash="fd92caff2971cd619f612235e546b9d9b94f7e7378eca283b87da872a6928d63"/>
+      <file name="data/images/game/actionbar/actionbarslot_on.png" hash="f845b11feffb6f3f01a3417085acbf25cab1d9a542bc08bbb7ab544d3f28f4bd"/>
       <file name="data/images/game/actionbar/arrow-disabled.png" hash="16bfbf00e4fd25d5d50ab8150339da85c1ba1f092b1c7583a277e7582f86c3e2"/>
       <file name="data/images/game/actionbar/arrow-skip-disabled.png" hash="ce68e9ce79b72d034df0b8b204c843af06547e96c6fe21c23e13b79e7b16570e"/>
       <file name="data/images/game/actionbar/arrow-skip.png" hash="1cf1e1dba7673affd65476944f90c05a9a477fabb4d08517d537ad4dfa2008a6"/>
@@ -283,6 +286,38 @@
       <file name="data/images/game/battle/battle_party.png" hash="7be81103fcadcdecc31edd24b50b3a7d49b9b17449a38ca0fe088a2fb83b465f"/>
       <file name="data/images/game/battle/battle_players.png" hash="cf8d1a5fdf83273bcdcf9eadf68fda1ad3911e7f91ba2dd7e1995dbdd52609c3"/>
       <file name="data/images/game/battle/battle_skulls.png" hash="90be3b16eddc551431e29a18ff3101483db71c8f5f8a3d7ea63b1da85b1e68f6"/>
+      <file name="data/images/game/chat/anuncio.png" hash="b01a9c4f06b1aa52bc83218c2ef349b93bf9e86266486550cf8eaea95d537175"/>
+      <file name="data/images/game/chat/background.png" hash="8d378a3df786cd0850dec5a4006e1fd133462c6568dcdce0657f27b7c4628182"/>
+      <file name="data/images/game/chat/background2.png" hash="59ce22296dd546e3b99c74f98abeff1560bef9ec1f3930b09c94a12633d557ce"/>
+      <file name="data/images/game/chat/channelButtons.png" hash="4679080b8f816f88d69d6bf183d781b719f32c188d93bf1c7ba0ef0458179861"/>
+      <file name="data/images/game/chat/configSmall.png" hash="4875d5fd8bdff219799f977b8207c535b39f55bad8e73c51f99c56840426f832"/>
+      <file name="data/images/game/chat/emoticon_background.png" hash="9a71f21a837e2c1e972686501f32e71be2a4b2099fe27d5af5298e4f6f002ca7"/>
+      <file name="data/images/game/chat/enterBackground.png" hash="fd987e8b74a94d5a4bfa03c9c1dc21468ebb73f34a89d575ebae82af6bc6302b"/>
+      <file name="data/images/game/chat/lockSmall.png" hash="7ef16a991b9717d5a8cc7995fb253d585c3908077b0227c854b63c252a26b366"/>
+      <file name="data/images/game/chat/scrollBar.png" hash="ce6529d06f145feaf3cc188d995626cd9b90589ebd0f2cd465db6b287ce95731"/>
+      <file name="data/images/game/chat/scrollbar2.png" hash="4c22b1b0518c7fffd6c3f45a67d2f8ef94459324cb8ca9cd5902b66dd236c635"/>
+      <file name="data/images/game/chat/send.png" hash="887b5d0357fd841c32e10254c210bfe0b6585c2c6ff3c9b4424367c8921eaf5f"/>
+      <file name="data/images/game/chat/slider.png" hash="0dea850063c0004cc01f7eed114c65e76032f2dda2756b5aa6f4ed30f5fe8b83"/>
+      <file name="data/images/game/chat/slider2.png" hash="72fdf566eefc68a47a4b4f45eb80c5bc688957c1abf1644084169a756226b203"/>
+      <file name="data/images/game/chat/tabBarButtons.png" hash="e8184d71c342c8eb6fc89fda0f616b22c8ab04c3b104204862a9dc7c492ebf2b"/>
+      <file name="data/images/game/chat/textBackground.png" hash="4266b86995e6a3383750fae9e7726c8ed8dc4314175567171923ae7fe6e84edb"/>
+      <file name="data/images/game/chat/textLineWindow.png" hash="884d9b1e2fda5d060f33ab025d9d00bbd2243d409d8df81aacfd414195ca1aa3"/>
+      <file name="data/images/game/chat/txtline.png" hash="58ade025db3abdf327cc439c37f99b7aef5e49b86c5326f6344040b216cf9b05"/>
+      <file name="data/images/game/chat/unlockSmall.png" hash="05e167d9f460889384932bb694936f26fb448a021d90154262c4c44737dc46f3"/>
+      <file name="data/images/game/chat/icons/channels.png" hash="7b6c5082614f5e3861029c906a9930b38f55afa1b3a1e63cbfca298b2a6c73fc"/>
+      <file name="data/images/game/chat/icons/clearchannel.png" hash="501395f89af5f66984f4b1520cca1ac20f58fb5f77e89347455ddd829e6dafa9"/>
+      <file name="data/images/game/chat/icons/close.png" hash="31f2e0fd018e55b7f78308e1de7bfc8e01e9431212a72230c6e21f102e9fc367"/>
+      <file name="data/images/game/chat/icons/closechannel.png" hash="ce37d3b11226069bf29a0d595b1b7ba279a6d98cd08091c69aa533e227f1a71c"/>
+      <file name="data/images/game/chat/icons/downarrow.png" hash="959f6f672b8179bb404a3cbf6ecfb9f7e158535c97c6625a9f7bed9dd06bf94e"/>
+      <file name="data/images/game/chat/icons/emotes.png" hash="aa7ac6123ff1e1b4b4e9c7026091fe30e35c02d8a31205b4ca5b8d18bff05c72"/>
+      <file name="data/images/game/chat/icons/emote_light.png" hash="44e6c6d680e601f0853a7d90f265246e43814d2db102310347829f50110bd73b"/>
+      <file name="data/images/game/chat/icons/ignore.png" hash="7a5dc687db3a36893b0c71a67269b1b9b12e969580308ac3b0c72d297e89bfde"/>
+      <file name="data/images/game/chat/icons/leftarrow.png" hash="628cf5271e2bebe8895bf84c1f6fca7429faf6f31dac82aa1fe305b1423f1d1f"/>
+      <file name="data/images/game/chat/icons/rightarrow.png" hash="3b16e41f11246b775a32055a14d89090b8b8a86e72d089907d31dc6a96e824cf"/>
+      <file name="data/images/game/chat/icons/say.png" hash="ae9731f7bc75a08e978b16d2834fc04d9baddc5fcebf64a7a7047096941d0fef"/>
+      <file name="data/images/game/chat/icons/uparrow.png" hash="aedb9f06f279af0b763dfbad5b285184d985de9560e64686e59f3f73d33367f8"/>
+      <file name="data/images/game/chat/icons/whisper.png" hash="e93593cead336ade4fa0594722f911aac5a15e184c6158b81578b87a241f6eee"/>
+      <file name="data/images/game/chat/icons/yell.png" hash="c6c9055ce010cc3468e49affc10da416fba5d81b0ee50da9495dd93631ce2d40"/>
       <file name="data/images/game/circle/left_empty.png" hash="a5ccd2409b8735ad6f845532990a15ad8c524d8e940730384e3ea5c853f664ed"/>
       <file name="data/images/game/circle/left_full.png" hash="c9499cb7f3bbf048e3885fa25a1f234d1b99344bec33365ebf0b62187a78ed40"/>
       <file name="data/images/game/circle/right_empty.png" hash="168733e5b7abb1ce17da985f231bb971877fe8536b99cc088ff1ab7c69388f98"/>
@@ -821,8 +856,8 @@
       <file name="data/images/ui/item-blessed.png" hash="704f0bb219532148d99cdc64ee83ecc9943af4f87227607cb8e99a48a10782fe"/>
       <file name="data/images/ui/item.png" hash="717467fbea5e76cc7a4b046df8085e218d156af810e968546f69e94ab88c4559"/>
       <file name="data/images/ui/leftScrollBarButton.png" hash="ffae71cb434842002ebef0481caef8f8a691cbeb8646c7bcbad116f84fcde29d"/>
-      <file name="data/images/ui/logo.png" hash="607808ec4aea90fb696eeccdd4bb9eba317cc9005bd0d26049f485b59e42165a"/>
-      <file name="data/images/ui/logo2.png" hash="607808ec4aea90fb696eeccdd4bb9eba317cc9005bd0d26049f485b59e42165a"/>
+      <file name="data/images/ui/logo.png" hash="4579b7e56afc0ea14fd3bd085098062b84eb39b41ece189f955524cd079451e6"/>
+      <file name="data/images/ui/logo2.png" hash="4579b7e56afc0ea14fd3bd085098062b84eb39b41ece189f955524cd079451e6"/>
       <file name="data/images/ui/menubox.png" hash="589a85f60758397f51477b803d5bd895ea6ffd9aaea384cc466f9696f3c621a1"/>
       <file name="data/images/ui/miniMapWindow.png" hash="944371bebb3da80ec27e9a1adca8c94647c638a58fbeab55fdfc10b55f874dc0"/>
       <file name="data/images/ui/miniMapWindow.psd" hash="f4e873ed58ede56a1e146d900fa1195326c677f6e70b90c8a5b57f0aba5b211a"/>
@@ -6433,10 +6468,10 @@
       <file name="data/things/1098/Tibia.otfi" hash="7743548835944bc799cb871a4e5def84f7af76815031871b9ce74b5ec0e8add3"/>
       <file name="data/things/1098/Tibia.otml" hash="5acf5dc0cd17e335313008aaa0a64cf6ded2764cc3601a3dd3fdf4eb9d6365f4"/>
       <file name="data/things/1098/Tibia.spr" hash="ded7f9c7bf220af7dd372487d66f509cdb03685478cde03f16015277d5930ce0"/>
-      <file name="data/things/1098/Tibia_backup.otml" hash="07eb815a217dfebd28cde9acb8b5d0928ddf2d5b5c5531df98dc1c534454c965"/>
+      <file name="data/things/1098/Tibia_backup.otml" hash="3949c8a17bceb6617b439c964033a90d7b2924243edea980b62ad2e13d8ca32f"/>
       <file name="mods/game_guildmanagement/buffs.otui" hash="5a824858d5c47d15ebc5728fb3b849efb6c08ceb7b200a84282af9db13d90642"/>
       <file name="mods/game_guildmanagement/general.otui" hash="6a9cc2fd5c1f2cd21b5fdc9ee7854569619760b793b9dc3bcea18c8af43f44c6"/>
-      <file name="mods/game_guildmanagement/guild_management.lua" hash="9e0a64020cecf1892606af299b277b908d6dab8c72fe3aa52fdba1cb63eff926"/>
+      <file name="mods/game_guildmanagement/guild_management.lua" hash="e3f78be18081324d136ab7bfe69eb7cdf52d946500e4fb0606f08bc7692beadb"/>
       <file name="mods/game_guildmanagement/guild_management.otmod" hash="ac77bce4fcb1ba67042a62f15c414d08b8a0408402fc24911d4485ebc1ee8aef"/>
       <file name="mods/game_guildmanagement/guild_management.otui" hash="fadeaebc151f334b9967150c919fb28f354f932d89f3529989346eddc41b56e6"/>
       <file name="mods/game_guildmanagement/inbox.otui" hash="c26c9f7e5a5b3b7ee90aef57cc532be6df4a30a997a7d0918d8fcb93c46e1d21"/>
@@ -7228,7 +7263,8 @@
       <file name="mods/game_guildmanagement/images - Copia/ui/textedit.png" hash="3cafcbb10a66ae1fb2c23a98e2cf17de30c47f509c15c14c97591b0ae53f575f"/>
       <file name="mods/game_guildmanagement/images - Copia/ui/window.png" hash="9c762be02a49431503caeb4d66bb6212e1312fba0142b81c467eb28f5c4eb2ca"/>
       <file name="mods/game_guildmanagement/images - Copia/ui/window_headless.png" hash="5989d5632aa6e22442a7aedda3349b414270f7810197cd89db86cf19e1154e0e"/>
-      <file name="modules/bank/bank.lua" hash="5ae7579f034b105d0573738224b6a5f9d549da27b7ad51a780f7b0961a3288c6"/>
+      <file name="modules/game_offset.rar" hash="72b3f64f0537a342becc17f7fe3cd6da5d37531ba5a2fb568722edaa100de74c"/>
+      <file name="modules/bank/bank.lua" hash="93529b1dc50df4b8cc56222a66338227e69e347891923af90e1158710caf50d3"/>
       <file name="modules/bank/bank.otmod" hash="75536a4e48b0aa0eb35dd122e4757a5ce49f45e5dd32377958eb9e571ce2a735"/>
       <file name="modules/bank/bank.otui" hash="a19e9fa8b2db746c3ea7178d50f4567d4c75abc87380570e564d6010911d6c84"/>
       <file name="modules/bank/images/background.png" hash="f0b7212d10397dec21f92301efdea456c98ab53f29b207c35b0f06b9d08ca1bd"/>
@@ -7248,9 +7284,9 @@
       <file name="modules/boss_ranking/images/teste.png" hash="a9810b82314857026837c0a404af8e907a2aaff7b5ace2805ae0515d515091f5"/>
       <file name="modules/client/client.lua" hash="c2d8bdbb12bd2f4b5fe06d546651e2cb72d24645405e70891fe22eb0c5075c16"/>
       <file name="modules/client/client.otmod" hash="b58c8753a252e6f952d6515a140dcc589dad96dccd8dbe1a06f0c1239b3da18f"/>
-      <file name="modules/client_background/background.lua" hash="a19287ee623b1b08c05cc1d50484ce44692b997b466649bd7c27ef0105b64e5a"/>
+      <file name="modules/client_background/background.lua" hash="ceb350b996ca3c006d8b479ca71c865cbe5d8ba154093d98b031e08a9e502685"/>
       <file name="modules/client_background/background.otmod" hash="7e417df871f530010f534b55fdbbc09e3fb44975097b074e1779860c84501e8a"/>
-      <file name="modules/client_background/background.otui" hash="29b2ef7d4dbdb0cf20737aaa0eab526236b4c07e7510cfc8b759bae017a6477e"/>
+      <file name="modules/client_background/background.otui" hash="79aac406f6210a89b533b6b455b41687585fd0698cd7a6789d7c7e527155a3d1"/>
       <file name="modules/client_background/circle.png" hash="29aa561bdf1444cbf48e0238b32b6e49392b27fdfa7711042bb63bf2acde760f"/>
       <file name="modules/client_entergame/basicTextEdit.png" hash="fa448754f52b36be842a7d1bed51ecd69cb53c1725d3d308650935da2376e14c"/>
       <file name="modules/client_entergame/characterlist.lua" hash="1010710417a9c929668f0b5472d9b778de9b27542cb6a9c828e8d1c5a89a91e4"/>
@@ -7429,14 +7465,14 @@
       <file name="modules/gamelib/ui/uicreaturebutton.lua" hash="fc31fdd108edcb42e4890420fe5802ede6cc41bf25ee8c2a9ce30b9519e50452"/>
       <file name="modules/gamelib/ui/uiitem.lua" hash="1a25a5ce55c2a4eb61e2ee38f46d83a72c324ef3a042a645c62e7c2104de34d1"/>
       <file name="modules/gamelib/ui/uiminimap.lua" hash="1f1c346c0d20bbb7953e3325432bd9947f927db9fe515de358a4c6b75a9cda83"/>
-      <file name="modules/game_actionbar/actionbar.lua" hash="e3cdd7e1d845f84f6278ea692c29a5501a83c1600d607b9c9a08a556286d1a04"/>
+      <file name="modules/game_actionbar/actionbar.lua" hash="2a0c7e96365ffa2aeeb8b3be17c37b0e719e60ff6f15e5da45b5aa532abb5591"/>
       <file name="modules/game_actionbar/actionbar.otmod" hash="a6d47bef26aa3c733d860db31c8e14e4c5f1c710d1009bb03e7af662d76ff572"/>
-      <file name="modules/game_actionbar/actionbar.otui" hash="29f98412c60c1801dae70ff3164abbbae4f095dca5e3409c68531e805fe5dc30"/>
-      <file name="modules/game_actionbar/hotkey.otui" hash="2f296f42aeb0bfc5f80e4a80b1bf90e199953b0dbb18b51545377dac0748e94b"/>
-      <file name="modules/game_actionbar/object.otui" hash="a93bd95f47b7e76c3b14b521e18de5532c1707ec6bb54b6a0b98d89ee3cc562b"/>
-      <file name="modules/game_actionbar/sideactionbar.otui" hash="fd7977fcd6d1c40df67870fcc3cf4459629a2fdc3d17a376e0f93937433a7f48"/>
+      <file name="modules/game_actionbar/actionbar.otui" hash="6b2d1ed61690f2310d156a850241f764bdb1bc44738f0bf09f8a3006ec725b2e"/>
+      <file name="modules/game_actionbar/hotkey.otui" hash="44cf52ba9f629f43662476f4e5e4c884ba785e552923d11171cc6cd7f3bc014f"/>
+      <file name="modules/game_actionbar/object.otui" hash="2c7f6cf6728ead06e124b534f53b57ee896000989d0078f6b31b4652c1c48d8d"/>
+      <file name="modules/game_actionbar/sideactionbar.otui" hash="5c486274521d36050bd7e6f4ef94c93d2fd08f5959c04ac10c2788b4c55400e2"/>
       <file name="modules/game_actionbar/spell.otui" hash="c3d4decb1e50413a32adbf92b59a103382d45b274216769ede9e899a4ac8680b"/>
-      <file name="modules/game_actionbar/text.otui" hash="1357bc07f2aa45ee37a1b78e2d587e70e66f32da4d00c59c4b758c6444a46cf1"/>
+      <file name="modules/game_actionbar/text.otui" hash="2b9e4352690a22caf5a613d3f9c28a94704c8f4ce039bd203ff8a17e07532bc4"/>
       <file name="modules/game_autoloot/aloot.png" hash="5fef11867c3370c7651df1371fdd4d0c2cd516a8283f3a4cc4b4e5b8c24db736"/>
       <file name="modules/game_autoloot/autoloot.lua" hash="89735bf37c27c8ea1ab54d30820af8e1232ab71ef5996094e99d2b4fd5d8cca6"/>
       <file name="modules/game_autoloot/autoloot.otmod" hash="1be64cee2a66a56ee5300ad22b5479c47c7a2253b6714464289fd29a3beb3e88"/>
@@ -7451,6 +7487,70 @@
       <file name="modules/game_battle/battle.otmod" hash="875dae94c42b5bc20faab266f304b07f5d932d543cad14615a88fbbd3645c333"/>
       <file name="modules/game_battle/battle.otui" hash="08a7eb4d1e0e97298e389c33d3c5d0574219c0fdc03458eb8d463d4abdb9cf44"/>
       <file name="modules/game_battle/battlebutton.otui" hash="c4fa4ddb67200ea146a3b70dbfdd8730794e01431c28e2e4f4b91a8b777b0204"/>
+      <file name="modules/game_bottombar/bottombar.lua" hash="7af51a86c1ec25db94647a6d04e6007da128fc1df053d2d569653fc98867b483"/>
+      <file name="modules/game_bottombar/bottombar.otmod" hash="fda32e99b25a9f34f79d5498f10715796804201aee0a5d10dd351069e9192282"/>
+      <file name="modules/game_bottombar/bottombar.otui" hash="b9f8eae75c7d2b84efae184c2fda149efb7d0cd591ddfa25fa419f1783736054"/>
+      <file name="modules/game_bottombar/images/179386.png" hash="4707079601948680933124fccd35638a3a77938649c6cf4b16c329e19679400c"/>
+      <file name="modules/game_bottombar/images/back3.png" hash="a95505edc6464108159fc0c18b321777fcba836396289a228098e63c80d2d076"/>
+      <file name="modules/game_bottombar/images/background.png" hash="4a3af08dcc39921be7d9b0e3860d9ddf1000f84b971ae95a6162600c62c158c2"/>
+      <file name="modules/game_bottombar/images/background2.png" hash="b3da3278837a79b457dd6a72c0b1cf0ec2ce7b13b86a21b0de976a9777d7b9d7"/>
+      <file name="modules/game_bottombar/images/background_fish.png" hash="343c47906b32a7bacd925beeff9ffa498758a8c69d8f8ff1cb49db95ccc8bbc6"/>
+      <file name="modules/game_bottombar/images/background_life.png" hash="000666998c067b35f5376fbe915a09913a061f21089efb3c93337734ddca7225"/>
+      <file name="modules/game_bottombar/images/background_stam.png" hash="594868a6ac43ba5a682bee860930fe90e449fd1581fb1a8872ca802daddf4937"/>
+      <file name="modules/game_bottombar/images/background_xp.png" hash="248cfa2805383815b558375a0f63b1dafaa84b468b2d00b9b95152edb457e2d1"/>
+      <file name="modules/game_bottombar/images/backs2.png" hash="7f1dd8dba9ac76ef21dba3896b01b6a25ad7f4067804f6b1ba0e5d83c5d6cc89"/>
+      <file name="modules/game_bottombar/images/Design sem nome (4).zip" hash="0d0d063eac29fc571fe5d8d66b4cbe5e11d2f9be70c005593576e06629e50755"/>
+      <file name="modules/game_bottombar/images/exp.png" hash="7c1450a2428c9f99b394a07b93399065fdfd06bfeb0c5808f776ae29990fea7a"/>
+      <file name="modules/game_bottombar/images/heart.png" hash="689744ce00e4aa7f31a533c785a5fca48a000f7f285eb063844918793d01bf5b"/>
+      <file name="modules/game_bottombar/images/HP.zip" hash="2dea19622b8e2fe447236463f222555d7761f3f5dd591aca647723b26c1294cf"/>
+      <file name="modules/game_bottombar/images/icon_fish.png" hash="aa897a0c8f878b5ae9fdfe4c1b4dcf0035874297a93a009889dfe841bf6876fb"/>
+      <file name="modules/game_bottombar/images/icon_stam.png" hash="a6b1509acaed52422d76e07974843082b878e1380e1734e76d43b912fd1f67e7"/>
+      <file name="modules/game_bottombar/images/nil_bars.png" hash="cb7fb8e0bc094dffa4898774d07cc0693cdb6821da45273b6794d2585886756a"/>
+      <file name="modules/game_bottombar/images/progress_fish.png" hash="79d90257a48484a6d0d2bb3ea5576702ad6ce59458cff079d2a08cad21796bdf"/>
+      <file name="modules/game_bottombar/images/progress_life.png" hash="7e41fccba6d75d4956ccbd9cb36f33d95b695733329d38fb2c707d0bddbba828"/>
+      <file name="modules/game_bottombar/images/progress_stam.png" hash="7c57d5ccbb4f927bc43202f78013f77ec5e4ced8c70340e85e0388855fe414fc"/>
+      <file name="modules/game_bottombar/images/progress_xp.png" hash="2255978401da0489ba5f9f4d1882b9583610cc1152c9a952aec069d4a0b89dd5"/>
+      <file name="modules/game_bottombar/images/raio.png" hash="58853c0829b40811cc322a27f0861d813b5b49a6fdf373450a2cd16a3633c07f"/>
+      <file name="modules/game_bottombar/images/Speed.png" hash="3e5585046e484c3aa63ec0dd2074c2de4f41352db7ac9f06eda0ef9eb011f19c"/>
+      <file name="modules/game_bottombar/images/clas/DEFAULT.png" hash="c3613d0278a8b528944e72aecb1859125c83fc2383619c9a822e6bd8e34c48dc"/>
+      <file name="modules/game_bottombar/images/clas/DEFAULT3.png" hash="7f38d54f598a74c5dcdf97328ff156f959a0ef1984fc63e0b23f976915506c63"/>
+      <file name="modules/game_bottombar/images/clas/gardestrike.png" hash="17ec00d0473c3775ff4281128a3f92f5692979fccb0b3a233abf9a20d5c2188c"/>
+      <file name="modules/game_bottombar/images/clas/ironhard.png" hash="58b50b4769543c3064e0f105979dd9c00fb2fce22cd992fd0a7c80ff6c6ead15"/>
+      <file name="modules/game_bottombar/images/clas/malefic.png" hash="11054d170c6863501c8d1957ea499ba5a8d77ed39329265e463fe3d1c1d94e8f"/>
+      <file name="modules/game_bottombar/images/clas/naturia.png" hash="210521fbf318ea001ec4e49cd4fc8de47fca78416bdc3e5c49d6b51e966e7761"/>
+      <file name="modules/game_bottombar/images/clas/orebound.png" hash="66e183842c53b77bc222bff93d3a51064f63ccf823e5f5dd2586440d327f44a1"/>
+      <file name="modules/game_bottombar/images/clas/psycraft.png" hash="fa54e800a167628c9e94d5da573a5ad77b36030c305170e9046c7e81ee3b7c26"/>
+      <file name="modules/game_bottombar/images/clas/raibolt.png" hash="bb3819619020a1dfa0462f41d2bcaaf610b3b4a1cc6e81d702e4bc600de8994e"/>
+      <file name="modules/game_bottombar/images/clas/seavell.png" hash="d1c37faf2de39e26ba6510773198da1edeba5a22a8753e0207476104ba1b0fa0"/>
+      <file name="modules/game_bottombar/images/clas/volcanic.png" hash="43b1d6f4b39a45b6b8d77fc38a0de340927aebb0a1e647bc3578d785c01fdd22"/>
+      <file name="modules/game_bottombar/images/clas/wingeon.png" hash="36b4008e41591220e5dea236ee67fd11da03615bfc7e358994a35a9b0333b17b"/>
+      <file name="modules/game_bottombar/images/energy/icon.png" hash="08c503a96d067eb7f64e81fb144b01cc1b0ac3f2c872f184f3ef325c76c8fdb3"/>
+      <file name="modules/game_bottombar/images/energy/icon2.png" hash="8a62e69688121e6cccc3530697e71c9904186856ad35113e7a4dc89f9f14abcf"/>
+      <file name="modules/game_bottombar/images/energy/progress.png" hash="cbd85f363cb3735047a818f8c50abe5316b617ccdac9e981a1293dba6bf11abb"/>
+      <file name="modules/game_bottombar/images/energy/progress2.png" hash="6f60276832c9fb5e495b89d101d8044b02ed8239510d3dab3873191a3e0581ac"/>
+      <file name="modules/game_bottombar/images/energy/progress_base.png" hash="3114a1f990e51cafe742dd15dd013881a4e6f8f4f798022b4dfc6f48084981f1"/>
+      <file name="modules/game_bottombar/images/fish/icon.png" hash="03e1a5b543349b5c2c972d47dd8dd635b4393aa58ff4d8fec6be8a975b1bdd1e"/>
+      <file name="modules/game_bottombar/images/fish/icon3.png" hash="0f322e7732725cfceee526fb3d1c5774eca0f52db0fe1c2bd9c643efb98f5173"/>
+      <file name="modules/game_bottombar/images/fish/progress.png" hash="a7029a0975ecbe848790692b1c724af3431928354fe04cfcfc4fa55adf9e6836"/>
+      <file name="modules/game_bottombar/images/fish/progress2.png" hash="def5349d62d15fe0542c3e6d43031bb2e89a3bc18d8a9532cae4a5ab461c4634"/>
+      <file name="modules/game_bottombar/images/fish/progress_base.png" hash="3114a1f990e51cafe742dd15dd013881a4e6f8f4f798022b4dfc6f48084981f1"/>
+      <file name="modules/game_bottombar/images/level/2.png" hash="5f68013a45d3f4ed94af8f70b923575ff4ac83f9bd19bcf13809d6ac8039a180"/>
+      <file name="modules/game_bottombar/images/level/progress.png" hash="567671d390c0f13a6d64f2d75f3e1047bd634fe69cac846c570d821683df3c9a"/>
+      <file name="modules/game_bottombar/images/level/progress2.png" hash="e8d8b7efce2d86b60d7be721f59dba9cc3cef66697dbf9568e31481bd9349911"/>
+      <file name="modules/game_bottombar/images/level/progress_base.png" hash="dac87d73cbe6c0dc0f8f4447f7bb6616a558efc4b4d863dc7c0c2d07507ba189"/>
+      <file name="modules/game_bottombar/images/life/2.png" hash="b55808f88ba96aed9b6acdcc8e86ebb8c51f28ca76cd3e4bc554b05434cab030"/>
+      <file name="modules/game_bottombar/images/life/icon - Copia.png" hash="61f08c64e58715bfc9844bb7d8b2ab95977301d5878727a37643c77aa8662b9e"/>
+      <file name="modules/game_bottombar/images/life/icon.png" hash="b0eb15c596ad638cb23f058ec7b4c0b707fcb51285048b9be459114af7afe11b"/>
+      <file name="modules/game_bottombar/images/life/icon2.png" hash="61f08c64e58715bfc9844bb7d8b2ab95977301d5878727a37643c77aa8662b9e"/>
+      <file name="modules/game_bottombar/images/life/progress - Copia.png" hash="19df99842d8c9d13c776220671663ae4a0f49e58fdc1942cc0cabb6964119da2"/>
+      <file name="modules/game_bottombar/images/life/progress.png" hash="eb58c82188f15c5aea27fa62bb173b9f0cde861121483ed2dd9748df59d37d86"/>
+      <file name="modules/game_bottombar/images/life/progress2.png" hash="19df99842d8c9d13c776220671663ae4a0f49e58fdc1942cc0cabb6964119da2"/>
+      <file name="modules/game_bottombar/images/life/progress_base - Copia.png" hash="ffadf5c3ed062985944d4b5212f1d7b95d36fd632d8b40bb3b990d96f9af9a10"/>
+      <file name="modules/game_bottombar/images/life/progress_base.png" hash="ffadf5c3ed062985944d4b5212f1d7b95d36fd632d8b40bb3b990d96f9af9a10"/>
+      <file name="modules/game_bottombar/images/speed/icon.png" hash="286a20f4d81a9c403aa0c0ed2dcb3050275dc1c25d1dda19a9ebbe74b1c826ec"/>
+      <file name="modules/game_bottombar/images/speed/icon2.png" hash="12d58ddfefa2e96360bb86d1be9c19354642071dfcc55f597830f89dbfe3c6df"/>
+      <file name="modules/game_bottombar/images/speed/progress.png" hash="61f6bc2fb511cdaeb1143b8d8bdd5525b60b6005e577509a904fe6765b6b32d1"/>
+      <file name="modules/game_bottombar/images/speed/progress_base.png" hash="3114a1f990e51cafe742dd15dd013881a4e6f8f4f798022b4dfc6f48084981f1"/>
       <file name="modules/game_bugreport/bugreport.lua" hash="de45c18bd151eaa5ab3b100bae74c18079604a904220820eaca9b6d4965e441f"/>
       <file name="modules/game_bugreport/bugreport.otmod" hash="f6dee003b1c8b04de14d4e0650aae11a5cdf48430cf8c699b6809f8caaae1ab9"/>
       <file name="modules/game_bugreport/bugreport.otui" hash="ed125974c66614da673fc1cf43da5f92b24ccb1e1cba23d836ca5194fce60f21"/>
@@ -7459,9 +7559,9 @@
       <file name="modules/game_buttons/buttons.otui" hash="4c36ab1b9808f6a22aaf1c9c04b75f62a4c9224b90b71fd081031d063c81a509"/>
       <file name="modules/game_chat/allchat.otui" hash="19dbcbdaefcf22ab7b6cd49f34cffeb5ff486fc17681f206cb16001bff134504"/>
       <file name="modules/game_chat/channelswindow.otui" hash="0c2eff585e1309c090ee836973127f9c3bb2c27a38aba989ea8bfb7a536a07eb"/>
-      <file name="modules/game_chat/chat.lua" hash="3b1ef779a65d024f861462a570932d6fcf599b37dfa4e6e280a606f89635d68d"/>
+      <file name="modules/game_chat/chat.lua" hash="f56dac06ce0ec2b363e93dbe16f1ecc74abfbadf959a787cc77497f1e4039ea0"/>
       <file name="modules/game_chat/chat.otmod" hash="ce793537ff246a1712c1b035207e97e9e568a0c23121d6c7c44441f6d9029793"/>
-      <file name="modules/game_chat/chat.otui" hash="99d7d78bd6eef7bd756b65282c478648c8a84b25035fe60d12e94079ca5da438"/>
+      <file name="modules/game_chat/chat.otui" hash="79a52e77ffeb5a24c5b782918781f871b98851a6e0149e7cb76056bc443a3b05"/>
       <file name="modules/game_chat/communicationwindow.otui" hash="23194c84094d5d7b6ff7b5514bd39c54b0113c587724b10a24fbcd2d2117cdb1"/>
       <file name="modules/game_chat/config.otui" hash="a72155c50a3fa450f79ebbeb235b064cc97292195c28cced8fc79b6b54d2578a"/>
       <file name="modules/game_chat/emotes_convertion.lua" hash="b4e9e61751d99a720070d0ce2bcfcbdf72f596ed4e7a11ed75b5f1135f5380af"/>
@@ -9471,6 +9571,7 @@
       <file name="modules/game_dex/new_images/progressbarfill.png" hash="27245b863f076c3f88a3742d97dc249cd4d2ba6cd88ba6f66e4a05f018f84e8b"/>
       <file name="modules/game_dex/new_images/respawn.png" hash="0e945b6afa0a3bc8eb2d6f8763992189e1f15d677243bddb6b8e676109a89277"/>
       <file name="modules/game_dex/new_images/Retangulo Arredondado 1 copiar 2.png" hash="88bf034a769a16dfb61f4542e5d777aeccae5b039cb61fcc9a0d3c443cf955f9"/>
+      <file name="modules/game_dex/new_images/Retângulo Arredondado 1 copiar 2.png" hash="88bf034a769a16dfb61f4542e5d777aeccae5b039cb61fcc9a0d3c443cf955f9"/>
       <file name="modules/game_dex/new_images/search.png" hash="31f82b9418b7f88704e27b92d6a212081060cbcbb4693fad261a847efa0b5a46"/>
       <file name="modules/game_dex/new_images/swords (1).png" hash="2f87cd366be241b0f754eeec08985c19d01e9e36c265a379956a4a93699dc7eb"/>
       <file name="modules/game_dex/new_images/Water.png" hash="afc102e9a8e9fe23b496d57c6d812068f7ee681727e7ce249364d9449f26f741"/>
@@ -9622,6 +9723,7 @@
       <file name="modules/game_newpoke/interface/totodile.png" hash="b2379926e933761bbb267a8cb30a5283625c35b2b8f1385d7a40d0d73f416cc8"/>
       <file name="modules/game_newpoke/interface/treecko.png" hash="406d5ccbdff74fae4f88f44aa2b07eb952f25b6b000cc2b13925f2cae4765ac9"/>
       <file name="modules/game_newpoke/interface/turtwig.png" hash="f10c3b7e5939e2950322187bd027052e06ef613416f8cbe3e8c9df9d2a24ea76"/>
+      <file name="modules/game_npcdialog/images.rar" hash="510509c3148dba86977b5b2454a34d205a87ff73a3bde09c5294567bfa3235cd"/>
       <file name="modules/game_npcdialog/npcdialog.lua" hash="6e0187eeda7ae3e07c38fa138174fde1b911d2f894fec502419b47405c56ab07"/>
       <file name="modules/game_npcdialog/npcdialog.otmod" hash="530299eb149bcbaa970af242f105ffb09242776cfa096b83204e7322dd9adc55"/>
       <file name="modules/game_npcdialog/npcdialog.otui" hash="df01d5f3186dbc292f3b38c3e838d03c048ce4cdc8fe58250d6e9343cd533a5a"/>
@@ -11346,6 +11448,11 @@
       <file name="modules/market/images/sell/Retangulo Arredondado 3.png" hash="05b536338d494329d08a4ba39639873b5ff9728d182f4bd92319692fe0592495"/>
       <file name="modules/market/images/sell/Retangulo Arredondado 4 copiar 2.png" hash="1163165b136057828e2fb28b01e2cb8e4f3a5ea18b7d207c9c91aca9017f01ff"/>
       <file name="modules/market/images/sell/Retangulo Arredondado 4.png" hash="1163165b136057828e2fb28b01e2cb8e4f3a5ea18b7d207c9c91aca9017f01ff"/>
+      <file name="modules/market/images/sell/Retângulo Arredondado 1 copiar 3.png" hash="947719b141e3be0905123b8490d783177c611a7e9e11b9d49fe3e29ce679fda4"/>
+      <file name="modules/market/images/sell/Retângulo Arredondado 3-1.png" hash="c047bf1219ac73df35a6a1e6b7df8d28f3ff4cb9f68959612612021539605da9"/>
+      <file name="modules/market/images/sell/Retângulo Arredondado 3.png" hash="05b536338d494329d08a4ba39639873b5ff9728d182f4bd92319692fe0592495"/>
+      <file name="modules/market/images/sell/Retângulo Arredondado 4 copiar 2.png" hash="1163165b136057828e2fb28b01e2cb8e4f3a5ea18b7d207c9c91aca9017f01ff"/>
+      <file name="modules/market/images/sell/Retângulo Arredondado 4.png" hash="1163165b136057828e2fb28b01e2cb8e4f3a5ea18b7d207c9c91aca9017f01ff"/>
       <file name="modules/player_brokes/player_brokes.lua" hash="3f1c77fcdb6f1b5f9d7deb75b3e75719b33cf2d2a639cb823f3bbc909eb30be2"/>
       <file name="modules/player_brokes/player_brokes.otmod" hash="f68879da765070803d9463f4f565189422abecdfa00724254de8d5fc307ef905"/>
       <file name="modules/player_brokes/player_brokes.otui" hash="b806e79ba22913803cb44cb984a1288764ac5d6862c231b7d3d945dd202303b6"/>

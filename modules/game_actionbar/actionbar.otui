@@ -1,28 +1,26 @@
 ActionButton < UIButton
-  font: cipsoftFont
-  width: 36
+
+  width: 40
   padding: 1
   margin-left: 1
-    
+
   Item
     id: item
     anchors.fill: parent
-    padding: 1
     &selectable: true
     &editable: false
     virtual: true
-    border-width: 1
-    border-color: #00000000
     draggable: true
-    
+    margin-left: 1
     $!on:
       image-source: /images/game/actionbar/actionbarslot
       image-color: #dfdfdf
-      image-border: 0
-
     $on:
-      image-source: /images/game/actionbar/actionbarslotUsed
+      image-source: /images/game/actionbar/actionbarslot_on
       image-color: #dfdfdf
+    $pressed on:
+      image-source: /images/game/actionbar/actionbarslot_on
+      image-color: #cbf0ff
 
   Label
     id: text
@@ -32,7 +30,7 @@ ActionButton < UIButton
     phantom: true
     margin: 1
     text-align: center
-    font: verdana-9px
+  
 
   Label
     id: hotkeyLabel
@@ -42,7 +40,7 @@ ActionButton < UIButton
     text-auto-resize: true
     text-wrap: false
     phantom: true
-    font: verdana-9px
+  
     color: white
     background: #292A2A
 
@@ -54,26 +52,25 @@ ActionButton < UIButton
     margin-bottom: -3
     margin-left: 2
     margin-right: 2
-    font: verdana-9px
+  
     color: white
     text-align: center
 
   UIProgressRect
     id: cooldown
-    background: #101010
+    background: #101010aa
     percent: 100
     focusable: false
     phantom: true
     anchors.fill: parent
-    font: verdana-9px
+    font: terminus-14px-bold
     color: white
 
 LeftSliders < Panel
   size: 17 34
 
-  Button
+  UIButton
     id: prev
-    image-source: 
     anchors.fill: parent
     anchors.bottom: parent.verticalCenter
     @onClick: modules.game_actionbar.moveActionButtons(self)
@@ -95,9 +92,8 @@ LeftSliders < Panel
       $on:
         image-source: /images/game/actionbar/arrow
 
-  Button
+  UIButton
     id: first
-    image-source: 
     anchors.fill: parent
     anchors.top: parent.verticalCenter
     @onClick: modules.game_actionbar.moveActionButtons(self)
@@ -122,9 +118,8 @@ LeftSliders < Panel
 RightSliders < Panel
   size: 29 34
   
-  Button
+  UIButton
     id: lock
-    image-source: 
     anchors.top: parent.top
     anchors.right: parent.right
     anchors.bottom: parent.bottom
@@ -149,9 +144,8 @@ RightSliders < Panel
       $on:
         image-source: /images/game/actionbar/unlocked
 
-  Button
+  UIButton
     id: next
-    image-source: 
     anchors.top: parent.top
     anchors.bottom: parent.verticalCenter
     anchors.left: parent.left
@@ -181,8 +175,7 @@ RightSliders < Panel
       $on:
         image-source: /images/game/actionbar/arrow
 
-  Button
-    image-source: 
+  UIButton
     id: last
     anchors.top: parent.verticalCenter
     anchors.bottom: parent.bottom
@@ -214,10 +207,9 @@ RightSliders < Panel
   
 Panel
   id: actionBar
-  focusable: false
-  image-source: /images/ui/actionbar_background
   image-border: 1
-  margin-top: -1
+  height: 40
+  margin-bottom: 6
   
   $on:
     height: 40
@@ -239,11 +231,11 @@ Panel
     anchors.bottom: parent.bottom
     anchors.left: prev.right
     anchors.right: nextPanel.left
-    margin-left: 4
-    margin-right: 4
+    margin-left: 2
+    margin-right: 2
     clipping: true
-    padding-top: 2
-    padding-bottom: 2
+    padding-top: 1
+    padding-bottom: 1
     horizontal-scrollbar: actionScroll
     layout: horizontalBox
 
@@ -252,7 +244,7 @@ Panel
     anchors.top: parent.top
     anchors.bottom: parent.bottom
     anchors.right: parent.right
-    step: 37
+    step: 40
     pixels-scroll: true
     visible: false
 

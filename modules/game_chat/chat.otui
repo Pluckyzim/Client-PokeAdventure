@@ -1,3 +1,7 @@
+TabChatButton < Button
+  size: 20 20
+  margin-right: 2
+  
 ConsoleLabel < UITextEdit
   font: sono_medium_border_14
   height: 14
@@ -377,7 +381,7 @@ UIWindow
 
   UIButton
     id: anuncioBtn
-    tooltip: Trade Automático
+    tooltip: Trade Automï¿½tico
     size: 16 16
     &sayMode: 2
     image-source: /images/game/chat/anuncio
